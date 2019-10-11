@@ -2,12 +2,17 @@
 
 buildscript {
     repositories {
+        maven{ url 'https://maven.aliyun.com/repository/google' }
+        maven{ url 'https://maven.aliyun.com/repository/jcenter' }
+        maven{ url 'https://maven.aliyun.com/repository/public' }
         google()
         jcenter()
         
     }
+
+
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.android.tools.build:gradle:3.0.0'
         
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
@@ -16,6 +21,9 @@ buildscript {
 
 allprojects {
     repositories {
+        maven{ url 'https://maven.aliyun.com/repository/google' }
+        maven{ url 'https://maven.aliyun.com/repository/jcenter' }
+        maven{ url 'https://maven.aliyun.com/repository/public' }
         google()
         jcenter()
         
@@ -25,3 +33,13 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+// for all modules
+project.ext.set("minSdkVersion","21")
+project.ext.set("targetSdkVersion","29")
+project.ext.set("androidXVersion","1.0.2") // 1.0.0
+project.ext.set("compileSdkVersion","29")
+project.ext.set("buildToolsVersion","29.0.1")
+project.ext.set("versionCode","10001")
+project.ext.set("versionName","1.0.0.01")
+project.ext.set("constraintlayoutVersion","1.1.3")
