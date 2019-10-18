@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.duan.newsmvvm"
+    package="com.arch.demo"
     android:targetSandboxVersion="2"
     android:versionCode="10001"
     android:versionName="1.0.0.01" >
@@ -8,6 +8,9 @@
     <uses-sdk
         android:minSdkVersion="21"
         android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:name="com.duan.newsmvvm.application.NewsApplication"
@@ -25,6 +28,22 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="com.billy.cc.core.component.remote.RemoteProvider"
+            android:authorities="com.arch.demo.com.billy.cc.core.remote"
+            android:exported="true" />
+
+        <activity
+            android:name="com.billy.cc.core.component.remote.RemoteConnectionActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:taskAffinity="com.billy.cc.connection"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <action android:name="action.com.billy.cc.connection" />
             </intent-filter>
         </activity>
     </application>

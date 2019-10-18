@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.duan.newsmvvm"
+3    package="com.arch.demo"
 4    android:versionCode="10001"
 5    android:versionName="1.0.0.01" >
 6
@@ -10,40 +10,76 @@
 9        android:targetSdkVersion="28" />
 9-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml
 10
-11    <application
-11-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:5:5-20:19
-12        android:name="com.duan.newsmvvm.application.NewsApplication"
-12-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:11:9-52
-13        android:allowBackup="true"
-13-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:6:9-35
-14        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-14-->[androidx.core:core:1.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\4de34232979cbe134bd28b81339a3afe\core-1.0.0\AndroidManifest.xml:22:18-86
-15        android:debuggable="true"
-16        android:icon="@mipmap/ic_launcher"
-16-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:7:9-43
-17        android:label="@string/app_name"
-17-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:8:9-41
-18        android:roundIcon="@mipmap/ic_launcher_round"
-18-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:9:9-54
-19        android:supportsRtl="true"
-19-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:10:9-35
-20        android:testOnly="true"
-21        android:theme="@style/AppTheme" >
-21-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:12:9-40
-22        <activity android:name="com.duan.newsmvvm.MainActivity" >
-22-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:13:9-19:20
-22-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:13:19-47
-23            <intent-filter>
-23-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:14:13-18:29
-24                <action android:name="android.intent.action.MAIN" />
-24-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:15:17-69
-24-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:15:25-66
-25
-26                <category android:name="android.intent.category.LAUNCHER" />
-26-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:17:17-77
-26-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:17:27-74
-27            </intent-filter>
-28        </activity>
-29    </application>
-30
-31</manifest>
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:5:5-80
+11-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:6:5-66
+12-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:6:22-64
+13
+14    <application
+14-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:8:5-23:19
+15        android:name="com.duan.newsmvvm.application.NewsApplication"
+15-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:14:9-52
+16        android:allowBackup="true"
+16-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\570d389dab7dae9b3c40921ccb5ba796\core-1.0.0\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:10:9-43
+20        android:label="@string/app_name"
+20-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:11:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:12:9-54
+22        android:supportsRtl="true"
+22-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:13:9-35
+23        android:testOnly="true"
+24        android:theme="@style/AppTheme" >
+24-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:15:9-40
+25        <activity android:name="com.duan.newsmvvm.MainActivity" >
+25-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:16:9-22:20
+25-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:16:19-47
+26            <intent-filter>
+26-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:17:13-21:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:18:17-69
+27-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:18:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:20:17-77
+29-->F:\Duan\AndroidProjects\newsMvvm\NewsMvvm\app\src\main\AndroidManifest.xml:20:27-74
+30            </intent-filter>
+31        </activity>
+32
+33        <provider
+33-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:12:9-15:39
+34            android:name="com.billy.cc.core.component.remote.RemoteProvider"
+34-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:13:13-77
+35            android:authorities="com.arch.demo.com.billy.cc.core.remote"
+35-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:14:13-76
+36            android:exported="true" />
+36-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:15:13-36
+37
+38        <activity
+38-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:17:9-26:20
+39            android:name="com.billy.cc.core.component.remote.RemoteConnectionActivity"
+39-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:18:13-87
+40            android:excludeFromRecents="true"
+40-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:19:13-46
+41            android:exported="true"
+41-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:20:13-36
+42            android:taskAffinity="com.billy.cc.connection"
+42-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:21:13-59
+43            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+43-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:22:13-72
+44            <intent-filter>
+44-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:23:13-25:29
+45                <action android:name="action.com.billy.cc.connection" />
+45-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:24:17-73
+45-->[com.billy.android:cc:2.1.5] C:\Users\dell\.gradle\caches\transforms-2\files-2.1\2a7e403e8839942293e9f98aa2719d8d\jetified-cc-2.1.5\AndroidManifest.xml:24:25-70
+46            </intent-filter>
+47        </activity>
+48    </application>
+49
+50</manifest>

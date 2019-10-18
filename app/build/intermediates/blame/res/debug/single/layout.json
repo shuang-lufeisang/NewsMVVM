@@ -1,5 +1,9 @@
 [
     {
+        "merged": "F:\\Duan\\AndroidProjects\\newsMvvm\\NewsMvvm\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_others.xml",
+        "source": "F:\\Duan\\AndroidProjects\\newsMvvm\\NewsMvvm\\app\\src\\main\\res\\layout\\fragment_others.xml"
+    },
+    {
         "merged": "F:\\Duan\\AndroidProjects\\newsMvvm\\NewsMvvm\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
         "source": "F:\\Duan\\AndroidProjects\\newsMvvm\\NewsMvvm\\app\\src\\main\\res\\layout\\activity_main.xml"
     }

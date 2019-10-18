@@ -1,0 +1,39 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.compileSdkVersion
+    buildToolsVersion rootProject.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.minSdkVersion
+        targetSdkVersion rootProject.targetSdkVersion
+        versionCode rootProject.versionCode
+        versionName rootProject.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // 兼容性 允许使用 Lambda expressions
+    compileOptions{
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    dataBinding{
+        enabled true
+    }
+
+}
+
+dependencies {
+    api 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    //implementation 'com.youth.banner:banner:1.4.10'  //最新版本
+    api project(':base')
+    implementation "androidx.cardview:cardview:$rootProject.androidXVersion"
+}

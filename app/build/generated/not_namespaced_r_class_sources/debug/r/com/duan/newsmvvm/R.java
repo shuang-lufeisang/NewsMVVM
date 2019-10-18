@@ -1453,6 +1453,27 @@ public final class R {
      */
     public static final int defaultQueryHint=0x7f0300ab;
     /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int dhDrawable1=0x7f0300ac;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int dhDrawable2=0x7f0300ad;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int dhDrawable3=0x7f0300ae;
+    /**
      * Preferred corner radius of dialogs.
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1460,7 +1481,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogCornerRadius=0x7f0300ac;
+    public static final int dialogCornerRadius=0x7f0300af;
     /**
      * Preferred padding for dialog content.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1469,7 +1490,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f0300ad;
+    public static final int dialogPreferredPadding=0x7f0300b0;
     /**
      * Theme to use for dialogs spawned from this theme.
      * <p>May be a reference to another resource, in the form
@@ -1477,7 +1498,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f0300ae;
+    public static final int dialogTheme=0x7f0300b1;
     /**
      * Options affecting how the action bar is displayed.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -1495,7 +1516,7 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f0300af;
+    public static final int displayOptions=0x7f0300b2;
     /**
      * Specifies the drawable used for item dividers.
      * <p>May be a reference to another resource, in the form
@@ -1503,7 +1524,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f0300b0;
+    public static final int divider=0x7f0300b3;
     /**
      * A drawable that may be used as a horizontal divider between visual elements.
      * <p>May be a reference to another resource, in the form
@@ -1511,7 +1532,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f0300b1;
+    public static final int dividerHorizontal=0x7f0300b4;
     /**
      * Size of padding on either end of a divider.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1520,7 +1541,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f0300b2;
+    public static final int dividerPadding=0x7f0300b5;
     /**
      * A drawable that may be used as a vertical divider between visual elements.
      * <p>May be a reference to another resource, in the form
@@ -1528,7 +1549,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f0300b3;
+    public static final int dividerVertical=0x7f0300b6;
     /**
      * The total size of the drawable
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1537,14 +1558,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f0300b4;
+    public static final int drawableSize=0x7f0300b7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f0300b5;
+    public static final int drawerArrowStyle=0x7f0300b8;
     /**
      * ListPopupWindow compatibility
      * <p>May be a reference to another resource, in the form
@@ -1552,7 +1573,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f0300b6;
+    public static final int dropDownListViewStyle=0x7f0300b9;
     /**
      * The preferred item height for dropdown lists.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1561,7 +1582,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f0300b7;
+    public static final int dropdownListPreferredItemHeight=0x7f0300ba;
     /**
      * EditText background drawable.
      * <p>May be a reference to another resource, in the form
@@ -1569,7 +1590,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f0300b8;
+    public static final int editTextBackground=0x7f0300bb;
     /**
      * EditText text foreground color.
      * <p>May be a reference to another resource, in the form
@@ -1580,7 +1601,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f0300b9;
+    public static final int editTextColor=0x7f0300bc;
     /**
      * Default EditText style.
      * <p>May be a reference to another resource, in the form
@@ -1588,7 +1609,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f0300ba;
+    public static final int editTextStyle=0x7f0300bd;
     /**
      * Elevation for the action bar itself
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1597,7 +1618,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f0300bb;
+    public static final int elevation=0x7f0300be;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1609,29 +1630,29 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int emptyVisibility=0x7f0300bc;
+    public static final int emptyVisibility=0x7f0300bf;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int enforceMaterialTheme=0x7f0300bd;
+    public static final int enforceMaterialTheme=0x7f0300c0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int enforceTextAppearance=0x7f0300be;
+    public static final int enforceTextAppearance=0x7f0300c1;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int errorEnabled=0x7f0300bf;
+    public static final int errorEnabled=0x7f0300c2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int errorTextAppearance=0x7f0300c0;
+    public static final int errorTextAppearance=0x7f0300c3;
     /**
      * The drawable to show in the button for expanding the activities overflow popup.
      * <strong>Note:</strong> Clients would like to set this drawable
@@ -1643,12 +1664,12 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f0300c1;
+    public static final int expandActivityOverflowButtonDrawable=0x7f0300c4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int expanded=0x7f0300c2;
+    public static final int expanded=0x7f0300c5;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1668,7 +1689,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int expandedTitleGravity=0x7f0300c3;
+    public static final int expandedTitleGravity=0x7f0300c6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1676,7 +1697,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMargin=0x7f0300c4;
+    public static final int expandedTitleMargin=0x7f0300c7;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1684,7 +1705,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginBottom=0x7f0300c5;
+    public static final int expandedTitleMarginBottom=0x7f0300c8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1692,7 +1713,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginEnd=0x7f0300c6;
+    public static final int expandedTitleMarginEnd=0x7f0300c9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1700,7 +1721,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginStart=0x7f0300c7;
+    public static final int expandedTitleMarginStart=0x7f0300ca;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1708,14 +1729,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int expandedTitleMarginTop=0x7f0300c8;
+    public static final int expandedTitleMarginTop=0x7f0300cb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandedTitleTextAppearance=0x7f0300c9;
+    public static final int expandedTitleTextAppearance=0x7f0300cc;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1727,7 +1748,7 @@ public final class R {
      * <tr><td>end</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int fabAlignmentMode=0x7f0300ca;
+    public static final int fabAlignmentMode=0x7f0300cd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1735,7 +1756,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCradleMargin=0x7f0300cb;
+    public static final int fabCradleMargin=0x7f0300ce;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1743,7 +1764,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCradleRoundedCornerRadius=0x7f0300cc;
+    public static final int fabCradleRoundedCornerRadius=0x7f0300cf;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1751,7 +1772,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCradleVerticalOffset=0x7f0300cd;
+    public static final int fabCradleVerticalOffset=0x7f0300d0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1759,7 +1780,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int fabCustomSize=0x7f0300ce;
+    public static final int fabCustomSize=0x7f0300d1;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1772,40 +1793,132 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fabSize=0x7f0300cf;
+    public static final int fabSize=0x7f0300d2;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int fastScrollEnabled=0x7f0300d0;
+    public static final int fastScrollEnabled=0x7f0300d3;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalThumbDrawable=0x7f0300d1;
+    public static final int fastScrollHorizontalThumbDrawable=0x7f0300d4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalTrackDrawable=0x7f0300d2;
+    public static final int fastScrollHorizontalTrackDrawable=0x7f0300d5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalThumbDrawable=0x7f0300d3;
+    public static final int fastScrollVerticalThumbDrawable=0x7f0300d6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalTrackDrawable=0x7f0300d4;
+    public static final int fastScrollVerticalTrackDrawable=0x7f0300d7;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int fghBackColor=0x7f0300d8;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int fghBallSpeed=0x7f0300d9;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int fghBlockHorizontalNum=0x7f0300da;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int fghLeftColor=0x7f0300db;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fghMaskTextBottom=0x7f0300dc;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int fghMaskTextSizeBottom=0x7f0300dd;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int fghMaskTextSizeTop=0x7f0300de;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fghMaskTextTop=0x7f0300df;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fghMaskTextTopPull=0x7f0300e0;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fghMaskTextTopRelease=0x7f0300e1;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int fghMiddleColor=0x7f0300e2;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int fghRightColor=0x7f0300e3;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fghTextGameOver=0x7f0300e4;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fghTextLoading=0x7f0300e5;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fghTextLoadingFailed=0x7f0300e6;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int fghTextLoadingFinished=0x7f0300e7;
     /**
      * Distance from the top of the TextView to the first text baseline. If set, this
      * overrides the value set for paddingTop.
@@ -1815,7 +1928,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int firstBaselineToTopHeight=0x7f0300d5;
+    public static final int firstBaselineToTopHeight=0x7f0300e8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1840,7 +1953,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int floatingActionButtonStyle=0x7f0300d6;
+    public static final int floatingActionButtonStyle=0x7f0300e9;
     /**
      * The reference to the font file to be used. This should be a file in the res/font folder
      * and should therefore have an R reference value. E.g. @font/myfont
@@ -1849,19 +1962,19 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f0300d7;
+    public static final int font=0x7f0300ea;
     /**
      * The attribute for the font family.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f0300d8;
+    public static final int fontFamily=0x7f0300eb;
     /**
      * The authority of the Font Provider to be used for the request.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f0300d9;
+    public static final int fontProviderAuthority=0x7f0300ec;
     /**
      * The sets of hashes for the certificates the provider should be signed with. This is
      * used to verify the identity of the provider, and is only required if the provider is not
@@ -1873,7 +1986,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f0300da;
+    public static final int fontProviderCerts=0x7f0300ed;
     /**
      * The strategy to be used when fetching font data from a font provider in XML layouts.
      * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
@@ -1900,7 +2013,7 @@ public final class R {
      * default typeface will be used instead.</td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f0300db;
+    public static final int fontProviderFetchStrategy=0x7f0300ee;
     /**
      * The length of the timeout during fetching.
      * <p>May be an integer value, such as "<code>100</code>".
@@ -1914,21 +2027,21 @@ public final class R {
      * timeout and wait until a reply is received from the font provider.</td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f0300dc;
+    public static final int fontProviderFetchTimeout=0x7f0300ef;
     /**
      * The package for the Font Provider to be used for the request. This is used to verify
      * the identity of the provider.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f0300dd;
+    public static final int fontProviderPackage=0x7f0300f0;
     /**
      * The query to be sent over to the provider. Refer to your font provider's documentation
      * on the format of this string.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f0300de;
+    public static final int fontProviderQuery=0x7f0300f1;
     /**
      * The style of the given font file. This will be used when the font is being loaded into
      * the font stack and will override any style information in the font's header tables. If
@@ -1943,7 +2056,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f0300df;
+    public static final int fontStyle=0x7f0300f2;
     /**
      * The variation settings to be applied to the font. The string should be in the following
      * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
@@ -1952,7 +2065,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontVariationSettings=0x7f0300e0;
+    public static final int fontVariationSettings=0x7f0300f3;
     /**
      * The weight of the given font file. This will be used when the font is being loaded into
      * the font stack and will override any weight information in the font's header tables. Must
@@ -1961,12 +2074,12 @@ public final class R {
      * in the font's header tables will be used.
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f0300e1;
+    public static final int fontWeight=0x7f0300f4;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int foregroundInsidePadding=0x7f0300e2;
+    public static final int foregroundInsidePadding=0x7f0300f5;
     /**
      * The max gap between the bars when they are parallel to each other
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1975,7 +2088,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f0300e3;
+    public static final int gapBetweenBars=0x7f0300f6;
     /**
      * Go button icon
      * <p>May be a reference to another resource, in the form
@@ -1983,14 +2096,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f0300e4;
+    public static final int goIcon=0x7f0300f7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int headerLayout=0x7f0300e5;
+    public static final int headerLayout=0x7f0300f8;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1998,59 +2111,59 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f0300e6;
+    public static final int height=0x7f0300f9;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int helperText=0x7f0300e7;
+    public static final int helperText=0x7f0300fa;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int helperTextEnabled=0x7f0300e8;
+    public static final int helperTextEnabled=0x7f0300fb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int helperTextTextAppearance=0x7f0300e9;
+    public static final int helperTextTextAppearance=0x7f0300fc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int hideMotionSpec=0x7f0300ea;
+    public static final int hideMotionSpec=0x7f0300fd;
     /**
      * Set true to hide the action bar on a vertical nested scroll of content.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f0300eb;
+    public static final int hideOnContentScroll=0x7f0300fe;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnScroll=0x7f0300ec;
+    public static final int hideOnScroll=0x7f0300ff;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintAnimationEnabled=0x7f0300ed;
+    public static final int hintAnimationEnabled=0x7f030100;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hintEnabled=0x7f0300ee;
+    public static final int hintEnabled=0x7f030101;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int hintTextAppearance=0x7f0300ef;
+    public static final int hintTextAppearance=0x7f030102;
     /**
      * Specifies a drawable to use for the 'home as up' indicator.
      * <p>May be a reference to another resource, in the form
@@ -2058,7 +2171,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f0300f0;
+    public static final int homeAsUpIndicator=0x7f030103;
     /**
      * Specifies a layout to use for the "home" section of the action bar.
      * <p>May be a reference to another resource, in the form
@@ -2066,7 +2179,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f0300f1;
+    public static final int homeLayout=0x7f030104;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2074,14 +2187,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int hoveredFocusedTranslationZ=0x7f0300f2;
+    public static final int hoveredFocusedTranslationZ=0x7f030105;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f0300f3;
+    public static final int icon=0x7f030106;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2089,7 +2202,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconEndPadding=0x7f0300f4;
+    public static final int iconEndPadding=0x7f030107;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2101,7 +2214,7 @@ public final class R {
      * <tr><td>textStart</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int iconGravity=0x7f0300f5;
+    public static final int iconGravity=0x7f030108;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2109,7 +2222,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconPadding=0x7f0300f6;
+    public static final int iconPadding=0x7f030109;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2117,7 +2230,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconSize=0x7f0300f7;
+    public static final int iconSize=0x7f03010a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2125,14 +2238,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int iconStartPadding=0x7f0300f8;
+    public static final int iconStartPadding=0x7f03010b;
     /**
      * Tint to apply to the icon.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int iconTint=0x7f0300f9;
+    public static final int iconTint=0x7f03010c;
     /**
      * Blending mode used to apply the icon tint.
      * <p>Must be one of the following constant values.</p>
@@ -2154,14 +2267,14 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int iconTintMode=0x7f0300fa;
+    public static final int iconTintMode=0x7f03010d;
     /**
      * The default state of the SearchView. If true, it will be iconified when not in
      * use and expanded when clicked.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f0300fb;
+    public static final int iconifiedByDefault=0x7f03010e;
     /**
      * ImageButton background drawable.
      * <p>May be a reference to another resource, in the form
@@ -2169,7 +2282,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f0300fc;
+    public static final int imageButtonStyle=0x7f03010f;
     /**
      * Specifies a style resource to use for an indeterminate progress spinner.
      * <p>May be a reference to another resource, in the form
@@ -2177,13 +2290,13 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f0300fd;
+    public static final int indeterminateProgressStyle=0x7f030110;
     /**
      * The maximal number of items initially shown in the activity list.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f0300fe;
+    public static final int initialActivityCount=0x7f030111;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2193,19 +2306,19 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int insetForeground=0x7f0300ff;
+    public static final int insetForeground=0x7f030112;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f030100;
+    public static final int isLightTheme=0x7f030113;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemBackground=0x7f030101;
+    public static final int itemBackground=0x7f030114;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2213,12 +2326,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemHorizontalPadding=0x7f030102;
+    public static final int itemHorizontalPadding=0x7f030115;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int itemHorizontalTranslationEnabled=0x7f030103;
+    public static final int itemHorizontalTranslationEnabled=0x7f030116;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2226,7 +2339,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemIconPadding=0x7f030104;
+    public static final int itemIconPadding=0x7f030117;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2234,13 +2347,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemIconSize=0x7f030105;
+    public static final int itemIconSize=0x7f030118;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemIconTint=0x7f030106;
+    public static final int itemIconTint=0x7f030119;
     /**
      * Specifies padding that should be applied to the left and right sides of
      * system-provided items in the bar.
@@ -2250,7 +2363,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f030107;
+    public static final int itemPadding=0x7f03011a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2258,34 +2371,34 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemSpacing=0x7f030108;
+    public static final int itemSpacing=0x7f03011b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearance=0x7f030109;
+    public static final int itemTextAppearance=0x7f03011c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearanceActive=0x7f03010a;
+    public static final int itemTextAppearanceActive=0x7f03011d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int itemTextAppearanceInactive=0x7f03010b;
+    public static final int itemTextAppearanceInactive=0x7f03011e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int itemTextColor=0x7f03010c;
+    public static final int itemTextColor=0x7f03011f;
     /**
      * A reference to an array of integers representing the
      * locations of horizontal keylines in dp from the starting edge.
@@ -2297,7 +2410,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int keylines=0x7f03010d;
+    public static final int keylines=0x7f030120;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2311,7 +2424,7 @@ public final class R {
      * <tr><td>unlabeled</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int labelVisibilityMode=0x7f03010e;
+    public static final int labelVisibilityMode=0x7f030121;
     /**
      * Distance from the bottom of the TextView to the last text baseline. If set, this
      * overrides the value set for paddingBottom.
@@ -2321,7 +2434,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lastBaselineToBottomHeight=0x7f03010f;
+    public static final int lastBaselineToBottomHeight=0x7f030122;
     /**
      * The layout to use for the search view.
      * <p>May be a reference to another resource, in the form
@@ -2329,7 +2442,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f030110;
+    public static final int layout=0x7f030123;
     /**
      * Class name of the Layout Manager to be used.
      * <p/>
@@ -2343,7 +2456,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layoutManager=0x7f030111;
+    public static final int layoutManager=0x7f030124;
     /**
      * The id of an anchor view that this view should position relative to.
      * <p>May be a reference to another resource, in the form
@@ -2351,7 +2464,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_anchor=0x7f030112;
+    public static final int layout_anchor=0x7f030125;
     /**
      * Specifies how an object should position relative to an anchor, on both the X and Y axes,
      * within its parent's bounds.
@@ -2383,14 +2496,14 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
      * </table>
      */
-    public static final int layout_anchorGravity=0x7f030113;
+    public static final int layout_anchorGravity=0x7f030126;
     /**
      * The class name of a Behavior class defining special runtime behavior
      * for this child view.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_behavior=0x7f030114;
+    public static final int layout_behavior=0x7f030127;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2403,25 +2516,25 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_collapseMode=0x7f030115;
+    public static final int layout_collapseMode=0x7f030128;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_collapseParallaxMultiplier=0x7f030116;
+    public static final int layout_collapseParallaxMultiplier=0x7f030129;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedHeight=0x7f030117;
+    public static final int layout_constrainedHeight=0x7f03012a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedWidth=0x7f030118;
+    public static final int layout_constrainedWidth=0x7f03012b;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBaseline_creator=0x7f030119;
+    public static final int layout_constraintBaseline_creator=0x7f03012c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2436,11 +2549,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f03011a;
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f03012d;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBottom_creator=0x7f03011b;
+    public static final int layout_constraintBottom_creator=0x7f03012e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2455,7 +2568,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toBottomOf=0x7f03011c;
+    public static final int layout_constraintBottom_toBottomOf=0x7f03012f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2470,18 +2583,18 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toTopOf=0x7f03011d;
+    public static final int layout_constraintBottom_toTopOf=0x7f030130;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_constraintCircle=0x7f03011e;
+    public static final int layout_constraintCircle=0x7f030131;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintCircleAngle=0x7f03011f;
+    public static final int layout_constraintCircleAngle=0x7f030132;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2489,12 +2602,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintCircleRadius=0x7f030120;
+    public static final int layout_constraintCircleRadius=0x7f030133;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintDimensionRatio=0x7f030121;
+    public static final int layout_constraintDimensionRatio=0x7f030134;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2509,7 +2622,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toEndOf=0x7f030122;
+    public static final int layout_constraintEnd_toEndOf=0x7f030135;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2524,7 +2637,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toStartOf=0x7f030123;
+    public static final int layout_constraintEnd_toStartOf=0x7f030136;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2532,7 +2645,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_begin=0x7f030124;
+    public static final int layout_constraintGuide_begin=0x7f030137;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2540,11 +2653,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_end=0x7f030125;
+    public static final int layout_constraintGuide_end=0x7f030138;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintGuide_percent=0x7f030126;
+    public static final int layout_constraintGuide_percent=0x7f030139;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2557,7 +2670,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_default=0x7f030127;
+    public static final int layout_constraintHeight_default=0x7f03013a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2573,7 +2686,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_max=0x7f030128;
+    public static final int layout_constraintHeight_max=0x7f03013b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2589,15 +2702,15 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_min=0x7f030129;
+    public static final int layout_constraintHeight_min=0x7f03013c;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHeight_percent=0x7f03012a;
+    public static final int layout_constraintHeight_percent=0x7f03013d;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_bias=0x7f03012b;
+    public static final int layout_constraintHorizontal_bias=0x7f03013e;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2610,15 +2723,15 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f03012c;
+    public static final int layout_constraintHorizontal_chainStyle=0x7f03013f;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_weight=0x7f03012d;
+    public static final int layout_constraintHorizontal_weight=0x7f030140;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintLeft_creator=0x7f03012e;
+    public static final int layout_constraintLeft_creator=0x7f030141;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2633,7 +2746,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toLeftOf=0x7f03012f;
+    public static final int layout_constraintLeft_toLeftOf=0x7f030142;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2648,11 +2761,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toRightOf=0x7f030130;
+    public static final int layout_constraintLeft_toRightOf=0x7f030143;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintRight_creator=0x7f030131;
+    public static final int layout_constraintRight_creator=0x7f030144;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2667,7 +2780,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toLeftOf=0x7f030132;
+    public static final int layout_constraintRight_toLeftOf=0x7f030145;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2682,7 +2795,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toRightOf=0x7f030133;
+    public static final int layout_constraintRight_toRightOf=0x7f030146;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2697,7 +2810,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toEndOf=0x7f030134;
+    public static final int layout_constraintStart_toEndOf=0x7f030147;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2712,11 +2825,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toStartOf=0x7f030135;
+    public static final int layout_constraintStart_toStartOf=0x7f030148;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintTop_creator=0x7f030136;
+    public static final int layout_constraintTop_creator=0x7f030149;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2731,7 +2844,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toBottomOf=0x7f030137;
+    public static final int layout_constraintTop_toBottomOf=0x7f03014a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2746,11 +2859,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toTopOf=0x7f030138;
+    public static final int layout_constraintTop_toTopOf=0x7f03014b;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_bias=0x7f030139;
+    public static final int layout_constraintVertical_bias=0x7f03014c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2763,11 +2876,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintVertical_chainStyle=0x7f03013a;
+    public static final int layout_constraintVertical_chainStyle=0x7f03014d;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_weight=0x7f03013b;
+    public static final int layout_constraintVertical_weight=0x7f03014e;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2780,7 +2893,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_default=0x7f03013c;
+    public static final int layout_constraintWidth_default=0x7f03014f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2796,7 +2909,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_max=0x7f03013d;
+    public static final int layout_constraintWidth_max=0x7f030150;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2812,11 +2925,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_min=0x7f03013e;
+    public static final int layout_constraintWidth_min=0x7f030151;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintWidth_percent=0x7f03013f;
+    public static final int layout_constraintWidth_percent=0x7f030152;
     /**
      * Specifies how this view dodges the inset edges of the CoordinatorLayout.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -2835,7 +2948,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
      * </table>
      */
-    public static final int layout_dodgeInsetEdges=0x7f030140;
+    public static final int layout_dodgeInsetEdges=0x7f030153;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2843,7 +2956,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteX=0x7f030141;
+    public static final int layout_editor_absoluteX=0x7f030154;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2851,7 +2964,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteY=0x7f030142;
+    public static final int layout_editor_absoluteY=0x7f030155;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2859,7 +2972,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginBottom=0x7f030143;
+    public static final int layout_goneMarginBottom=0x7f030156;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2867,7 +2980,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginEnd=0x7f030144;
+    public static final int layout_goneMarginEnd=0x7f030157;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2875,7 +2988,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginLeft=0x7f030145;
+    public static final int layout_goneMarginLeft=0x7f030158;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2883,7 +2996,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginRight=0x7f030146;
+    public static final int layout_goneMarginRight=0x7f030159;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2891,7 +3004,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginStart=0x7f030147;
+    public static final int layout_goneMarginStart=0x7f03015a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2899,7 +3012,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginTop=0x7f030148;
+    public static final int layout_goneMarginTop=0x7f03015b;
     /**
      * Specifies how this view insets the CoordinatorLayout and make some other views
      * dodge it.
@@ -2918,14 +3031,14 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
      * </table>
      */
-    public static final int layout_insetEdge=0x7f030149;
+    public static final int layout_insetEdge=0x7f03015c;
     /**
      * The index of a keyline this view should position relative to.
      * android:layout_gravity will affect how the view aligns to the
      * specified keyline.
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_keyline=0x7f03014a;
+    public static final int layout_keyline=0x7f03015d;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2942,7 +3055,7 @@ public final class R {
      * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      */
-    public static final int layout_optimizationLevel=0x7f03014b;
+    public static final int layout_optimizationLevel=0x7f03015e;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2958,19 +3071,40 @@ public final class R {
      * <tr><td>snapMargins</td><td>20</td><td></td></tr>
      * </table>
      */
-    public static final int layout_scrollFlags=0x7f03014c;
+    public static final int layout_scrollFlags=0x7f03015f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_scrollInterpolator=0x7f03014d;
+    public static final int layout_scrollInterpolator=0x7f030160;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int layout_srlBackgroundColor=0x7f030161;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>FixedBehind</td><td>2</td><td>拉伸形变</td></tr>
+     * <tr><td>FixedFront</td><td>3</td><td>固定在背后</td></tr>
+     * <tr><td>MatchLayout</td><td>4</td><td>固定在前面</td></tr>
+     * <tr><td>Scale</td><td>1</td><td>平行移动</td></tr>
+     * <tr><td>Translate</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int layout_srlSpinnerStyle=0x7f030162;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int liftOnScroll=0x7f03014e;
+    public static final int liftOnScroll=0x7f030163;
     /**
      * Explicit height between lines of text. If set, this will override the values set
      * for lineSpacingExtra and lineSpacingMultiplier.
@@ -2980,7 +3114,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lineHeight=0x7f03014f;
+    public static final int lineHeight=0x7f030164;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2988,7 +3122,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lineSpacing=0x7f030150;
+    public static final int lineSpacing=0x7f030165;
     /**
      * Drawable used as a background for selected list items.
      * <p>May be a reference to another resource, in the form
@@ -2996,7 +3130,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f030151;
+    public static final int listChoiceBackgroundIndicator=0x7f030166;
     /**
      * The list divider used in alert dialogs.
      * <p>May be a reference to another resource, in the form
@@ -3004,21 +3138,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listDividerAlertDialog=0x7f030152;
+    public static final int listDividerAlertDialog=0x7f030167;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listItemLayout=0x7f030153;
+    public static final int listItemLayout=0x7f030168;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listLayout=0x7f030154;
+    public static final int listLayout=0x7f030169;
     /**
      * Default menu-style ListView style.
      * <p>May be a reference to another resource, in the form
@@ -3026,14 +3160,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listMenuViewStyle=0x7f030155;
+    public static final int listMenuViewStyle=0x7f03016a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listPopupWindowStyle=0x7f030156;
+    public static final int listPopupWindowStyle=0x7f03016b;
     /**
      * The preferred list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3042,7 +3176,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f030157;
+    public static final int listPreferredItemHeight=0x7f03016c;
     /**
      * A larger, more robust list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3051,7 +3185,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f030158;
+    public static final int listPreferredItemHeightLarge=0x7f03016d;
     /**
      * A smaller, sleeker list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3060,7 +3194,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f030159;
+    public static final int listPreferredItemHeightSmall=0x7f03016e;
     /**
      * The preferred padding along the left edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3069,7 +3203,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f03015a;
+    public static final int listPreferredItemPaddingLeft=0x7f03016f;
     /**
      * The preferred padding along the right edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3078,7 +3212,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f03015b;
+    public static final int listPreferredItemPaddingRight=0x7f030170;
     /**
      * Specifies the drawable used for the application logo.
      * <p>May be a reference to another resource, in the form
@@ -3086,28 +3220,95 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f03015c;
+    public static final int logo=0x7f030171;
     /**
      * A content description string to describe the appearance of the
      * associated logo image.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f03015d;
+    public static final int logoDescription=0x7f030172;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int lottie_autoPlay=0x7f030173;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int lottie_colorFilter=0x7f030174;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int lottie_enableMergePathsForKitKatAndAbove=0x7f030175;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int lottie_fileName=0x7f030176;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int lottie_imageAssetsFolder=0x7f030177;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int lottie_loop=0x7f030178;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int lottie_progress=0x7f030179;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int materialButtonStyle=0x7f03015e;
+    public static final int lottie_rawRes=0x7f03017a;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int lottie_repeatCount=0x7f03017b;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>restart</td><td>1</td><td></td></tr>
+     * <tr><td>reverse</td><td>2</td><td></td></tr>
+     * </table>
+     */
+    public static final int lottie_repeatMode=0x7f03017c;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int lottie_scale=0x7f03017d;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int lottie_url=0x7f03017e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int materialCardViewStyle=0x7f03015f;
+    public static final int materialButtonStyle=0x7f03017f;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int materialCardViewStyle=0x7f030180;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3115,7 +3316,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxActionInlineWidth=0x7f030160;
+    public static final int maxActionInlineWidth=0x7f030181;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3123,7 +3324,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f030161;
+    public static final int maxButtonHeight=0x7f030182;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3131,7 +3332,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxImageSize=0x7f030162;
+    public static final int maxImageSize=0x7f030183;
     /**
      * When set to true, all children with a weight will be considered having
      * the minimum size of the largest child. If false, all children are
@@ -3139,28 +3340,67 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f030163;
+    public static final int measureWithLargestChild=0x7f030184;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int menu=0x7f030164;
+    public static final int menu=0x7f030185;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int mhPrimaryColor=0x7f030186;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int mhShadowColor=0x7f030187;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int mhShadowRadius=0x7f030188;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int mhShowBezierWave=0x7f030189;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int msvPrimaryColor=0x7f03018a;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int msvViewportHeight=0x7f03018b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f030165;
+    public static final int multiChoiceItemLayout=0x7f03018c;
     /**
      * Text to set as the content description for the navigation button
      * located at the start of the toolbar.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f030166;
+    public static final int navigationContentDescription=0x7f03018d;
     /**
      * Icon drawable to use for the navigation button located at
      * the start of the toolbar.
@@ -3169,7 +3409,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f030167;
+    public static final int navigationIcon=0x7f03018e;
     /**
      * The type of navigation to use.
      * <p>Must be one of the following constant values.</p>
@@ -3183,14 +3423,14 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f030168;
+    public static final int navigationMode=0x7f03018f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationViewStyle=0x7f030169;
+    public static final int navigationViewStyle=0x7f030190;
     /**
      * The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
      * keyboard. The values should be kept in sync with KeyEvent
@@ -3208,13 +3448,13 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f03016a;
+    public static final int numericModifiers=0x7f030191;
     /**
      * Whether the popup window should overlap its anchor view.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f03016b;
+    public static final int overlapAnchor=0x7f030192;
     /**
      * Bottom padding to use when no buttons are present.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3223,7 +3463,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f03016c;
+    public static final int paddingBottomNoButtons=0x7f030193;
     /**
      * Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3232,7 +3472,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f03016d;
+    public static final int paddingEnd=0x7f030194;
     /**
      * Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3241,7 +3481,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f03016e;
+    public static final int paddingStart=0x7f030195;
     /**
      * Top padding to use when no title is present.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3250,7 +3490,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f03016f;
+    public static final int paddingTopNoTitle=0x7f030196;
     /**
      * The background of a panel when it is inset from the left and right edges of the screen.
      * <p>May be a reference to another resource, in the form
@@ -3258,7 +3498,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f030170;
+    public static final int panelBackground=0x7f030197;
     /**
      * Default Panel Menu style.
      * <p>May be a reference to another resource, in the form
@@ -3266,7 +3506,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f030171;
+    public static final int panelMenuListTheme=0x7f030198;
     /**
      * Default Panel Menu width.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3275,30 +3515,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f030172;
+    public static final int panelMenuListWidth=0x7f030199;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int passwordToggleContentDescription=0x7f030173;
+    public static final int passwordToggleContentDescription=0x7f03019a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int passwordToggleDrawable=0x7f030174;
+    public static final int passwordToggleDrawable=0x7f03019b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int passwordToggleEnabled=0x7f030175;
+    public static final int passwordToggleEnabled=0x7f03019c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int passwordToggleTint=0x7f030176;
+    public static final int passwordToggleTint=0x7f03019d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3313,7 +3553,19 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int passwordToggleTintMode=0x7f030177;
+    public static final int passwordToggleTintMode=0x7f03019e;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int phAccentColor=0x7f03019f;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int phPrimaryColor=0x7f0301a0;
     /**
      * Default PopupMenu style.
      * <p>May be a reference to another resource, in the form
@@ -3321,7 +3573,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f030178;
+    public static final int popupMenuStyle=0x7f0301a1;
     /**
      * Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.
@@ -3330,7 +3582,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f030179;
+    public static final int popupTheme=0x7f0301a2;
     /**
      * Default PopupWindow style.
      * <p>May be a reference to another resource, in the form
@@ -3338,13 +3590,13 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f03017a;
+    public static final int popupWindowStyle=0x7f0301a3;
     /**
      * Whether space should be reserved in layout when an icon is missing.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f03017b;
+    public static final int preserveIconSpacing=0x7f0301a4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3352,7 +3604,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int pressedTranslationZ=0x7f03017c;
+    public static final int pressedTranslationZ=0x7f0301a5;
     /**
      * Specifies the horizontal padding on either end for an embedded progress bar.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3361,7 +3613,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f03017d;
+    public static final int progressBarPadding=0x7f0301a6;
     /**
      * Specifies a style resource to use for an embedded progress bar.
      * <p>May be a reference to another resource, in the form
@@ -3369,7 +3621,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f03017e;
+    public static final int progressBarStyle=0x7f0301a7;
     /**
      * Background for the section containing the search query
      * <p>May be a reference to another resource, in the form
@@ -3377,13 +3629,13 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f03017f;
+    public static final int queryBackground=0x7f0301a8;
     /**
      * An optional user-defined query hint string to be displayed in the empty query field.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f030180;
+    public static final int queryHint=0x7f0301a9;
     /**
      * Default RadioButton style.
      * <p>May be a reference to another resource, in the form
@@ -3391,7 +3643,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f030181;
+    public static final int radioButtonStyle=0x7f0301aa;
     /**
      * Default RatingBar style.
      * <p>May be a reference to another resource, in the form
@@ -3399,7 +3651,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f030182;
+    public static final int ratingBarStyle=0x7f0301ab;
     /**
      * Indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
@@ -3407,7 +3659,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f030183;
+    public static final int ratingBarStyleIndicator=0x7f0301ac;
     /**
      * Small indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
@@ -3415,22 +3667,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f030184;
+    public static final int ratingBarStyleSmall=0x7f0301ad;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f030185;
+    public static final int reverseLayout=0x7f0301ae;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int rippleColor=0x7f030186;
+    public static final int rippleColor=0x7f0301af;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int scrimAnimationDuration=0x7f030187;
+    public static final int scrimAnimationDuration=0x7f0301b0;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3440,7 +3692,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int scrimBackground=0x7f030188;
+    public static final int scrimBackground=0x7f0301b1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3448,7 +3700,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int scrimVisibleHeightTrigger=0x7f030189;
+    public static final int scrimVisibleHeightTrigger=0x7f0301b2;
     /**
      * Search icon displayed as a text field hint
      * <p>May be a reference to another resource, in the form
@@ -3456,7 +3708,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f03018a;
+    public static final int searchHintIcon=0x7f0301b3;
     /**
      * Search icon
      * <p>May be a reference to another resource, in the form
@@ -3464,7 +3716,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f03018b;
+    public static final int searchIcon=0x7f0301b4;
     /**
      * Style for the search query widget.
      * <p>May be a reference to another resource, in the form
@@ -3472,7 +3724,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f03018c;
+    public static final int searchViewStyle=0x7f0301b5;
     /**
      * Default SeekBar style.
      * <p>May be a reference to another resource, in the form
@@ -3480,7 +3732,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f03018d;
+    public static final int seekBarStyle=0x7f0301b6;
     /**
      * A style that may be applied to buttons or other selectable items
      * that should react to pressed and focus states, but that do not
@@ -3490,7 +3742,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f03018e;
+    public static final int selectableItemBackground=0x7f0301b7;
     /**
      * Background drawable for borderless standalone items that need focus/pressed states.
      * <p>May be a reference to another resource, in the form
@@ -3498,7 +3750,33 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f03018f;
+    public static final int selectableItemBackgroundBorderless=0x7f0301b8;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int shhDropHeight=0x7f0301b9;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int shhEnableFadeAnimation=0x7f0301ba;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int shhLineWidth=0x7f0301bb;
+    /**
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     */
+    public static final int shhText=0x7f0301bc;
     /**
      * How this item should display in the Action Bar, if present.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -3523,7 +3801,7 @@ public final class R {
      * label with it even if it has an icon representation.</td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f030190;
+    public static final int showAsAction=0x7f0301bd;
     /**
      * Setting for which dividers to show.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -3538,66 +3816,66 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f030191;
+    public static final int showDividers=0x7f0301be;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int showMotionSpec=0x7f030192;
+    public static final int showMotionSpec=0x7f0301bf;
     /**
      * Whether to draw on/off text.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f030193;
+    public static final int showText=0x7f0301c0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f030194;
+    public static final int showTitle=0x7f0301c1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f030195;
+    public static final int singleChoiceItemLayout=0x7f0301c2;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int singleLine=0x7f030196;
+    public static final int singleLine=0x7f0301c3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int singleSelection=0x7f030197;
+    public static final int singleSelection=0x7f0301c4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int snackbarButtonStyle=0x7f030198;
+    public static final int snackbarButtonStyle=0x7f0301c5;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int snackbarStyle=0x7f030199;
+    public static final int snackbarStyle=0x7f0301c6;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f03019a;
+    public static final int spanCount=0x7f0301c7;
     /**
      * Whether bars should rotate or not during transition
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f03019b;
+    public static final int spinBars=0x7f0301c8;
     /**
      * Default Spinner style.
      * <p>May be a reference to another resource, in the form
@@ -3605,7 +3883,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f03019c;
+    public static final int spinnerDropDownItemStyle=0x7f0301c9;
     /**
      * Default Spinner style.
      * <p>May be a reference to another resource, in the form
@@ -3613,13 +3891,13 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f03019d;
+    public static final int spinnerStyle=0x7f0301ca;
     /**
      * Whether to split the track and leave a gap for the thumb drawable.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f03019e;
+    public static final int splitTrack=0x7f0301cb;
     /**
      * Sets a drawable as the content of this ImageView. Allows the use of vector drawable
      * when running on older versions of the platform.
@@ -3628,38 +3906,359 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f03019f;
+    public static final int srcCompat=0x7f0301cc;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int srlAccentColor=0x7f0301cd;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int srlAnimatingColor=0x7f0301ce;
+    /**
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>FixedBehind</td><td>2</td><td>拉伸形变</td></tr>
+     * <tr><td>Scale</td><td>1</td><td>平行移动</td></tr>
+     * <tr><td>Translate</td><td>0</td><td></td></tr>
+     * </table>
+     */
+    public static final int srlClassicsSpinnerStyle=0x7f0301cf;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f0301a0;
+    public static final int srlDisableContentWhenLoading=0x7f0301d0;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlDisableContentWhenRefresh=0x7f0301d1;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int srlDragRate=0x7f0301d2;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int srlDrawableArrow=0x7f0301d3;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlDrawableArrowSize=0x7f0301d4;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlDrawableMarginRight=0x7f0301d5;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int srlDrawableProgress=0x7f0301d6;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlDrawableProgressSize=0x7f0301d7;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlDrawableSize=0x7f0301d8;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableAutoLoadMore=0x7f0301d9;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableClipFooterWhenFixedBehind=0x7f0301da;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableClipHeaderWhenFixedBehind=0x7f0301db;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableFooterFollowWhenLoadFinished=0x7f0301dc;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableFooterTranslationContent=0x7f0301dd;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableHeaderTranslationContent=0x7f0301de;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableHorizontalDrag=0x7f0301df;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableLastTime=0x7f0301e0;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableLoadMore=0x7f0301e1;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableLoadMoreWhenContentNotFull=0x7f0301e2;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableNestedScrolling=0x7f0301e3;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableOverScrollBounce=0x7f0301e4;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableOverScrollDrag=0x7f0301e5;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnablePreviewInEditMode=0x7f0301e6;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnablePullToCloseTwoLevel=0x7f0301e7;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnablePureScrollMode=0x7f0301e8;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableRefresh=0x7f0301e9;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableScrollContentWhenLoaded=0x7f0301ea;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableScrollContentWhenRefreshed=0x7f0301eb;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int srlEnableTwoLevel=0x7f0301ec;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int srlFinishDuration=0x7f0301ed;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int srlFixedFooterViewId=0x7f0301ee;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int srlFixedHeaderViewId=0x7f0301ef;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int srlFloorDuration=0x7f0301f0;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int srlFloorRage=0x7f0301f1;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlFooterHeight=0x7f0301f2;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlFooterInsetStart=0x7f0301f3;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int srlFooterMaxDragRate=0x7f0301f4;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int srlFooterTranslationViewId=0x7f0301f5;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int srlFooterTriggerRate=0x7f0301f6;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlHeaderHeight=0x7f0301f7;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlHeaderInsetStart=0x7f0301f8;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int srlHeaderMaxDragRate=0x7f0301f9;
+    /**
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     */
+    public static final int srlHeaderTranslationViewId=0x7f0301fa;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int srlHeaderTriggerRate=0x7f0301fb;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int srlMaxRage=0x7f0301fc;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int srlNormalColor=0x7f0301fd;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int srlPrimaryColor=0x7f0301fe;
+    /**
+     * <p>May be an integer value, such as "<code>100</code>".
+     */
+    public static final int srlReboundDuration=0x7f0301ff;
+    /**
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     */
+    public static final int srlRefreshRage=0x7f030200;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlTextSizeTime=0x7f030201;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlTextSizeTitle=0x7f030202;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int srlTextTimeMarginTop=0x7f030203;
+    /**
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     */
+    public static final int stackFromEnd=0x7f030204;
     /**
      * State identifier indicating the popup will be above the anchor.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f0301a1;
+    public static final int state_above_anchor=0x7f030205;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsed=0x7f0301a2;
+    public static final int state_collapsed=0x7f030206;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_collapsible=0x7f0301a3;
+    public static final int state_collapsible=0x7f030207;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_liftable=0x7f0301a4;
+    public static final int state_liftable=0x7f030208;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_lifted=0x7f0301a5;
+    public static final int state_lifted=0x7f030209;
     /**
      * Drawable to display behind the status bar when the view is set to draw behind it.
      * <p>May be a reference to another resource, in the form
@@ -3670,19 +4269,19 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarBackground=0x7f0301a6;
+    public static final int statusBarBackground=0x7f03020a;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int statusBarScrim=0x7f0301a7;
+    public static final int statusBarScrim=0x7f03020b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int strokeColor=0x7f0301a8;
+    public static final int strokeColor=0x7f03020c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3690,7 +4289,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int strokeWidth=0x7f0301a9;
+    public static final int strokeWidth=0x7f03020d;
     /**
      * Drawable for the arrow icon indicating a particular item is a submenu.
      * <p>May be a reference to another resource, in the form
@@ -3698,7 +4297,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f0301aa;
+    public static final int subMenuArrow=0x7f03020e;
     /**
      * Background for the section containing the action (e.g. voice search)
      * <p>May be a reference to another resource, in the form
@@ -3706,27 +4305,27 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f0301ab;
+    public static final int submitBackground=0x7f03020f;
     /**
      * Specifies subtitle text used for navigationMode="normal"
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f0301ac;
+    public static final int subtitle=0x7f030210;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f0301ad;
+    public static final int subtitleTextAppearance=0x7f030211;
     /**
      * A color to apply to the subtitle string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f0301ae;
+    public static final int subtitleTextColor=0x7f030212;
     /**
      * Specifies a style to use for subtitle text.
      * <p>May be a reference to another resource, in the form
@@ -3734,7 +4333,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f0301af;
+    public static final int subtitleTextStyle=0x7f030213;
     /**
      * Layout for query suggestion rows
      * <p>May be a reference to another resource, in the form
@@ -3742,7 +4341,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f0301b0;
+    public static final int suggestionRowLayout=0x7f030214;
     /**
      * Minimum width for the switch component
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3751,7 +4350,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f0301b1;
+    public static final int switchMinWidth=0x7f030215;
     /**
      * Minimum space between the switch and caption text
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3760,7 +4359,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f0301b2;
+    public static final int switchPadding=0x7f030216;
     /**
      * Default style for the Switch widget.
      * <p>May be a reference to another resource, in the form
@@ -3768,7 +4367,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f0301b3;
+    public static final int switchStyle=0x7f030217;
     /**
      * TextAppearance style for text displayed on the switch thumb.
      * <p>May be a reference to another resource, in the form
@@ -3776,14 +4375,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f0301b4;
+    public static final int switchTextAppearance=0x7f030218;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabBackground=0x7f0301b5;
+    public static final int tabBackground=0x7f030219;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3791,7 +4390,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabContentStart=0x7f0301b6;
+    public static final int tabContentStart=0x7f03021a;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3803,13 +4402,13 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabGravity=0x7f0301b7;
+    public static final int tabGravity=0x7f03021b;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIconTint=0x7f0301b8;
+    public static final int tabIconTint=0x7f03021c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3825,29 +4424,29 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int tabIconTintMode=0x7f0301b9;
+    public static final int tabIconTintMode=0x7f03021d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabIndicator=0x7f0301ba;
+    public static final int tabIndicator=0x7f03021e;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int tabIndicatorAnimationDuration=0x7f0301bb;
+    public static final int tabIndicatorAnimationDuration=0x7f03021f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabIndicatorColor=0x7f0301bc;
+    public static final int tabIndicatorColor=0x7f030220;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int tabIndicatorFullWidth=0x7f0301bd;
+    public static final int tabIndicatorFullWidth=0x7f030221;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3861,7 +4460,7 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int tabIndicatorGravity=0x7f0301be;
+    public static final int tabIndicatorGravity=0x7f030222;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3869,12 +4468,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabIndicatorHeight=0x7f0301bf;
+    public static final int tabIndicatorHeight=0x7f030223;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int tabInlineLabel=0x7f0301c0;
+    public static final int tabInlineLabel=0x7f030224;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3882,7 +4481,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMaxWidth=0x7f0301c1;
+    public static final int tabMaxWidth=0x7f030225;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3890,7 +4489,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabMinWidth=0x7f0301c2;
+    public static final int tabMinWidth=0x7f030226;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3902,7 +4501,7 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int tabMode=0x7f0301c3;
+    public static final int tabMode=0x7f030227;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3910,7 +4509,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPadding=0x7f0301c4;
+    public static final int tabPadding=0x7f030228;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3918,7 +4517,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingBottom=0x7f0301c5;
+    public static final int tabPaddingBottom=0x7f030229;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3926,7 +4525,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingEnd=0x7f0301c6;
+    public static final int tabPaddingEnd=0x7f03022a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3934,7 +4533,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingStart=0x7f0301c7;
+    public static final int tabPaddingStart=0x7f03022b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3942,44 +4541,44 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int tabPaddingTop=0x7f0301c8;
+    public static final int tabPaddingTop=0x7f03022c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabRippleColor=0x7f0301c9;
+    public static final int tabRippleColor=0x7f03022d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabSelectedTextColor=0x7f0301ca;
+    public static final int tabSelectedTextColor=0x7f03022e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabStyle=0x7f0301cb;
+    public static final int tabStyle=0x7f03022f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tabTextAppearance=0x7f0301cc;
+    public static final int tabTextAppearance=0x7f030230;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tabTextColor=0x7f0301cd;
+    public static final int tabTextColor=0x7f030231;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int tabUnboundedRipple=0x7f0301ce;
+    public static final int tabUnboundedRipple=0x7f030232;
     /**
      * Present the text in ALL CAPS. This may use a small-caps form when available.
      * <p>May be a reference to another resource, in the form
@@ -3989,77 +4588,77 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f0301cf;
+    public static final int textAllCaps=0x7f030233;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceBody1=0x7f0301d0;
+    public static final int textAppearanceBody1=0x7f030234;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceBody2=0x7f0301d1;
+    public static final int textAppearanceBody2=0x7f030235;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceButton=0x7f0301d2;
+    public static final int textAppearanceButton=0x7f030236;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceCaption=0x7f0301d3;
+    public static final int textAppearanceCaption=0x7f030237;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline1=0x7f0301d4;
+    public static final int textAppearanceHeadline1=0x7f030238;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline2=0x7f0301d5;
+    public static final int textAppearanceHeadline2=0x7f030239;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline3=0x7f0301d6;
+    public static final int textAppearanceHeadline3=0x7f03023a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline4=0x7f0301d7;
+    public static final int textAppearanceHeadline4=0x7f03023b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline5=0x7f0301d8;
+    public static final int textAppearanceHeadline5=0x7f03023c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceHeadline6=0x7f0301d9;
+    public static final int textAppearanceHeadline6=0x7f03023d;
     /**
      * Text color, typeface, size, and style for the text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
@@ -4067,7 +4666,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f0301da;
+    public static final int textAppearanceLargePopupMenu=0x7f03023e;
     /**
      * The preferred TextAppearance for the primary text of list items.
      * <p>May be a reference to another resource, in the form
@@ -4075,7 +4674,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f0301db;
+    public static final int textAppearanceListItem=0x7f03023f;
     /**
      * The preferred TextAppearance for the secondary text of list items.
      * <p>May be a reference to another resource, in the form
@@ -4083,7 +4682,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f0301dc;
+    public static final int textAppearanceListItemSecondary=0x7f030240;
     /**
      * The preferred TextAppearance for the primary text of small list items.
      * <p>May be a reference to another resource, in the form
@@ -4091,14 +4690,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f0301dd;
+    public static final int textAppearanceListItemSmall=0x7f030241;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceOverline=0x7f0301de;
+    public static final int textAppearanceOverline=0x7f030242;
     /**
      * Text color, typeface, size, and style for header text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
@@ -4106,7 +4705,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f0301df;
+    public static final int textAppearancePopupMenuHeader=0x7f030243;
     /**
      * Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
@@ -4114,7 +4713,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f0301e0;
+    public static final int textAppearanceSearchResultSubtitle=0x7f030244;
     /**
      * Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
@@ -4122,7 +4721,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f0301e1;
+    public static final int textAppearanceSearchResultTitle=0x7f030245;
     /**
      * Text color, typeface, size, and style for small text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
@@ -4130,21 +4729,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f0301e2;
+    public static final int textAppearanceSmallPopupMenu=0x7f030246;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSubtitle1=0x7f0301e3;
+    public static final int textAppearanceSubtitle1=0x7f030247;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSubtitle2=0x7f0301e4;
+    public static final int textAppearanceSubtitle2=0x7f030248;
     /**
      * Color of list item text in alert dialogs.
      * <p>May be a reference to another resource, in the form
@@ -4155,7 +4754,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorAlertDialogListItem=0x7f0301e5;
+    public static final int textColorAlertDialogListItem=0x7f030249;
     /**
      * Text color for urls in search suggestions, used by things like global search
      * <p>May be a reference to another resource, in the form
@@ -4166,7 +4765,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f0301e6;
+    public static final int textColorSearchUrl=0x7f03024a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4174,14 +4773,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int textEndPadding=0x7f0301e7;
+    public static final int textEndPadding=0x7f03024b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textInputStyle=0x7f0301e8;
+    public static final int textInputStyle=0x7f03024c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4189,7 +4788,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int textStartPadding=0x7f0301e9;
+    public static final int textStartPadding=0x7f03024d;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int thPrimaryColor=0x7f03024e;
     /**
      * Deprecated.
      * <p>May be a reference to another resource, in the form
@@ -4197,7 +4802,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f0301ea;
+    public static final int theme=0x7f03024f;
     /**
      * The thickness (stroke size) for the bar paint
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4206,7 +4811,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f0301eb;
+    public static final int thickness=0x7f030250;
     /**
      * Amount of padding on either side of text within the switch thumb.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4215,14 +4820,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f0301ec;
+    public static final int thumbTextPadding=0x7f030251;
     /**
      * Tint to apply to the thumb drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f0301ed;
+    public static final int thumbTint=0x7f030252;
     /**
      * Blending mode used to apply the thumb tint.
      * <p>Must be one of the following constant values.</p>
@@ -4244,7 +4849,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f0301ee;
+    public static final int thumbTintMode=0x7f030253;
     /**
      * Drawable displayed at each progress position on a seekbar.
      * <p>May be a reference to another resource, in the form
@@ -4252,14 +4857,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f0301ef;
+    public static final int tickMark=0x7f030254;
     /**
      * Tint to apply to the tick mark drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f0301f0;
+    public static final int tickMarkTint=0x7f030255;
     /**
      * Blending mode used to apply the tick mark tint.
      * <p>Must be one of the following constant values.</p>
@@ -4281,14 +4886,14 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f0301f1;
+    public static final int tickMarkTintMode=0x7f030256;
     /**
      * Tint to apply to the image source.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f0301f2;
+    public static final int tint=0x7f030257;
     /**
      * Blending mode used to apply the image source tint.
      * <p>Must be one of the following constant values.</p>
@@ -4310,17 +4915,17 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f0301f3;
+    public static final int tintMode=0x7f030258;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f0301f4;
+    public static final int title=0x7f030259;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int titleEnabled=0x7f0301f5;
+    public static final int titleEnabled=0x7f03025a;
     /**
      * Specifies extra space on the left, start, right and end sides
      * of the toolbar's title. Margin values should be positive.
@@ -4330,7 +4935,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f0301f6;
+    public static final int titleMargin=0x7f03025b;
     /**
      * Specifies extra space on the bottom side of the toolbar's title.
      * If both this attribute and titleMargin are specified, then this
@@ -4341,7 +4946,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f0301f7;
+    public static final int titleMarginBottom=0x7f03025c;
     /**
      * Specifies extra space on the end side of the toolbar's title.
      * If both this attribute and titleMargin are specified, then this
@@ -4352,7 +4957,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f0301f8;
+    public static final int titleMarginEnd=0x7f03025d;
     /**
      * Specifies extra space on the start side of the toolbar's title.
      * If both this attribute and titleMargin are specified, then this
@@ -4363,7 +4968,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f0301f9;
+    public static final int titleMarginStart=0x7f03025e;
     /**
      * Specifies extra space on the top side of the toolbar's title.
      * If both this attribute and titleMargin are specified, then this
@@ -4374,7 +4979,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f0301fa;
+    public static final int titleMarginTop=0x7f03025f;
     /**
      * {@deprecated Use titleMargin}
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4384,21 +4989,21 @@ public final class R {
      * mm (millimeters).
      */
     @Deprecated
-    public static final int titleMargins=0x7f0301fb;
+    public static final int titleMargins=0x7f030260;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f0301fc;
+    public static final int titleTextAppearance=0x7f030261;
     /**
      * A color to apply to the title string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f0301fd;
+    public static final int titleTextColor=0x7f030262;
     /**
      * Specifies a style to use for title text.
      * <p>May be a reference to another resource, in the form
@@ -4406,14 +5011,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f0301fe;
+    public static final int titleTextStyle=0x7f030263;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarId=0x7f0301ff;
+    public static final int toolbarId=0x7f030264;
     /**
      * Default Toolar NavigationButtonStyle
      * <p>May be a reference to another resource, in the form
@@ -4421,7 +5026,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f030200;
+    public static final int toolbarNavigationButtonStyle=0x7f030265;
     /**
      * Default Toolbar style.
      * <p>May be a reference to another resource, in the form
@@ -4429,7 +5034,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f030201;
+    public static final int toolbarStyle=0x7f030266;
     /**
      * Foreground color to use for tooltips
      * <p>May be a reference to another resource, in the form
@@ -4440,7 +5045,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f030202;
+    public static final int tooltipForegroundColor=0x7f030267;
     /**
      * Background to use for tooltips
      * <p>May be a reference to another resource, in the form
@@ -4448,13 +5053,13 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f030203;
+    public static final int tooltipFrameBackground=0x7f030268;
     /**
      * The tooltip text associated with the item.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f030204;
+    public static final int tooltipText=0x7f030269;
     /**
      * Drawable to use as the "track" that the switch thumb slides within.
      * <p>May be a reference to another resource, in the form
@@ -4462,14 +5067,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f030205;
+    public static final int track=0x7f03026a;
     /**
      * Tint to apply to the track.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f030206;
+    public static final int trackTint=0x7f03026b;
     /**
      * Blending mode used to apply the track tint.
      * <p>Must be one of the following constant values.</p>
@@ -4491,23 +5096,23 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f030207;
+    public static final int trackTintMode=0x7f03026c;
     /**
      * The index of the font in the tcc font file. If the font file referenced is not in the
      * tcc format, this attribute needs not be specified.
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int ttcIndex=0x7f030208;
+    public static final int ttcIndex=0x7f03026d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useCompatPadding=0x7f030209;
+    public static final int useCompatPadding=0x7f03026e;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f03020a;
+    public static final int viewInflaterClass=0x7f03026f;
     /**
      * Voice button icon
      * <p>May be a reference to another resource, in the form
@@ -4515,14 +5120,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f03020b;
+    public static final int voiceIcon=0x7f030270;
     /**
      * Flag indicating whether this window should have an Action Bar
      * in place of the usual title bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f03020c;
+    public static final int windowActionBar=0x7f030271;
     /**
      * Flag indicating whether this window's Action Bar should overlay
      * application content. Does nothing if the window would not
@@ -4530,14 +5135,14 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f03020d;
+    public static final int windowActionBarOverlay=0x7f030272;
     /**
      * Flag indicating whether action modes should overlay window content
      * when there is not reserved space for their UI (such as an Action Bar).
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f03020e;
+    public static final int windowActionModeOverlay=0x7f030273;
     /**
      * A fixed height for the window along the major axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -4552,7 +5157,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f03020f;
+    public static final int windowFixedHeightMajor=0x7f030274;
     /**
      * A fixed height for the window along the minor axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -4567,7 +5172,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f030210;
+    public static final int windowFixedHeightMinor=0x7f030275;
     /**
      * A fixed width for the window along the major axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -4582,7 +5187,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f030211;
+    public static final int windowFixedWidthMajor=0x7f030276;
     /**
      * A fixed width for the window along the minor axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -4597,7 +5202,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f030212;
+    public static final int windowFixedWidthMinor=0x7f030277;
     /**
      * The minimum width the window is allowed to be, along the major
      * axis of the screen.  That is, when in landscape.  Can be either
@@ -4613,7 +5218,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f030213;
+    public static final int windowMinWidthMajor=0x7f030278;
     /**
      * The minimum width the window is allowed to be, along the minor
      * axis of the screen.  That is, when in portrait.  Can be either
@@ -4629,13 +5234,39 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f030214;
+    public static final int windowMinWidthMinor=0x7f030279;
     /**
      * Flag indicating whether there should be no title on this window.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f030215;
+    public static final int windowNoTitle=0x7f03027a;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int wshAccentColor=0x7f03027b;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int wshPrimaryColor=0x7f03027c;
+    /**
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     */
+    public static final int wshShadowColor=0x7f03027d;
+    /**
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     */
+    public static final int wshShadowRadius=0x7f03027e;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -5079,255 +5710,287 @@ public final class R {
     public static final int abc_vector_test=0x7f07005a;
     public static final int avd_hide_password=0x7f07005b;
     public static final int avd_show_password=0x7f07005c;
-    public static final int design_bottom_navigation_item_background=0x7f07005d;
-    public static final int design_fab_background=0x7f07005e;
-    public static final int design_ic_visibility=0x7f07005f;
-    public static final int design_ic_visibility_off=0x7f070060;
-    public static final int design_password_eye=0x7f070061;
-    public static final int design_snackbar_background=0x7f070062;
-    public static final int ic_launcher_background=0x7f070063;
-    public static final int ic_launcher_foreground=0x7f070064;
-    public static final int ic_mtrl_chip_checked_black=0x7f070065;
-    public static final int ic_mtrl_chip_checked_circle=0x7f070066;
-    public static final int ic_mtrl_chip_close_circle=0x7f070067;
-    public static final int mtrl_snackbar_background=0x7f070068;
-    public static final int mtrl_tabs_default_indicator=0x7f070069;
-    public static final int navigation_empty_icon=0x7f07006a;
-    public static final int notification_action_background=0x7f07006b;
-    public static final int notification_bg=0x7f07006c;
-    public static final int notification_bg_low=0x7f07006d;
-    public static final int notification_bg_low_normal=0x7f07006e;
-    public static final int notification_bg_low_pressed=0x7f07006f;
-    public static final int notification_bg_normal=0x7f070070;
-    public static final int notification_bg_normal_pressed=0x7f070071;
-    public static final int notification_icon_background=0x7f070072;
-    public static final int notification_template_icon_bg=0x7f070073;
-    public static final int notification_template_icon_low_bg=0x7f070074;
-    public static final int notification_tile_bg=0x7f070075;
-    public static final int notify_panel_notification_icon_bg=0x7f070076;
-    public static final int tab_bar_category_ic=0x7f070077;
-    public static final int tab_bar_category_selected_ic=0x7f070078;
-    public static final int tabbar_account=0x7f070079;
-    public static final int tabbar_account_selected=0x7f07007a;
-    public static final int tabbar_crux=0x7f07007b;
-    public static final int tabbar_crux_selected=0x7f07007c;
-    public static final int tabbar_home=0x7f07007d;
-    public static final int tabbar_home_selected=0x7f07007e;
-    public static final int theme_background=0x7f07007f;
-    public static final int tooltip_frame_dark=0x7f070080;
-    public static final int tooltip_frame_light=0x7f070081;
+    public static final int awkward=0x7f07005d;
+    public static final int custom=0x7f07005e;
+    public static final int design_bottom_navigation_item_background=0x7f07005f;
+    public static final int design_fab_background=0x7f070060;
+    public static final int design_ic_visibility=0x7f070061;
+    public static final int design_ic_visibility_off=0x7f070062;
+    public static final int design_password_eye=0x7f070063;
+    public static final int design_snackbar_background=0x7f070064;
+    public static final int empty=0x7f070065;
+    public static final int error=0x7f070066;
+    public static final int ic_launcher_background=0x7f070067;
+    public static final int ic_launcher_foreground=0x7f070068;
+    public static final int ic_mtrl_chip_checked_black=0x7f070069;
+    public static final int ic_mtrl_chip_checked_circle=0x7f07006a;
+    public static final int ic_mtrl_chip_close_circle=0x7f07006b;
+    public static final int label_textview_background=0x7f07006c;
+    public static final int mtrl_snackbar_background=0x7f07006d;
+    public static final int mtrl_tabs_default_indicator=0x7f07006e;
+    public static final int navigation_empty_icon=0x7f07006f;
+    public static final int notification_action_background=0x7f070070;
+    public static final int notification_bg=0x7f070071;
+    public static final int notification_bg_low=0x7f070072;
+    public static final int notification_bg_low_normal=0x7f070073;
+    public static final int notification_bg_low_pressed=0x7f070074;
+    public static final int notification_bg_normal=0x7f070075;
+    public static final int notification_bg_normal_pressed=0x7f070076;
+    public static final int notification_icon_background=0x7f070077;
+    public static final int notification_template_icon_bg=0x7f070078;
+    public static final int notification_template_icon_low_bg=0x7f070079;
+    public static final int notification_tile_bg=0x7f07007a;
+    public static final int notify_panel_notification_icon_bg=0x7f07007b;
+    public static final int tab_bar_category_ic=0x7f07007c;
+    public static final int tab_bar_category_selected_ic=0x7f07007d;
+    public static final int tabbar_account=0x7f07007e;
+    public static final int tabbar_account_selected=0x7f07007f;
+    public static final int tabbar_crux=0x7f070080;
+    public static final int tabbar_crux_selected=0x7f070081;
+    public static final int tabbar_home=0x7f070082;
+    public static final int tabbar_home_selected=0x7f070083;
+    public static final int theme_background=0x7f070084;
+    public static final int timeout=0x7f070085;
+    public static final int tooltip_frame_dark=0x7f070086;
+    public static final int tooltip_frame_light=0x7f070087;
   }
   public static final class id {
     public static final int ALT=0x7f080000;
     public static final int CTRL=0x7f080001;
     public static final int FUNCTION=0x7f080002;
-    public static final int META=0x7f080003;
-    public static final int SHIFT=0x7f080004;
-    public static final int SYM=0x7f080005;
-    public static final int action_bar=0x7f080006;
-    public static final int action_bar_activity_content=0x7f080007;
-    public static final int action_bar_container=0x7f080008;
-    public static final int action_bar_root=0x7f080009;
-    public static final int action_bar_spinner=0x7f08000a;
-    public static final int action_bar_subtitle=0x7f08000b;
-    public static final int action_bar_title=0x7f08000c;
-    public static final int action_container=0x7f08000d;
-    public static final int action_context_bar=0x7f08000e;
-    public static final int action_divider=0x7f08000f;
-    public static final int action_image=0x7f080010;
-    public static final int action_menu_divider=0x7f080011;
-    public static final int action_menu_presenter=0x7f080012;
-    public static final int action_mode_bar=0x7f080013;
-    public static final int action_mode_bar_stub=0x7f080014;
-    public static final int action_mode_close_button=0x7f080015;
-    public static final int action_text=0x7f080016;
-    public static final int actions=0x7f080017;
-    public static final int activity_chooser_view_content=0x7f080018;
-    public static final int add=0x7f080019;
-    public static final int alertTitle=0x7f08001a;
-    public static final int all=0x7f08001b;
-    public static final int always=0x7f08001c;
-    public static final int async=0x7f08001d;
-    public static final int auto=0x7f08001e;
-    public static final int barrier=0x7f08001f;
-    public static final int beginning=0x7f080020;
-    public static final int blocking=0x7f080021;
-    public static final int bottom=0x7f080022;
-    public static final int bottom_view=0x7f080023;
-    public static final int buttonPanel=0x7f080024;
-    public static final int center=0x7f080025;
-    public static final int center_horizontal=0x7f080026;
-    public static final int center_vertical=0x7f080027;
-    public static final int chains=0x7f080028;
-    public static final int checkbox=0x7f080029;
-    public static final int chronometer=0x7f08002a;
-    public static final int clip_horizontal=0x7f08002b;
-    public static final int clip_vertical=0x7f08002c;
-    public static final int collapseActionView=0x7f08002d;
-    public static final int container=0x7f08002e;
-    public static final int content=0x7f08002f;
-    public static final int contentPanel=0x7f080030;
-    public static final int coordinator=0x7f080031;
-    public static final int custom=0x7f080032;
-    public static final int customPanel=0x7f080033;
-    public static final int dataBinding=0x7f080034;
-    public static final int decor_content_parent=0x7f080035;
-    public static final int default_activity_button=0x7f080036;
-    public static final int design_bottom_sheet=0x7f080037;
-    public static final int design_menu_item_action_area=0x7f080038;
-    public static final int design_menu_item_action_area_stub=0x7f080039;
-    public static final int design_menu_item_text=0x7f08003a;
-    public static final int design_navigation_view=0x7f08003b;
-    public static final int dimensions=0x7f08003c;
-    public static final int direct=0x7f08003d;
-    public static final int disableHome=0x7f08003e;
-    public static final int edit_query=0x7f08003f;
-    public static final int end=0x7f080040;
-    public static final int enterAlways=0x7f080041;
-    public static final int enterAlwaysCollapsed=0x7f080042;
-    public static final int exitUntilCollapsed=0x7f080043;
-    public static final int expand_activities_button=0x7f080044;
-    public static final int expanded_menu=0x7f080045;
-    public static final int fill=0x7f080046;
-    public static final int fill_horizontal=0x7f080047;
-    public static final int fill_vertical=0x7f080048;
-    public static final int filled=0x7f080049;
-    public static final int fixed=0x7f08004a;
-    public static final int forever=0x7f08004b;
-    public static final int ghost_view=0x7f08004c;
-    public static final int gone=0x7f08004d;
-    public static final int group_divider=0x7f08004e;
-    public static final int groups=0x7f08004f;
-    public static final int home=0x7f080050;
-    public static final int homeAsUp=0x7f080051;
-    public static final int icon=0x7f080052;
-    public static final int icon_group=0x7f080053;
-    public static final int ifRoom=0x7f080054;
-    public static final int image=0x7f080055;
-    public static final int info=0x7f080056;
-    public static final int invisible=0x7f080057;
-    public static final int italic=0x7f080058;
-    public static final int item_touch_helper_previous_elevation=0x7f080059;
-    public static final int labeled=0x7f08005a;
-    public static final int largeLabel=0x7f08005b;
-    public static final int left=0x7f08005c;
-    public static final int line1=0x7f08005d;
-    public static final int line3=0x7f08005e;
-    public static final int listMode=0x7f08005f;
-    public static final int list_item=0x7f080060;
-    public static final int masked=0x7f080061;
-    public static final int menu_account=0x7f080062;
-    public static final int menu_categories=0x7f080063;
-    public static final int menu_home=0x7f080064;
-    public static final int menu_services=0x7f080065;
-    public static final int message=0x7f080066;
-    public static final int middle=0x7f080067;
-    public static final int mini=0x7f080068;
-    public static final int mtrl_child_content_container=0x7f080069;
-    public static final int mtrl_internal_children_alpha_tag=0x7f08006a;
-    public static final int multiply=0x7f08006b;
-    public static final int navigation_header_container=0x7f08006c;
-    public static final int never=0x7f08006d;
-    public static final int none=0x7f08006e;
-    public static final int normal=0x7f08006f;
-    public static final int notification_background=0x7f080070;
-    public static final int notification_main_column=0x7f080071;
-    public static final int notification_main_column_container=0x7f080072;
-    public static final int onAttachStateChangeListener=0x7f080073;
-    public static final int onDateChanged=0x7f080074;
-    public static final int outline=0x7f080075;
-    public static final int packed=0x7f080076;
-    public static final int parallax=0x7f080077;
-    public static final int parent=0x7f080078;
-    public static final int parentPanel=0x7f080079;
-    public static final int parent_matrix=0x7f08007a;
-    public static final int percent=0x7f08007b;
-    public static final int pin=0x7f08007c;
-    public static final int product_clMainView=0x7f08007d;
-    public static final int progress_circular=0x7f08007e;
-    public static final int progress_horizontal=0x7f08007f;
-    public static final int radio=0x7f080080;
-    public static final int right=0x7f080081;
-    public static final int right_icon=0x7f080082;
-    public static final int right_side=0x7f080083;
-    public static final int save_image_matrix=0x7f080084;
-    public static final int save_non_transition_alpha=0x7f080085;
-    public static final int save_scale_type=0x7f080086;
-    public static final int screen=0x7f080087;
-    public static final int scroll=0x7f080088;
-    public static final int scrollIndicatorDown=0x7f080089;
-    public static final int scrollIndicatorUp=0x7f08008a;
-    public static final int scrollView=0x7f08008b;
-    public static final int scrollable=0x7f08008c;
-    public static final int search_badge=0x7f08008d;
-    public static final int search_bar=0x7f08008e;
-    public static final int search_button=0x7f08008f;
-    public static final int search_close_btn=0x7f080090;
-    public static final int search_edit_frame=0x7f080091;
-    public static final int search_go_btn=0x7f080092;
-    public static final int search_mag_icon=0x7f080093;
-    public static final int search_plate=0x7f080094;
-    public static final int search_src_text=0x7f080095;
-    public static final int search_voice_btn=0x7f080096;
-    public static final int select_dialog_listview=0x7f080097;
-    public static final int selected=0x7f080098;
-    public static final int shortcut=0x7f080099;
-    public static final int showCustom=0x7f08009a;
-    public static final int showHome=0x7f08009b;
-    public static final int showTitle=0x7f08009c;
-    public static final int smallLabel=0x7f08009d;
-    public static final int snackbar_action=0x7f08009e;
-    public static final int snackbar_text=0x7f08009f;
-    public static final int snap=0x7f0800a0;
-    public static final int snapMargins=0x7f0800a1;
-    public static final int spacer=0x7f0800a2;
-    public static final int split_action_bar=0x7f0800a3;
-    public static final int spread=0x7f0800a4;
-    public static final int spread_inside=0x7f0800a5;
-    public static final int src_atop=0x7f0800a6;
-    public static final int src_in=0x7f0800a7;
-    public static final int src_over=0x7f0800a8;
-    public static final int standard=0x7f0800a9;
-    public static final int start=0x7f0800aa;
-    public static final int stretch=0x7f0800ab;
-    public static final int submenuarrow=0x7f0800ac;
-    public static final int submit_area=0x7f0800ad;
-    public static final int tabMode=0x7f0800ae;
-    public static final int tag_transition_group=0x7f0800af;
-    public static final int tag_unhandled_key_event_manager=0x7f0800b0;
-    public static final int tag_unhandled_key_listeners=0x7f0800b1;
-    public static final int text=0x7f0800b2;
-    public static final int text2=0x7f0800b3;
-    public static final int textSpacerNoButtons=0x7f0800b4;
-    public static final int textSpacerNoTitle=0x7f0800b5;
-    public static final int textStart=0x7f0800b6;
-    public static final int textWatcher=0x7f0800b7;
-    public static final int text_input_password_toggle=0x7f0800b8;
-    public static final int textinput_counter=0x7f0800b9;
-    public static final int textinput_error=0x7f0800ba;
-    public static final int textinput_helper_text=0x7f0800bb;
-    public static final int time=0x7f0800bc;
-    public static final int title=0x7f0800bd;
-    public static final int titleDividerNoCustom=0x7f0800be;
-    public static final int title_template=0x7f0800bf;
-    public static final int toolbar=0x7f0800c0;
-    public static final int top=0x7f0800c1;
-    public static final int topPanel=0x7f0800c2;
-    public static final int touch_outside=0x7f0800c3;
-    public static final int transition_current_scene=0x7f0800c4;
-    public static final int transition_layout_save=0x7f0800c5;
-    public static final int transition_position=0x7f0800c6;
-    public static final int transition_scene_layoutid_cache=0x7f0800c7;
-    public static final int transition_transform=0x7f0800c8;
-    public static final int uniform=0x7f0800c9;
-    public static final int unlabeled=0x7f0800ca;
-    public static final int up=0x7f0800cb;
-    public static final int useLogo=0x7f0800cc;
-    public static final int view_offset_helper=0x7f0800cd;
-    public static final int visible=0x7f0800ce;
-    public static final int withText=0x7f0800cf;
-    public static final int wrap=0x7f0800d0;
-    public static final int wrap_content=0x7f0800d1;
+    public static final int FixedBehind=0x7f080003;
+    public static final int FixedFront=0x7f080004;
+    public static final int META=0x7f080005;
+    public static final int MatchLayout=0x7f080006;
+    public static final int SHIFT=0x7f080007;
+    public static final int SYM=0x7f080008;
+    public static final int Scale=0x7f080009;
+    public static final int Translate=0x7f08000a;
+    public static final int action_bar=0x7f08000b;
+    public static final int action_bar_activity_content=0x7f08000c;
+    public static final int action_bar_container=0x7f08000d;
+    public static final int action_bar_root=0x7f08000e;
+    public static final int action_bar_spinner=0x7f08000f;
+    public static final int action_bar_subtitle=0x7f080010;
+    public static final int action_bar_title=0x7f080011;
+    public static final int action_container=0x7f080012;
+    public static final int action_context_bar=0x7f080013;
+    public static final int action_divider=0x7f080014;
+    public static final int action_image=0x7f080015;
+    public static final int action_menu_divider=0x7f080016;
+    public static final int action_menu_presenter=0x7f080017;
+    public static final int action_mode_bar=0x7f080018;
+    public static final int action_mode_bar_stub=0x7f080019;
+    public static final int action_mode_close_button=0x7f08001a;
+    public static final int action_share=0x7f08001b;
+    public static final int action_text=0x7f08001c;
+    public static final int actions=0x7f08001d;
+    public static final int activity_chooser_view_content=0x7f08001e;
+    public static final int add=0x7f08001f;
+    public static final int alertTitle=0x7f080020;
+    public static final int all=0x7f080021;
+    public static final int always=0x7f080022;
+    public static final int animation_view=0x7f080023;
+    public static final int async=0x7f080024;
+    public static final int auto=0x7f080025;
+    public static final int barrier=0x7f080026;
+    public static final int beginning=0x7f080027;
+    public static final int blocking=0x7f080028;
+    public static final int bottom=0x7f080029;
+    public static final int bottom_view=0x7f08002a;
+    public static final int buttonPanel=0x7f08002b;
+    public static final int center=0x7f08002c;
+    public static final int center_horizontal=0x7f08002d;
+    public static final int center_vertical=0x7f08002e;
+    public static final int chains=0x7f08002f;
+    public static final int checkbox=0x7f080030;
+    public static final int chronometer=0x7f080031;
+    public static final int clip_horizontal=0x7f080032;
+    public static final int clip_vertical=0x7f080033;
+    public static final int collapseActionView=0x7f080034;
+    public static final int container=0x7f080035;
+    public static final int content=0x7f080036;
+    public static final int contentPanel=0x7f080037;
+    public static final int coordinator=0x7f080038;
+    public static final int custom=0x7f080039;
+    public static final int customPanel=0x7f08003a;
+    public static final int dataBinding=0x7f08003b;
+    public static final int decor_content_parent=0x7f08003c;
+    public static final int default_activity_button=0x7f08003d;
+    public static final int design_bottom_sheet=0x7f08003e;
+    public static final int design_menu_item_action_area=0x7f08003f;
+    public static final int design_menu_item_action_area_stub=0x7f080040;
+    public static final int design_menu_item_text=0x7f080041;
+    public static final int design_navigation_view=0x7f080042;
+    public static final int dimensions=0x7f080043;
+    public static final int direct=0x7f080044;
+    public static final int disableHome=0x7f080045;
+    public static final int edit_query=0x7f080046;
+    public static final int end=0x7f080047;
+    public static final int enterAlways=0x7f080048;
+    public static final int enterAlwaysCollapsed=0x7f080049;
+    public static final int exitUntilCollapsed=0x7f08004a;
+    public static final int expand_activities_button=0x7f08004b;
+    public static final int expanded_menu=0x7f08004c;
+    public static final int fill=0x7f08004d;
+    public static final int fill_horizontal=0x7f08004e;
+    public static final int fill_vertical=0x7f08004f;
+    public static final int filled=0x7f080050;
+    public static final int fixed=0x7f080051;
+    public static final int forever=0x7f080052;
+    public static final int ghost_view=0x7f080053;
+    public static final int gone=0x7f080054;
+    public static final int group_divider=0x7f080055;
+    public static final int groups=0x7f080056;
+    public static final int home=0x7f080057;
+    public static final int homeAsUp=0x7f080058;
+    public static final int home_txtTitle=0x7f080059;
+    public static final int icon=0x7f08005a;
+    public static final int icon_group=0x7f08005b;
+    public static final int ifRoom=0x7f08005c;
+    public static final int image=0x7f08005d;
+    public static final int info=0x7f08005e;
+    public static final int invisible=0x7f08005f;
+    public static final int italic=0x7f080060;
+    public static final int item_file_name=0x7f080061;
+    public static final int item_image=0x7f080062;
+    public static final int item_touch_helper_previous_elevation=0x7f080063;
+    public static final int iv_gift=0x7f080064;
+    public static final int labeled=0x7f080065;
+    public static final int largeLabel=0x7f080066;
+    public static final int left=0x7f080067;
+    public static final int line1=0x7f080068;
+    public static final int line3=0x7f080069;
+    public static final int listMode=0x7f08006a;
+    public static final int list_item=0x7f08006b;
+    public static final int ll_custom=0x7f08006c;
+    public static final int ll_empty=0x7f08006d;
+    public static final int ll_error=0x7f08006e;
+    public static final int ll_loading=0x7f08006f;
+    public static final int ll_placeholder=0x7f080070;
+    public static final int ll_timeout=0x7f080071;
+    public static final int lottie_layer_name=0x7f080072;
+    public static final int masked=0x7f080073;
+    public static final int menu_account=0x7f080074;
+    public static final int menu_categories=0x7f080075;
+    public static final int menu_home=0x7f080076;
+    public static final int menu_services=0x7f080077;
+    public static final int message=0x7f080078;
+    public static final int middle=0x7f080079;
+    public static final int mini=0x7f08007a;
+    public static final int mtrl_child_content_container=0x7f08007b;
+    public static final int mtrl_internal_children_alpha_tag=0x7f08007c;
+    public static final int multiply=0x7f08007d;
+    public static final int navigation_header_container=0x7f08007e;
+    public static final int never=0x7f08007f;
+    public static final int none=0x7f080080;
+    public static final int normal=0x7f080081;
+    public static final int notification_background=0x7f080082;
+    public static final int notification_main_column=0x7f080083;
+    public static final int notification_main_column_container=0x7f080084;
+    public static final int onAttachStateChangeListener=0x7f080085;
+    public static final int onDateChanged=0x7f080086;
+    public static final int outline=0x7f080087;
+    public static final int packed=0x7f080088;
+    public static final int parallax=0x7f080089;
+    public static final int parent=0x7f08008a;
+    public static final int parentPanel=0x7f08008b;
+    public static final int parent_matrix=0x7f08008c;
+    public static final int percent=0x7f08008d;
+    public static final int pin=0x7f08008e;
+    public static final int product_clMainView=0x7f08008f;
+    public static final int progress_circular=0x7f080090;
+    public static final int progress_horizontal=0x7f080091;
+    public static final int radio=0x7f080092;
+    public static final int recyclerView=0x7f080093;
+    public static final int refreshLayout=0x7f080094;
+    public static final int restart=0x7f080095;
+    public static final int reverse=0x7f080096;
+    public static final int right=0x7f080097;
+    public static final int right_icon=0x7f080098;
+    public static final int right_side=0x7f080099;
+    public static final int save_image_matrix=0x7f08009a;
+    public static final int save_non_transition_alpha=0x7f08009b;
+    public static final int save_scale_type=0x7f08009c;
+    public static final int screen=0x7f08009d;
+    public static final int scroll=0x7f08009e;
+    public static final int scrollIndicatorDown=0x7f08009f;
+    public static final int scrollIndicatorUp=0x7f0800a0;
+    public static final int scrollView=0x7f0800a1;
+    public static final int scrollable=0x7f0800a2;
+    public static final int search_badge=0x7f0800a3;
+    public static final int search_bar=0x7f0800a4;
+    public static final int search_button=0x7f0800a5;
+    public static final int search_close_btn=0x7f0800a6;
+    public static final int search_edit_frame=0x7f0800a7;
+    public static final int search_go_btn=0x7f0800a8;
+    public static final int search_mag_icon=0x7f0800a9;
+    public static final int search_plate=0x7f0800aa;
+    public static final int search_src_text=0x7f0800ab;
+    public static final int search_voice_btn=0x7f0800ac;
+    public static final int select_dialog_listview=0x7f0800ad;
+    public static final int selected=0x7f0800ae;
+    public static final int shortcut=0x7f0800af;
+    public static final int showCustom=0x7f0800b0;
+    public static final int showHome=0x7f0800b1;
+    public static final int showTitle=0x7f0800b2;
+    public static final int smallLabel=0x7f0800b3;
+    public static final int snackbar_action=0x7f0800b4;
+    public static final int snackbar_text=0x7f0800b5;
+    public static final int snap=0x7f0800b6;
+    public static final int snapMargins=0x7f0800b7;
+    public static final int spacer=0x7f0800b8;
+    public static final int split_action_bar=0x7f0800b9;
+    public static final int spread=0x7f0800ba;
+    public static final int spread_inside=0x7f0800bb;
+    public static final int src_atop=0x7f0800bc;
+    public static final int src_in=0x7f0800bd;
+    public static final int src_over=0x7f0800be;
+    public static final int standard=0x7f0800bf;
+    public static final int start=0x7f0800c0;
+    public static final int stretch=0x7f0800c1;
+    public static final int submenuarrow=0x7f0800c2;
+    public static final int submit_area=0x7f0800c3;
+    public static final int tabMode=0x7f0800c4;
+    public static final int tablayout=0x7f0800c5;
+    public static final int tag_transition_group=0x7f0800c6;
+    public static final int tag_unhandled_key_event_manager=0x7f0800c7;
+    public static final int tag_unhandled_key_listeners=0x7f0800c8;
+    public static final int text=0x7f0800c9;
+    public static final int text2=0x7f0800ca;
+    public static final int textSpacerNoButtons=0x7f0800cb;
+    public static final int textSpacerNoTitle=0x7f0800cc;
+    public static final int textStart=0x7f0800cd;
+    public static final int textWatcher=0x7f0800ce;
+    public static final int text_input_password_toggle=0x7f0800cf;
+    public static final int textinput_counter=0x7f0800d0;
+    public static final int textinput_error=0x7f0800d1;
+    public static final int textinput_helper_text=0x7f0800d2;
+    public static final int time=0x7f0800d3;
+    public static final int title=0x7f0800d4;
+    public static final int titleDividerNoCustom=0x7f0800d5;
+    public static final int title_template=0x7f0800d6;
+    public static final int toolbar=0x7f0800d7;
+    public static final int top=0x7f0800d8;
+    public static final int topPanel=0x7f0800d9;
+    public static final int touch_outside=0x7f0800da;
+    public static final int transition_current_scene=0x7f0800db;
+    public static final int transition_layout_save=0x7f0800dc;
+    public static final int transition_position=0x7f0800dd;
+    public static final int transition_scene_layoutid_cache=0x7f0800de;
+    public static final int transition_transform=0x7f0800df;
+    public static final int tv_empty=0x7f0800e0;
+    public static final int uniform=0x7f0800e1;
+    public static final int unlabeled=0x7f0800e2;
+    public static final int up=0x7f0800e3;
+    public static final int useLogo=0x7f0800e4;
+    public static final int view_animate=0x7f0800e5;
+    public static final int view_offset_helper=0x7f0800e6;
+    public static final int viewpager=0x7f0800e7;
+    public static final int visible=0x7f0800e8;
+    public static final int withText=0x7f0800e9;
+    public static final int wrap=0x7f0800ea;
+    public static final int wrap_content=0x7f0800eb;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -5396,21 +6059,37 @@ public final class R {
     public static final int design_navigation_menu=0x7f0b0028;
     public static final int design_navigation_menu_item=0x7f0b0029;
     public static final int design_text_input_password_icon=0x7f0b002a;
-    public static final int mtrl_layout_snackbar=0x7f0b002b;
-    public static final int mtrl_layout_snackbar_include=0x7f0b002c;
-    public static final int notification_action=0x7f0b002d;
-    public static final int notification_action_tombstone=0x7f0b002e;
-    public static final int notification_template_custom_big=0x7f0b002f;
-    public static final int notification_template_icon_group=0x7f0b0030;
-    public static final int notification_template_part_chronometer=0x7f0b0031;
-    public static final int notification_template_part_time=0x7f0b0032;
-    public static final int select_dialog_item_material=0x7f0b0033;
-    public static final int select_dialog_multichoice_material=0x7f0b0034;
-    public static final int select_dialog_singlechoice_material=0x7f0b0035;
-    public static final int support_simple_spinner_dropdown_item=0x7f0b0036;
+    public static final int fragment_headline_news=0x7f0b002b;
+    public static final int fragment_others=0x7f0b002c;
+    public static final int layout_animate=0x7f0b002d;
+    public static final int layout_custom=0x7f0b002e;
+    public static final int layout_custom_error=0x7f0b002f;
+    public static final int layout_empty=0x7f0b0030;
+    public static final int layout_error=0x7f0b0031;
+    public static final int layout_loading=0x7f0b0032;
+    public static final int layout_lottie_empty=0x7f0b0033;
+    public static final int layout_lottie_loading=0x7f0b0034;
+    public static final int layout_placeholder=0x7f0b0035;
+    public static final int layout_timeout=0x7f0b0036;
+    public static final int mtrl_layout_snackbar=0x7f0b0037;
+    public static final int mtrl_layout_snackbar_include=0x7f0b0038;
+    public static final int news_fragment=0x7f0b0039;
+    public static final int notification_action=0x7f0b003a;
+    public static final int notification_action_tombstone=0x7f0b003b;
+    public static final int notification_template_custom_big=0x7f0b003c;
+    public static final int notification_template_icon_group=0x7f0b003d;
+    public static final int notification_template_part_chronometer=0x7f0b003e;
+    public static final int notification_template_part_time=0x7f0b003f;
+    public static final int picture_title_view=0x7f0b0040;
+    public static final int select_dialog_item_material=0x7f0b0041;
+    public static final int select_dialog_multichoice_material=0x7f0b0042;
+    public static final int select_dialog_singlechoice_material=0x7f0b0043;
+    public static final int support_simple_spinner_dropdown_item=0x7f0b0044;
+    public static final int title_view=0x7f0b0045;
   }
   public static final class menu {
     public static final int tab_menu=0x7f0c0000;
+    public static final int toolbar_menu=0x7f0c0001;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0d0000;
@@ -5456,32 +6135,79 @@ public final class R {
     public static final int abc_shareactionprovider_share_with=0x7f0e0024;
     public static final int abc_shareactionprovider_share_with_application=0x7f0e0025;
     public static final int abc_toolbar_collapse_description=0x7f0e0026;
-    public static final int app_name=0x7f0e0027;
-    public static final int appbar_scrolling_view_behavior=0x7f0e0028;
-    public static final int bottom_sheet_behavior=0x7f0e0029;
-    public static final int character_counter_content_description=0x7f0e002a;
-    public static final int character_counter_pattern=0x7f0e002b;
-    public static final int fab_transformation_scrim_behavior=0x7f0e002c;
-    public static final int fab_transformation_sheet_behavior=0x7f0e002d;
-    public static final int forget_password=0x7f0e002e;
-    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e002f;
-    public static final int hint_email=0x7f0e0030;
-    public static final int hint_password=0x7f0e0031;
-    public static final int login=0x7f0e0032;
-    public static final int menu_account=0x7f0e0033;
-    public static final int menu_categories=0x7f0e0034;
-    public static final int menu_home=0x7f0e0035;
-    public static final int menu_services=0x7f0e0036;
-    public static final int mtrl_chip_close_icon_content_description=0x7f0e0037;
-    public static final int network_request_failed=0x7f0e0038;
-    public static final int password_toggle_content_description=0x7f0e0039;
-    public static final int path_password_eye=0x7f0e003a;
-    public static final int path_password_eye_mask_strike_through=0x7f0e003b;
-    public static final int path_password_eye_mask_visible=0x7f0e003c;
-    public static final int path_password_strike_through=0x7f0e003d;
-    public static final int register=0x7f0e003e;
-    public static final int search_menu_title=0x7f0e003f;
-    public static final int status_bar_notification_info_overflow=0x7f0e0040;
+    public static final int activity_empty=0x7f0e0027;
+    public static final int activity_placeholder=0x7f0e0028;
+    public static final int activity_with_convertor=0x7f0e0029;
+    public static final int animat_callback=0x7f0e002a;
+    public static final int app_name=0x7f0e002b;
+    public static final int appbar_scrolling_view_behavior=0x7f0e002c;
+    public static final int best_practices=0x7f0e002d;
+    public static final int bottom_sheet_behavior=0x7f0e002e;
+    public static final int character_counter_content_description=0x7f0e002f;
+    public static final int character_counter_pattern=0x7f0e0030;
+    public static final int click_me_to_retry=0x7f0e0031;
+    public static final int default_loadsir_callback=0x7f0e0032;
+    public static final int empty=0x7f0e0033;
+    public static final int empty_tips_btn=0x7f0e0034;
+    public static final int empty_tips_netword=0x7f0e0035;
+    public static final int empty_tips_null=0x7f0e0036;
+    public static final int fab_transformation_scrim_behavior=0x7f0e0037;
+    public static final int fab_transformation_sheet_behavior=0x7f0e0038;
+    public static final int fgh_mask_bottom=0x7f0e0039;
+    public static final int fgh_mask_top_pull=0x7f0e003a;
+    public static final int fgh_mask_top_release=0x7f0e003b;
+    public static final int fgh_text_game_over=0x7f0e003c;
+    public static final int fgh_text_loading=0x7f0e003d;
+    public static final int fgh_text_loading_failed=0x7f0e003e;
+    public static final int fgh_text_loading_finish=0x7f0e003f;
+    public static final int fine_no_data=0x7f0e0040;
+    public static final int forget_password=0x7f0e0041;
+    public static final int hide_bottom_view_on_scroll_behavior=0x7f0e0042;
+    public static final int hint_email=0x7f0e0043;
+    public static final int hint_password=0x7f0e0044;
+    public static final int keep_title_bar=0x7f0e0045;
+    public static final int keep_title_bar_in_activity=0x7f0e0046;
+    public static final int keep_title_bar_in_fragment=0x7f0e0047;
+    public static final int loadsir=0x7f0e0048;
+    public static final int login=0x7f0e0049;
+    public static final int menu_account=0x7f0e004a;
+    public static final int menu_categories=0x7f0e004b;
+    public static final int menu_home=0x7f0e004c;
+    public static final int menu_services=0x7f0e004d;
+    public static final int mtrl_chip_close_icon_content_description=0x7f0e004e;
+    public static final int multiple_fragment=0x7f0e004f;
+    public static final int multiple_fragment_viewpager=0x7f0e0050;
+    public static final int network_request_failed=0x7f0e0051;
+    public static final int no_more_data=0x7f0e0052;
+    public static final int password_toggle_content_description=0x7f0e0053;
+    public static final int path_password_eye=0x7f0e0054;
+    public static final int path_password_eye_mask_strike_through=0x7f0e0055;
+    public static final int path_password_eye_mask_visible=0x7f0e0056;
+    public static final int path_password_strike_through=0x7f0e0057;
+    public static final int register=0x7f0e0058;
+    public static final int search_menu_title=0x7f0e0059;
+    public static final int share=0x7f0e005a;
+    public static final int single_fragment_custom=0x7f0e005b;
+    public static final int srl_component_falsify=0x7f0e005c;
+    public static final int srl_content_empty=0x7f0e005d;
+    public static final int srl_footer_failed=0x7f0e005e;
+    public static final int srl_footer_finish=0x7f0e005f;
+    public static final int srl_footer_loading=0x7f0e0060;
+    public static final int srl_footer_nothing=0x7f0e0061;
+    public static final int srl_footer_pulling=0x7f0e0062;
+    public static final int srl_footer_refreshing=0x7f0e0063;
+    public static final int srl_footer_release=0x7f0e0064;
+    public static final int srl_header_failed=0x7f0e0065;
+    public static final int srl_header_finish=0x7f0e0066;
+    public static final int srl_header_loading=0x7f0e0067;
+    public static final int srl_header_pulling=0x7f0e0068;
+    public static final int srl_header_refreshing=0x7f0e0069;
+    public static final int srl_header_release=0x7f0e006a;
+    public static final int srl_header_secondary=0x7f0e006b;
+    public static final int srl_header_update=0x7f0e006c;
+    public static final int status_bar_notification_info_overflow=0x7f0e006d;
+    public static final int success=0x7f0e006e;
+    public static final int view_timeout=0x7f0e006f;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
@@ -5989,39 +6715,39 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.duan.newsmvvm:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.duan.newsmvvm:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.duan.newsmvvm:backgroundStacked}</code></td><td>Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.duan.newsmvvm:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.duan.newsmvvm:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
+     * <tr><td><code>{@link #ActionBar_background com.arch.demo:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.arch.demo:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.arch.demo:backgroundStacked}</code></td><td>Specifies a background drawable for a second stacked row of the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.arch.demo:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.arch.demo:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
      * are present.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.duan.newsmvvm:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.duan.newsmvvm:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.duan.newsmvvm:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.duan.newsmvvm:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.arch.demo:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.arch.demo:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.arch.demo:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.arch.demo:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
      * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.duan.newsmvvm:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.duan.newsmvvm:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.duan.newsmvvm:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.duan.newsmvvm:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.duan.newsmvvm:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.duan.newsmvvm:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.duan.newsmvvm:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.duan.newsmvvm:homeLayout}</code></td><td>Specifies a layout to use for the "home" section of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.duan.newsmvvm:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.duan.newsmvvm:indeterminateProgressStyle}</code></td><td>Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.duan.newsmvvm:itemPadding}</code></td><td>Specifies padding that should be applied to the left and right sides of
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.arch.demo:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.arch.demo:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.arch.demo:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.arch.demo:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.arch.demo:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.arch.demo:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.arch.demo:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.arch.demo:homeLayout}</code></td><td>Specifies a layout to use for the "home" section of the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.arch.demo:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.arch.demo:indeterminateProgressStyle}</code></td><td>Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.arch.demo:itemPadding}</code></td><td>Specifies padding that should be applied to the left and right sides of
      * system-provided items in the bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.duan.newsmvvm:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.duan.newsmvvm:navigationMode}</code></td><td>The type of navigation to use.</td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.duan.newsmvvm:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #ActionBar_logo com.arch.demo:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.arch.demo:navigationMode}</code></td><td>The type of navigation to use.</td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.arch.demo:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.duan.newsmvvm:progressBarPadding}</code></td><td>Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.duan.newsmvvm:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.duan.newsmvvm:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.duan.newsmvvm:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.duan.newsmvvm:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.duan.newsmvvm:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.arch.demo:progressBarPadding}</code></td><td>Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.arch.demo:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.arch.demo:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.arch.demo:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.arch.demo:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.arch.demo:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -6056,12 +6782,12 @@ public final class R {
     public static final int[] ActionBar={
       0x7f030031, 0x7f030032, 0x7f030033, 0x7f030097, 
       0x7f030098, 0x7f030099, 0x7f03009a, 0x7f03009b, 
-      0x7f03009c, 0x7f0300aa, 0x7f0300af, 0x7f0300b0, 
-      0x7f0300bb, 0x7f0300e6, 0x7f0300eb, 0x7f0300f0, 
-      0x7f0300f1, 0x7f0300f3, 0x7f0300fd, 0x7f030107, 
-      0x7f03015c, 0x7f030168, 0x7f030179, 0x7f03017d, 
-      0x7f03017e, 0x7f0301ac, 0x7f0301af, 0x7f0301f4, 
-      0x7f0301fe
+      0x7f03009c, 0x7f0300aa, 0x7f0300b2, 0x7f0300b3, 
+      0x7f0300be, 0x7f0300f9, 0x7f0300fe, 0x7f030103, 
+      0x7f030104, 0x7f030106, 0x7f030110, 0x7f03011a, 
+      0x7f030171, 0x7f03018f, 0x7f0301a2, 0x7f0301a6, 
+      0x7f0301a7, 0x7f030210, 0x7f030213, 0x7f030259, 
+      0x7f030263
     };
     /**
      * <p>
@@ -6073,7 +6799,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:background
+     * @attr name com.arch.demo:background
      */
     public static final int ActionBar_background=0;
     /**
@@ -6089,7 +6815,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:backgroundSplit
+     * @attr name com.arch.demo:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
@@ -6105,7 +6831,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:backgroundStacked
+     * @attr name com.arch.demo:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
@@ -6120,7 +6846,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetEnd
+     * @attr name com.arch.demo:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
@@ -6135,7 +6861,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetEndWithActions
+     * @attr name com.arch.demo:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
@@ -6150,7 +6876,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetLeft
+     * @attr name com.arch.demo:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
@@ -6165,7 +6891,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetRight
+     * @attr name com.arch.demo:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
@@ -6180,7 +6906,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetStart
+     * @attr name com.arch.demo:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
@@ -6195,7 +6921,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetStartWithNavigation
+     * @attr name com.arch.demo:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
@@ -6208,7 +6934,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:customNavigationLayout
+     * @attr name com.arch.demo:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
@@ -6231,7 +6957,7 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:displayOptions
+     * @attr name com.arch.demo:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
@@ -6244,7 +6970,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:divider
+     * @attr name com.arch.demo:divider
      */
     public static final int ActionBar_divider=11;
     /**
@@ -6258,7 +6984,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:elevation
+     * @attr name com.arch.demo:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
@@ -6272,7 +6998,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:height
+     * @attr name com.arch.demo:height
      */
     public static final int ActionBar_height=13;
     /**
@@ -6283,7 +7009,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:hideOnContentScroll
+     * @attr name com.arch.demo:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
@@ -6296,7 +7022,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:homeAsUpIndicator
+     * @attr name com.arch.demo:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
@@ -6309,7 +7035,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:homeLayout
+     * @attr name com.arch.demo:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
@@ -6322,7 +7048,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:icon
+     * @attr name com.arch.demo:icon
      */
     public static final int ActionBar_icon=17;
     /**
@@ -6335,7 +7061,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:indeterminateProgressStyle
+     * @attr name com.arch.demo:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
@@ -6350,7 +7076,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:itemPadding
+     * @attr name com.arch.demo:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
@@ -6363,7 +7089,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:logo
+     * @attr name com.arch.demo:logo
      */
     public static final int ActionBar_logo=20;
     /**
@@ -6382,7 +7108,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:navigationMode
+     * @attr name com.arch.demo:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
@@ -6396,7 +7122,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:popupTheme
+     * @attr name com.arch.demo:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
@@ -6410,7 +7136,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:progressBarPadding
+     * @attr name com.arch.demo:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
@@ -6423,7 +7149,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:progressBarStyle
+     * @attr name com.arch.demo:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
@@ -6434,7 +7160,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:subtitle
+     * @attr name com.arch.demo:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
@@ -6447,7 +7173,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:subtitleTextStyle
+     * @attr name com.arch.demo:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
@@ -6458,7 +7184,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:title
+     * @attr name com.arch.demo:title
      */
     public static final int ActionBar_title=27;
     /**
@@ -6471,7 +7197,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:titleTextStyle
+     * @attr name com.arch.demo:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -6553,12 +7279,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.duan.newsmvvm:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.duan.newsmvvm:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.duan.newsmvvm:closeItemLayout}</code></td><td>Specifies a layout to use for the "close" item at the starting edge.</td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.duan.newsmvvm:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.duan.newsmvvm:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.duan.newsmvvm:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.arch.demo:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.arch.demo:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.arch.demo:closeItemLayout}</code></td><td>Specifies a layout to use for the "close" item at the starting edge.</td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.arch.demo:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.arch.demo:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.arch.demo:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -6568,8 +7294,8 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-      0x7f030031, 0x7f030032, 0x7f030081, 0x7f0300e6, 
-      0x7f0301af, 0x7f0301fe
+      0x7f030031, 0x7f030032, 0x7f030081, 0x7f0300f9, 
+      0x7f030213, 0x7f030263
     };
     /**
      * <p>
@@ -6581,7 +7307,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:background
+     * @attr name com.arch.demo:background
      */
     public static final int ActionMode_background=0;
     /**
@@ -6597,7 +7323,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:backgroundSplit
+     * @attr name com.arch.demo:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
@@ -6610,7 +7336,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:closeItemLayout
+     * @attr name com.arch.demo:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
@@ -6624,7 +7350,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:height
+     * @attr name com.arch.demo:height
      */
     public static final int ActionMode_height=3;
     /**
@@ -6637,7 +7363,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:subtitleTextStyle
+     * @attr name com.arch.demo:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
@@ -6650,7 +7376,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:titleTextStyle
+     * @attr name com.arch.demo:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -6660,14 +7386,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.duan.newsmvvm:expandActivityOverflowButtonDrawable}</code></td><td>The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.duan.newsmvvm:initialActivityCount}</code></td><td>The maximal number of items initially shown in the activity list.</td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.arch.demo:expandActivityOverflowButtonDrawable}</code></td><td>The drawable to show in the button for expanding the activities overflow popup.</td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.arch.demo:initialActivityCount}</code></td><td>The maximal number of items initially shown in the activity list.</td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-      0x7f0300c1, 0x7f0300fe
+      0x7f0300c4, 0x7f030111
     };
     /**
      * <p>
@@ -6683,7 +7409,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:expandActivityOverflowButtonDrawable
+     * @attr name com.arch.demo:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
@@ -6694,7 +7420,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:initialActivityCount
+     * @attr name com.arch.demo:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -6705,13 +7431,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.duan.newsmvvm:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.duan.newsmvvm:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.duan.newsmvvm:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.duan.newsmvvm:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.duan.newsmvvm:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.duan.newsmvvm:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.duan.newsmvvm:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.arch.demo:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.arch.demo:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.arch.demo:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.arch.demo:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.arch.demo:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.arch.demo:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.arch.demo:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -6723,8 +7449,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-      0x010100f2, 0x7f030054, 0x7f030055, 0x7f030153, 
-      0x7f030154, 0x7f030165, 0x7f030194, 0x7f030195
+      0x010100f2, 0x7f030054, 0x7f030055, 0x7f030168, 
+      0x7f030169, 0x7f03018c, 0x7f0301c1, 0x7f0301c2
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -6739,7 +7465,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -6748,11 +7474,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:buttonIconDimen
+     * @attr name com.arch.demo:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6760,11 +7486,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:buttonPanelSideLayout
+     * @attr name com.arch.demo:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6772,11 +7498,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:listItemLayout
+     * @attr name com.arch.demo:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6784,11 +7510,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:listLayout
+     * @attr name com.arch.demo:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6796,21 +7522,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:multiChoiceItemLayout
+     * @attr name com.arch.demo:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:showTitle
+     * @attr name com.arch.demo:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -6818,7 +7544,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:singleChoiceItemLayout
+     * @attr name com.arch.demo:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -7044,9 +7770,9 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.duan.newsmvvm:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.duan.newsmvvm:expanded}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_liftOnScroll com.duan.newsmvvm:liftOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.arch.demo:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded com.arch.demo:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_liftOnScroll com.arch.demo:liftOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -7056,8 +7782,8 @@ public final class R {
      * @see #AppBarLayout_liftOnScroll
      */
     public static final int[] AppBarLayout={
-      0x010100d4, 0x0101048f, 0x01010540, 0x7f0300bb, 
-      0x7f0300c2, 0x7f03014e
+      0x010100d4, 0x0101048f, 0x01010540, 0x7f0300be, 
+      0x7f0300c5, 0x7f030163
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -7105,27 +7831,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:elevation
+     * @attr name com.arch.demo:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:expanded
+     * @attr name com.arch.demo:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#liftOnScroll}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#liftOnScroll}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:liftOnScroll
+     * @attr name com.arch.demo:liftOnScroll
      */
     public static final int AppBarLayout_liftOnScroll=5;
     /**
@@ -7135,10 +7861,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.duan.newsmvvm:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.duan.newsmvvm:state_collapsible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable com.duan.newsmvvm:state_liftable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted com.duan.newsmvvm:state_lifted}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.arch.demo:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.arch.demo:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable com.arch.demo:state_liftable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted com.arch.demo:state_lifted}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
@@ -7146,46 +7872,46 @@ public final class R {
      * @see #AppBarLayoutStates_state_lifted
      */
     public static final int[] AppBarLayoutStates={
-      0x7f0301a2, 0x7f0301a3, 0x7f0301a4, 0x7f0301a5
+      0x7f030206, 0x7f030207, 0x7f030208, 0x7f030209
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:state_collapsed
+     * @attr name com.arch.demo:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:state_collapsible
+     * @attr name com.arch.demo:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#state_liftable}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#state_liftable}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:state_liftable
+     * @attr name com.arch.demo:state_liftable
      */
     public static final int AppBarLayoutStates_state_liftable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#state_lifted}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#state_lifted}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:state_lifted
+     * @attr name com.arch.demo:state_lifted
      */
     public static final int AppBarLayoutStates_state_lifted=3;
     /**
@@ -7195,17 +7921,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.duan.newsmvvm:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.duan.newsmvvm:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.arch.demo:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.arch.demo:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
      */
     public static final int[] AppBarLayout_Layout={
-      0x7f03014c, 0x7f03014d
+      0x7f03015f, 0x7f030160
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -7222,11 +7948,11 @@ public final class R {
      * <tr><td>snapMargins</td><td>20</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_scrollFlags
+     * @attr name com.arch.demo:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -7234,7 +7960,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:layout_scrollInterpolator
+     * @attr name com.arch.demo:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -7245,9 +7971,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.duan.newsmvvm:srcCompat}</code></td><td>Sets a drawable as the content of this ImageView.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.duan.newsmvvm:tint}</code></td><td>Tint to apply to the image source.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.duan.newsmvvm:tintMode}</code></td><td>Blending mode used to apply the image source tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.arch.demo:srcCompat}</code></td><td>Sets a drawable as the content of this ImageView.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.arch.demo:tint}</code></td><td>Tint to apply to the image source.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.arch.demo:tintMode}</code></td><td>Blending mode used to apply the image source tint.</td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -7255,7 +7981,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-      0x01010119, 0x7f03019f, 0x7f0301f2, 0x7f0301f3
+      0x01010119, 0x7f0301cc, 0x7f030257, 0x7f030258
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -7283,7 +8009,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:srcCompat
+     * @attr name com.arch.demo:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
@@ -7295,7 +8021,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tint
+     * @attr name com.arch.demo:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
@@ -7322,7 +8048,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:tintMode
+     * @attr name com.arch.demo:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -7333,9 +8059,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.duan.newsmvvm:tickMark}</code></td><td>Drawable displayed at each progress position on a seekbar.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.duan.newsmvvm:tickMarkTint}</code></td><td>Tint to apply to the tick mark drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.duan.newsmvvm:tickMarkTintMode}</code></td><td>Blending mode used to apply the tick mark tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.arch.demo:tickMark}</code></td><td>Drawable displayed at each progress position on a seekbar.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.arch.demo:tickMarkTint}</code></td><td>Tint to apply to the tick mark drawable.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.arch.demo:tickMarkTintMode}</code></td><td>Blending mode used to apply the tick mark tint.</td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -7343,7 +8069,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-      0x01010142, 0x7f0301ef, 0x7f0301f0, 0x7f0301f1
+      0x01010142, 0x7f030254, 0x7f030255, 0x7f030256
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -7367,7 +8093,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tickMark
+     * @attr name com.arch.demo:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
@@ -7379,7 +8105,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tickMarkTint
+     * @attr name com.arch.demo:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
@@ -7406,7 +8132,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:tickMarkTintMode
+     * @attr name com.arch.demo:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -7546,18 +8272,18 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.duan.newsmvvm:autoSizeMaxTextSize}</code></td><td>The maximum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.duan.newsmvvm:autoSizeMinTextSize}</code></td><td>The minimum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.duan.newsmvvm:autoSizePresetSizes}</code></td><td>Resource array of dimensions to be used in conjunction with
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.arch.demo:autoSizeMaxTextSize}</code></td><td>The maximum text size constraint to be used when auto-sizing text.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.arch.demo:autoSizeMinTextSize}</code></td><td>The minimum text size constraint to be used when auto-sizing text.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.arch.demo:autoSizePresetSizes}</code></td><td>Resource array of dimensions to be used in conjunction with
      * <code>autoSizeTextType</code> set to <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.duan.newsmvvm:autoSizeStepGranularity}</code></td><td>Specify the auto-size step size if <code>autoSizeTextType</code> is set to
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.arch.demo:autoSizeStepGranularity}</code></td><td>Specify the auto-size step size if <code>autoSizeTextType</code> is set to
      * <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.duan.newsmvvm:autoSizeTextType}</code></td><td>Specify the type of auto-size.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.duan.newsmvvm:firstBaselineToTopHeight}</code></td><td>Distance from the top of the TextView to the first text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.duan.newsmvvm:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.duan.newsmvvm:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.duan.newsmvvm:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.duan.newsmvvm:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.arch.demo:autoSizeTextType}</code></td><td>Specify the type of auto-size.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.arch.demo:firstBaselineToTopHeight}</code></td><td>Distance from the top of the TextView to the first text baseline.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.arch.demo:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.arch.demo:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.arch.demo:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.arch.demo:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -7573,8 +8299,8 @@ public final class R {
      */
     public static final int[] AppCompatTextView={
       0x01010034, 0x7f03002c, 0x7f03002d, 0x7f03002e, 
-      0x7f03002f, 0x7f030030, 0x7f0300d5, 0x7f0300d8, 
-      0x7f03010f, 0x7f03014f, 0x7f0301cf
+      0x7f03002f, 0x7f030030, 0x7f0300e8, 0x7f0300eb, 
+      0x7f030122, 0x7f030164, 0x7f030233
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -7599,7 +8325,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:autoSizeMaxTextSize
+     * @attr name com.arch.demo:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
@@ -7613,7 +8339,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:autoSizeMinTextSize
+     * @attr name com.arch.demo:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
@@ -7628,7 +8354,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:autoSizePresetSizes
+     * @attr name com.arch.demo:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
@@ -7644,7 +8370,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:autoSizeStepGranularity
+     * @attr name com.arch.demo:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
@@ -7664,7 +8390,7 @@ public final class R {
      * container.</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:autoSizeTextType
+     * @attr name com.arch.demo:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
@@ -7679,7 +8405,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:firstBaselineToTopHeight
+     * @attr name com.arch.demo:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=6;
     /**
@@ -7690,7 +8416,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:fontFamily
+     * @attr name com.arch.demo:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=7;
     /**
@@ -7705,7 +8431,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:lastBaselineToBottomHeight
+     * @attr name com.arch.demo:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=8;
     /**
@@ -7720,7 +8446,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:lineHeight
+     * @attr name com.arch.demo:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=9;
     /**
@@ -7735,7 +8461,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:textAllCaps
+     * @attr name com.arch.demo:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=10;
     /**
@@ -7747,142 +8473,142 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.duan.newsmvvm:actionBarDivider}</code></td><td>Custom divider drawable to use for elements in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.duan.newsmvvm:actionBarItemBackground}</code></td><td>Custom item state list drawable background for action bar items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.duan.newsmvvm:actionBarPopupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.arch.demo:actionBarDivider}</code></td><td>Custom divider drawable to use for elements in the action bar.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.arch.demo:actionBarItemBackground}</code></td><td>Custom item state list drawable background for action bar items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.arch.demo:actionBarPopupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.duan.newsmvvm:actionBarSize}</code></td><td>Size of the Action Bar, including the contextual
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.arch.demo:actionBarSize}</code></td><td>Size of the Action Bar, including the contextual
      * bar used to present Action Modes.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.duan.newsmvvm:actionBarSplitStyle}</code></td><td>Reference to a style for the split Action Bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.duan.newsmvvm:actionBarStyle}</code></td><td>Reference to a style for the Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.duan.newsmvvm:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.duan.newsmvvm:actionBarTabStyle}</code></td><td>Default style for tabs within an action bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.duan.newsmvvm:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.duan.newsmvvm:actionBarTheme}</code></td><td>Reference to a theme that should be used to inflate the
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.arch.demo:actionBarSplitStyle}</code></td><td>Reference to a style for the split Action Bar.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.arch.demo:actionBarStyle}</code></td><td>Reference to a style for the Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.arch.demo:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.arch.demo:actionBarTabStyle}</code></td><td>Default style for tabs within an action bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.arch.demo:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.arch.demo:actionBarTheme}</code></td><td>Reference to a theme that should be used to inflate the
      * action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.duan.newsmvvm:actionBarWidgetTheme}</code></td><td>Reference to a theme that should be used to inflate widgets
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.arch.demo:actionBarWidgetTheme}</code></td><td>Reference to a theme that should be used to inflate widgets
      * and layouts destined for the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.duan.newsmvvm:actionButtonStyle}</code></td><td>Default action button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.duan.newsmvvm:actionDropDownStyle}</code></td><td>Default ActionBar dropdown style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.duan.newsmvvm:actionMenuTextAppearance}</code></td><td>TextAppearance style that will be applied to text that
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.arch.demo:actionButtonStyle}</code></td><td>Default action button style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.arch.demo:actionDropDownStyle}</code></td><td>Default ActionBar dropdown style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.arch.demo:actionMenuTextAppearance}</code></td><td>TextAppearance style that will be applied to text that
      * appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.duan.newsmvvm:actionMenuTextColor}</code></td><td>Color for text that appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.duan.newsmvvm:actionModeBackground}</code></td><td>Background drawable to use for action mode UI</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.duan.newsmvvm:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.duan.newsmvvm:actionModeCloseDrawable}</code></td><td>Drawable to use for the close action mode button</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.duan.newsmvvm:actionModeCopyDrawable}</code></td><td>Drawable to use for the Copy action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.duan.newsmvvm:actionModeCutDrawable}</code></td><td>Drawable to use for the Cut action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.duan.newsmvvm:actionModeFindDrawable}</code></td><td>Drawable to use for the Find action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.duan.newsmvvm:actionModePasteDrawable}</code></td><td>Drawable to use for the Paste action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.duan.newsmvvm:actionModePopupWindowStyle}</code></td><td>PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.duan.newsmvvm:actionModeSelectAllDrawable}</code></td><td>Drawable to use for the Select all action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.duan.newsmvvm:actionModeShareDrawable}</code></td><td>Drawable to use for the Share action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.duan.newsmvvm:actionModeSplitBackground}</code></td><td>Background drawable to use for action mode UI in the lower split bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.duan.newsmvvm:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.duan.newsmvvm:actionModeWebSearchDrawable}</code></td><td>Drawable to use for the Web Search action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.duan.newsmvvm:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.duan.newsmvvm:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.duan.newsmvvm:activityChooserViewStyle}</code></td><td>Default ActivityChooserView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.duan.newsmvvm:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.duan.newsmvvm:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.duan.newsmvvm:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.duan.newsmvvm:alertDialogTheme}</code></td><td>Theme to use for alert dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.duan.newsmvvm:autoCompleteTextViewStyle}</code></td><td>Default AutoCompleteTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.duan.newsmvvm:borderlessButtonStyle}</code></td><td>Style for buttons without an explicit border, often used in groups.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.duan.newsmvvm:buttonBarButtonStyle}</code></td><td>Style for buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.duan.newsmvvm:buttonBarNegativeButtonStyle}</code></td><td>Style for the "negative" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.duan.newsmvvm:buttonBarNeutralButtonStyle}</code></td><td>Style for the "neutral" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.duan.newsmvvm:buttonBarPositiveButtonStyle}</code></td><td>Style for the "positive" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.duan.newsmvvm:buttonBarStyle}</code></td><td>Style for button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.duan.newsmvvm:buttonStyle}</code></td><td>Normal Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.duan.newsmvvm:buttonStyleSmall}</code></td><td>Small Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.duan.newsmvvm:checkboxStyle}</code></td><td>Default Checkbox style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.duan.newsmvvm:checkedTextViewStyle}</code></td><td>Default CheckedTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.duan.newsmvvm:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.duan.newsmvvm:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.duan.newsmvvm:colorButtonNormal}</code></td><td>The color applied to framework buttons in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.duan.newsmvvm:colorControlActivated}</code></td><td>The color applied to framework controls in their activated (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.duan.newsmvvm:colorControlHighlight}</code></td><td>The color applied to framework control highlights (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.duan.newsmvvm:colorControlNormal}</code></td><td>The color applied to framework controls in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.duan.newsmvvm:colorError}</code></td><td>Color used for error states and things that need to be drawn to
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.arch.demo:actionMenuTextColor}</code></td><td>Color for text that appears within action menu items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.arch.demo:actionModeBackground}</code></td><td>Background drawable to use for action mode UI</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.arch.demo:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.arch.demo:actionModeCloseDrawable}</code></td><td>Drawable to use for the close action mode button</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.arch.demo:actionModeCopyDrawable}</code></td><td>Drawable to use for the Copy action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.arch.demo:actionModeCutDrawable}</code></td><td>Drawable to use for the Cut action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.arch.demo:actionModeFindDrawable}</code></td><td>Drawable to use for the Find action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.arch.demo:actionModePasteDrawable}</code></td><td>Drawable to use for the Paste action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.arch.demo:actionModePopupWindowStyle}</code></td><td>PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.arch.demo:actionModeSelectAllDrawable}</code></td><td>Drawable to use for the Select all action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.arch.demo:actionModeShareDrawable}</code></td><td>Drawable to use for the Share action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.arch.demo:actionModeSplitBackground}</code></td><td>Background drawable to use for action mode UI in the lower split bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.arch.demo:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.arch.demo:actionModeWebSearchDrawable}</code></td><td>Drawable to use for the Web Search action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.arch.demo:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.arch.demo:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.arch.demo:activityChooserViewStyle}</code></td><td>Default ActivityChooserView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.arch.demo:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.arch.demo:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.arch.demo:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.arch.demo:alertDialogTheme}</code></td><td>Theme to use for alert dialogs spawned from this theme.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.arch.demo:autoCompleteTextViewStyle}</code></td><td>Default AutoCompleteTextView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.arch.demo:borderlessButtonStyle}</code></td><td>Style for buttons without an explicit border, often used in groups.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.arch.demo:buttonBarButtonStyle}</code></td><td>Style for buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.arch.demo:buttonBarNegativeButtonStyle}</code></td><td>Style for the "negative" buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.arch.demo:buttonBarNeutralButtonStyle}</code></td><td>Style for the "neutral" buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.arch.demo:buttonBarPositiveButtonStyle}</code></td><td>Style for the "positive" buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.arch.demo:buttonBarStyle}</code></td><td>Style for button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.arch.demo:buttonStyle}</code></td><td>Normal Button style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.arch.demo:buttonStyleSmall}</code></td><td>Small Button style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.arch.demo:checkboxStyle}</code></td><td>Default Checkbox style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.arch.demo:checkedTextViewStyle}</code></td><td>Default CheckedTextView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.arch.demo:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.arch.demo:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.arch.demo:colorButtonNormal}</code></td><td>The color applied to framework buttons in their normal state.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.arch.demo:colorControlActivated}</code></td><td>The color applied to framework controls in their activated (ex.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.arch.demo:colorControlHighlight}</code></td><td>The color applied to framework control highlights (ex.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.arch.demo:colorControlNormal}</code></td><td>The color applied to framework controls in their normal state.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.arch.demo:colorError}</code></td><td>Color used for error states and things that need to be drawn to
      * the user's attention.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.duan.newsmvvm:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.duan.newsmvvm:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.duan.newsmvvm:colorSwitchThumbNormal}</code></td><td>The color applied to framework switch thumbs in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.duan.newsmvvm:controlBackground}</code></td><td>The background used by framework controls.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.duan.newsmvvm:dialogCornerRadius}</code></td><td>Preferred corner radius of dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.duan.newsmvvm:dialogPreferredPadding}</code></td><td>Preferred padding for dialog content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.duan.newsmvvm:dialogTheme}</code></td><td>Theme to use for dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.duan.newsmvvm:dividerHorizontal}</code></td><td>A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.duan.newsmvvm:dividerVertical}</code></td><td>A drawable that may be used as a vertical divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.duan.newsmvvm:dropDownListViewStyle}</code></td><td>ListPopupWindow compatibility</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.duan.newsmvvm:dropdownListPreferredItemHeight}</code></td><td>The preferred item height for dropdown lists.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.duan.newsmvvm:editTextBackground}</code></td><td>EditText background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.duan.newsmvvm:editTextColor}</code></td><td>EditText text foreground color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.duan.newsmvvm:editTextStyle}</code></td><td>Default EditText style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.duan.newsmvvm:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.duan.newsmvvm:imageButtonStyle}</code></td><td>ImageButton background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.duan.newsmvvm:listChoiceBackgroundIndicator}</code></td><td>Drawable used as a background for selected list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.duan.newsmvvm:listDividerAlertDialog}</code></td><td>The list divider used in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.duan.newsmvvm:listMenuViewStyle}</code></td><td>Default menu-style ListView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.duan.newsmvvm:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.duan.newsmvvm:listPreferredItemHeight}</code></td><td>The preferred list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.duan.newsmvvm:listPreferredItemHeightLarge}</code></td><td>A larger, more robust list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.duan.newsmvvm:listPreferredItemHeightSmall}</code></td><td>A smaller, sleeker list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.duan.newsmvvm:listPreferredItemPaddingLeft}</code></td><td>The preferred padding along the left edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.duan.newsmvvm:listPreferredItemPaddingRight}</code></td><td>The preferred padding along the right edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.duan.newsmvvm:panelBackground}</code></td><td>The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.duan.newsmvvm:panelMenuListTheme}</code></td><td>Default Panel Menu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.duan.newsmvvm:panelMenuListWidth}</code></td><td>Default Panel Menu width.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.duan.newsmvvm:popupMenuStyle}</code></td><td>Default PopupMenu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.duan.newsmvvm:popupWindowStyle}</code></td><td>Default PopupWindow style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.duan.newsmvvm:radioButtonStyle}</code></td><td>Default RadioButton style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.duan.newsmvvm:ratingBarStyle}</code></td><td>Default RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.duan.newsmvvm:ratingBarStyleIndicator}</code></td><td>Indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.duan.newsmvvm:ratingBarStyleSmall}</code></td><td>Small indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.duan.newsmvvm:searchViewStyle}</code></td><td>Style for the search query widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.duan.newsmvvm:seekBarStyle}</code></td><td>Default SeekBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.duan.newsmvvm:selectableItemBackground}</code></td><td>A style that may be applied to buttons or other selectable items
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.arch.demo:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.arch.demo:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.arch.demo:colorSwitchThumbNormal}</code></td><td>The color applied to framework switch thumbs in their normal state.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.arch.demo:controlBackground}</code></td><td>The background used by framework controls.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.arch.demo:dialogCornerRadius}</code></td><td>Preferred corner radius of dialogs.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.arch.demo:dialogPreferredPadding}</code></td><td>Preferred padding for dialog content.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.arch.demo:dialogTheme}</code></td><td>Theme to use for dialogs spawned from this theme.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.arch.demo:dividerHorizontal}</code></td><td>A drawable that may be used as a horizontal divider between visual elements.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.arch.demo:dividerVertical}</code></td><td>A drawable that may be used as a vertical divider between visual elements.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.arch.demo:dropDownListViewStyle}</code></td><td>ListPopupWindow compatibility</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.arch.demo:dropdownListPreferredItemHeight}</code></td><td>The preferred item height for dropdown lists.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.arch.demo:editTextBackground}</code></td><td>EditText background drawable.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.arch.demo:editTextColor}</code></td><td>EditText text foreground color.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.arch.demo:editTextStyle}</code></td><td>Default EditText style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.arch.demo:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.arch.demo:imageButtonStyle}</code></td><td>ImageButton background drawable.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.arch.demo:listChoiceBackgroundIndicator}</code></td><td>Drawable used as a background for selected list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.arch.demo:listDividerAlertDialog}</code></td><td>The list divider used in alert dialogs.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.arch.demo:listMenuViewStyle}</code></td><td>Default menu-style ListView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.arch.demo:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.arch.demo:listPreferredItemHeight}</code></td><td>The preferred list item height.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.arch.demo:listPreferredItemHeightLarge}</code></td><td>A larger, more robust list item height.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.arch.demo:listPreferredItemHeightSmall}</code></td><td>A smaller, sleeker list item height.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.arch.demo:listPreferredItemPaddingLeft}</code></td><td>The preferred padding along the left edge of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.arch.demo:listPreferredItemPaddingRight}</code></td><td>The preferred padding along the right edge of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.arch.demo:panelBackground}</code></td><td>The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.arch.demo:panelMenuListTheme}</code></td><td>Default Panel Menu style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.arch.demo:panelMenuListWidth}</code></td><td>Default Panel Menu width.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.arch.demo:popupMenuStyle}</code></td><td>Default PopupMenu style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.arch.demo:popupWindowStyle}</code></td><td>Default PopupWindow style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.arch.demo:radioButtonStyle}</code></td><td>Default RadioButton style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.arch.demo:ratingBarStyle}</code></td><td>Default RatingBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.arch.demo:ratingBarStyleIndicator}</code></td><td>Indicator RatingBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.arch.demo:ratingBarStyleSmall}</code></td><td>Small indicator RatingBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.arch.demo:searchViewStyle}</code></td><td>Style for the search query widget.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.arch.demo:seekBarStyle}</code></td><td>Default SeekBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.arch.demo:selectableItemBackground}</code></td><td>A style that may be applied to buttons or other selectable items
      * that should react to pressed and focus states, but that do not
      * have a clear visual border along the edges.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.duan.newsmvvm:selectableItemBackgroundBorderless}</code></td><td>Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.duan.newsmvvm:spinnerDropDownItemStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.duan.newsmvvm:spinnerStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.duan.newsmvvm:switchStyle}</code></td><td>Default style for the Switch widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.duan.newsmvvm:textAppearanceLargePopupMenu}</code></td><td>Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.duan.newsmvvm:textAppearanceListItem}</code></td><td>The preferred TextAppearance for the primary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.duan.newsmvvm:textAppearanceListItemSecondary}</code></td><td>The preferred TextAppearance for the secondary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.duan.newsmvvm:textAppearanceListItemSmall}</code></td><td>The preferred TextAppearance for the primary text of small list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.duan.newsmvvm:textAppearancePopupMenuHeader}</code></td><td>Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.duan.newsmvvm:textAppearanceSearchResultSubtitle}</code></td><td>Text color, typeface, size, and style for system search result subtitle.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.duan.newsmvvm:textAppearanceSearchResultTitle}</code></td><td>Text color, typeface, size, and style for system search result title.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.duan.newsmvvm:textAppearanceSmallPopupMenu}</code></td><td>Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.duan.newsmvvm:textColorAlertDialogListItem}</code></td><td>Color of list item text in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.duan.newsmvvm:textColorSearchUrl}</code></td><td>Text color for urls in search suggestions, used by things like global search</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.duan.newsmvvm:toolbarNavigationButtonStyle}</code></td><td>Default Toolar NavigationButtonStyle</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.duan.newsmvvm:toolbarStyle}</code></td><td>Default Toolbar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.duan.newsmvvm:tooltipForegroundColor}</code></td><td>Foreground color to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.duan.newsmvvm:tooltipFrameBackground}</code></td><td>Background to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.duan.newsmvvm:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.duan.newsmvvm:windowActionBar}</code></td><td>Flag indicating whether this window should have an Action Bar
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.arch.demo:selectableItemBackgroundBorderless}</code></td><td>Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.arch.demo:spinnerDropDownItemStyle}</code></td><td>Default Spinner style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.arch.demo:spinnerStyle}</code></td><td>Default Spinner style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.arch.demo:switchStyle}</code></td><td>Default style for the Switch widget.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.arch.demo:textAppearanceLargePopupMenu}</code></td><td>Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.arch.demo:textAppearanceListItem}</code></td><td>The preferred TextAppearance for the primary text of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.arch.demo:textAppearanceListItemSecondary}</code></td><td>The preferred TextAppearance for the secondary text of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.arch.demo:textAppearanceListItemSmall}</code></td><td>The preferred TextAppearance for the primary text of small list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.arch.demo:textAppearancePopupMenuHeader}</code></td><td>Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.arch.demo:textAppearanceSearchResultSubtitle}</code></td><td>Text color, typeface, size, and style for system search result subtitle.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.arch.demo:textAppearanceSearchResultTitle}</code></td><td>Text color, typeface, size, and style for system search result title.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.arch.demo:textAppearanceSmallPopupMenu}</code></td><td>Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.arch.demo:textColorAlertDialogListItem}</code></td><td>Color of list item text in alert dialogs.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.arch.demo:textColorSearchUrl}</code></td><td>Text color for urls in search suggestions, used by things like global search</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.arch.demo:toolbarNavigationButtonStyle}</code></td><td>Default Toolar NavigationButtonStyle</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.arch.demo:toolbarStyle}</code></td><td>Default Toolbar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.arch.demo:tooltipForegroundColor}</code></td><td>Foreground color to use for tooltips</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.arch.demo:tooltipFrameBackground}</code></td><td>Background to use for tooltips</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.arch.demo:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.arch.demo:windowActionBar}</code></td><td>Flag indicating whether this window should have an Action Bar
      * in place of the usual title bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.duan.newsmvvm:windowActionBarOverlay}</code></td><td>Flag indicating whether this window's Action Bar should overlay
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.arch.demo:windowActionBarOverlay}</code></td><td>Flag indicating whether this window's Action Bar should overlay
      * application content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.duan.newsmvvm:windowActionModeOverlay}</code></td><td>Flag indicating whether action modes should overlay window content
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.arch.demo:windowActionModeOverlay}</code></td><td>Flag indicating whether action modes should overlay window content
      * when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.duan.newsmvvm:windowFixedHeightMajor}</code></td><td>A fixed height for the window along the major axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.arch.demo:windowFixedHeightMajor}</code></td><td>A fixed height for the window along the major axis of the screen,
      * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.duan.newsmvvm:windowFixedHeightMinor}</code></td><td>A fixed height for the window along the minor axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.arch.demo:windowFixedHeightMinor}</code></td><td>A fixed height for the window along the minor axis of the screen,
      * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.duan.newsmvvm:windowFixedWidthMajor}</code></td><td>A fixed width for the window along the major axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.arch.demo:windowFixedWidthMajor}</code></td><td>A fixed width for the window along the major axis of the screen,
      * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.duan.newsmvvm:windowFixedWidthMinor}</code></td><td>A fixed width for the window along the minor axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.arch.demo:windowFixedWidthMinor}</code></td><td>A fixed width for the window along the minor axis of the screen,
      * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.duan.newsmvvm:windowMinWidthMajor}</code></td><td>The minimum width the window is allowed to be, along the major
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.arch.demo:windowMinWidthMajor}</code></td><td>The minimum width the window is allowed to be, along the major
      * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.duan.newsmvvm:windowMinWidthMinor}</code></td><td>The minimum width the window is allowed to be, along the minor
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.arch.demo:windowMinWidthMinor}</code></td><td>The minimum width the window is allowed to be, along the minor
      * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.duan.newsmvvm:windowNoTitle}</code></td><td>Flag indicating whether there should be no title on this window.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.arch.demo:windowNoTitle}</code></td><td>Flag indicating whether there should be no title on this window.</td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -8021,23 +8747,23 @@ public final class R {
       0x7f030056, 0x7f030057, 0x7f030062, 0x7f030067, 
       0x7f030087, 0x7f030088, 0x7f030089, 0x7f03008a, 
       0x7f03008b, 0x7f03008c, 0x7f03008d, 0x7f03008e, 
-      0x7f03008f, 0x7f030091, 0x7f0300a3, 0x7f0300ac, 
-      0x7f0300ad, 0x7f0300ae, 0x7f0300b1, 0x7f0300b3, 
-      0x7f0300b6, 0x7f0300b7, 0x7f0300b8, 0x7f0300b9, 
-      0x7f0300ba, 0x7f0300f0, 0x7f0300fc, 0x7f030151, 
-      0x7f030152, 0x7f030155, 0x7f030156, 0x7f030157, 
-      0x7f030158, 0x7f030159, 0x7f03015a, 0x7f03015b, 
-      0x7f030170, 0x7f030171, 0x7f030172, 0x7f030178, 
-      0x7f03017a, 0x7f030181, 0x7f030182, 0x7f030183, 
-      0x7f030184, 0x7f03018c, 0x7f03018d, 0x7f03018e, 
-      0x7f03018f, 0x7f03019c, 0x7f03019d, 0x7f0301b3, 
-      0x7f0301da, 0x7f0301db, 0x7f0301dc, 0x7f0301dd, 
-      0x7f0301df, 0x7f0301e0, 0x7f0301e1, 0x7f0301e2, 
-      0x7f0301e5, 0x7f0301e6, 0x7f030200, 0x7f030201, 
-      0x7f030202, 0x7f030203, 0x7f03020a, 0x7f03020c, 
-      0x7f03020d, 0x7f03020e, 0x7f03020f, 0x7f030210, 
-      0x7f030211, 0x7f030212, 0x7f030213, 0x7f030214, 
-      0x7f030215
+      0x7f03008f, 0x7f030091, 0x7f0300a3, 0x7f0300af, 
+      0x7f0300b0, 0x7f0300b1, 0x7f0300b4, 0x7f0300b6, 
+      0x7f0300b9, 0x7f0300ba, 0x7f0300bb, 0x7f0300bc, 
+      0x7f0300bd, 0x7f030103, 0x7f03010f, 0x7f030166, 
+      0x7f030167, 0x7f03016a, 0x7f03016b, 0x7f03016c, 
+      0x7f03016d, 0x7f03016e, 0x7f03016f, 0x7f030170, 
+      0x7f030197, 0x7f030198, 0x7f030199, 0x7f0301a1, 
+      0x7f0301a3, 0x7f0301aa, 0x7f0301ab, 0x7f0301ac, 
+      0x7f0301ad, 0x7f0301b5, 0x7f0301b6, 0x7f0301b7, 
+      0x7f0301b8, 0x7f0301c9, 0x7f0301ca, 0x7f030217, 
+      0x7f03023e, 0x7f03023f, 0x7f030240, 0x7f030241, 
+      0x7f030243, 0x7f030244, 0x7f030245, 0x7f030246, 
+      0x7f030249, 0x7f03024a, 0x7f030265, 0x7f030266, 
+      0x7f030267, 0x7f030268, 0x7f03026f, 0x7f030271, 
+      0x7f030272, 0x7f030273, 0x7f030274, 0x7f030275, 
+      0x7f030276, 0x7f030277, 0x7f030278, 0x7f030279, 
+      0x7f03027a
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -8071,7 +8797,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionBarDivider
+     * @attr name com.arch.demo:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
@@ -8084,7 +8810,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionBarItemBackground
+     * @attr name com.arch.demo:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
@@ -8098,7 +8824,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionBarPopupTheme
+     * @attr name com.arch.demo:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
@@ -8121,7 +8847,7 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:actionBarSize
+     * @attr name com.arch.demo:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
@@ -8137,7 +8863,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionBarSplitStyle
+     * @attr name com.arch.demo:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
@@ -8150,11 +8876,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionBarStyle
+     * @attr name com.arch.demo:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8162,7 +8888,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionBarTabBarStyle
+     * @attr name com.arch.demo:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
@@ -8175,11 +8901,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionBarTabStyle
+     * @attr name com.arch.demo:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8187,7 +8913,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionBarTabTextStyle
+     * @attr name com.arch.demo:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
@@ -8202,7 +8928,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionBarTheme
+     * @attr name com.arch.demo:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
@@ -8221,7 +8947,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionBarWidgetTheme
+     * @attr name com.arch.demo:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
@@ -8234,7 +8960,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionButtonStyle
+     * @attr name com.arch.demo:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
@@ -8247,7 +8973,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionDropDownStyle
+     * @attr name com.arch.demo:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
@@ -8261,7 +8987,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionMenuTextAppearance
+     * @attr name com.arch.demo:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
@@ -8277,7 +9003,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionMenuTextColor
+     * @attr name com.arch.demo:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
@@ -8290,11 +9016,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeBackground
+     * @attr name com.arch.demo:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8302,7 +9028,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeCloseButtonStyle
+     * @attr name com.arch.demo:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
@@ -8315,7 +9041,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeCloseDrawable
+     * @attr name com.arch.demo:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
@@ -8328,7 +9054,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeCopyDrawable
+     * @attr name com.arch.demo:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
@@ -8341,7 +9067,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeCutDrawable
+     * @attr name com.arch.demo:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
@@ -8354,7 +9080,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeFindDrawable
+     * @attr name com.arch.demo:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
@@ -8367,7 +9093,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModePasteDrawable
+     * @attr name com.arch.demo:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
@@ -8380,7 +9106,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModePopupWindowStyle
+     * @attr name com.arch.demo:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
@@ -8393,7 +9119,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeSelectAllDrawable
+     * @attr name com.arch.demo:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
@@ -8406,7 +9132,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeShareDrawable
+     * @attr name com.arch.demo:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
@@ -8419,11 +9145,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeSplitBackground
+     * @attr name com.arch.demo:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8431,7 +9157,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeStyle
+     * @attr name com.arch.demo:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
@@ -8444,11 +9170,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionModeWebSearchDrawable
+     * @attr name com.arch.demo:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8456,11 +9182,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionOverflowButtonStyle
+     * @attr name com.arch.demo:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8468,7 +9194,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionOverflowMenuStyle
+     * @attr name com.arch.demo:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
@@ -8481,11 +9207,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:activityChooserViewStyle
+     * @attr name com.arch.demo:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8493,21 +9219,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:alertDialogButtonGroupStyle
+     * @attr name com.arch.demo:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:alertDialogCenterButtons
+     * @attr name com.arch.demo:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8515,7 +9241,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:alertDialogStyle
+     * @attr name com.arch.demo:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
@@ -8528,7 +9254,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:alertDialogTheme
+     * @attr name com.arch.demo:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -8541,7 +9267,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:autoCompleteTextViewStyle
+     * @attr name com.arch.demo:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
@@ -8554,7 +9280,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:borderlessButtonStyle
+     * @attr name com.arch.demo:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
@@ -8567,7 +9293,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:buttonBarButtonStyle
+     * @attr name com.arch.demo:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
@@ -8580,7 +9306,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:buttonBarNegativeButtonStyle
+     * @attr name com.arch.demo:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
@@ -8593,7 +9319,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:buttonBarNeutralButtonStyle
+     * @attr name com.arch.demo:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
@@ -8606,7 +9332,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:buttonBarPositiveButtonStyle
+     * @attr name com.arch.demo:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
@@ -8619,7 +9345,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:buttonBarStyle
+     * @attr name com.arch.demo:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
@@ -8632,7 +9358,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:buttonStyle
+     * @attr name com.arch.demo:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
@@ -8645,7 +9371,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:buttonStyleSmall
+     * @attr name com.arch.demo:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
@@ -8658,7 +9384,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:checkboxStyle
+     * @attr name com.arch.demo:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
@@ -8671,7 +9397,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:checkedTextViewStyle
+     * @attr name com.arch.demo:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
@@ -8684,7 +9410,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorAccent
+     * @attr name com.arch.demo:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
@@ -8696,7 +9422,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorBackgroundFloating
+     * @attr name com.arch.demo:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
@@ -8708,7 +9434,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorButtonNormal
+     * @attr name com.arch.demo:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
@@ -8720,7 +9446,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorControlActivated
+     * @attr name com.arch.demo:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
@@ -8732,7 +9458,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorControlHighlight
+     * @attr name com.arch.demo:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
@@ -8744,7 +9470,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorControlNormal
+     * @attr name com.arch.demo:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
@@ -8761,7 +9487,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorError
+     * @attr name com.arch.demo:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
@@ -8774,7 +9500,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorPrimary
+     * @attr name com.arch.demo:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
@@ -8787,7 +9513,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorPrimaryDark
+     * @attr name com.arch.demo:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
@@ -8799,7 +9525,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorSwitchThumbNormal
+     * @attr name com.arch.demo:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
@@ -8812,7 +9538,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:controlBackground
+     * @attr name com.arch.demo:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
@@ -8826,7 +9552,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:dialogCornerRadius
+     * @attr name com.arch.demo:dialogCornerRadius
      */
     public static final int AppCompatTheme_dialogCornerRadius=59;
     /**
@@ -8840,7 +9566,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:dialogPreferredPadding
+     * @attr name com.arch.demo:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
@@ -8853,7 +9579,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:dialogTheme
+     * @attr name com.arch.demo:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=61;
     /**
@@ -8866,7 +9592,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:dividerHorizontal
+     * @attr name com.arch.demo:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=62;
     /**
@@ -8879,7 +9605,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:dividerVertical
+     * @attr name com.arch.demo:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=63;
     /**
@@ -8892,7 +9618,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:dropDownListViewStyle
+     * @attr name com.arch.demo:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
@@ -8906,7 +9632,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:dropdownListPreferredItemHeight
+     * @attr name com.arch.demo:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
@@ -8919,7 +9645,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:editTextBackground
+     * @attr name com.arch.demo:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=66;
     /**
@@ -8935,7 +9661,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:editTextColor
+     * @attr name com.arch.demo:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=67;
     /**
@@ -8948,7 +9674,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:editTextStyle
+     * @attr name com.arch.demo:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=68;
     /**
@@ -8961,7 +9687,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:homeAsUpIndicator
+     * @attr name com.arch.demo:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
@@ -8974,7 +9700,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:imageButtonStyle
+     * @attr name com.arch.demo:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=70;
     /**
@@ -8987,7 +9713,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:listChoiceBackgroundIndicator
+     * @attr name com.arch.demo:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
@@ -9000,7 +9726,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:listDividerAlertDialog
+     * @attr name com.arch.demo:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=72;
     /**
@@ -9013,11 +9739,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:listMenuViewStyle
+     * @attr name com.arch.demo:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9025,7 +9751,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:listPopupWindowStyle
+     * @attr name com.arch.demo:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=74;
     /**
@@ -9039,7 +9765,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:listPreferredItemHeight
+     * @attr name com.arch.demo:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=75;
     /**
@@ -9053,7 +9779,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:listPreferredItemHeightLarge
+     * @attr name com.arch.demo:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=76;
     /**
@@ -9067,7 +9793,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:listPreferredItemHeightSmall
+     * @attr name com.arch.demo:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=77;
     /**
@@ -9081,7 +9807,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:listPreferredItemPaddingLeft
+     * @attr name com.arch.demo:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=78;
     /**
@@ -9095,7 +9821,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:listPreferredItemPaddingRight
+     * @attr name com.arch.demo:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=79;
     /**
@@ -9108,7 +9834,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:panelBackground
+     * @attr name com.arch.demo:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=80;
     /**
@@ -9121,7 +9847,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:panelMenuListTheme
+     * @attr name com.arch.demo:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=81;
     /**
@@ -9135,7 +9861,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:panelMenuListWidth
+     * @attr name com.arch.demo:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=82;
     /**
@@ -9148,7 +9874,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:popupMenuStyle
+     * @attr name com.arch.demo:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=83;
     /**
@@ -9161,7 +9887,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:popupWindowStyle
+     * @attr name com.arch.demo:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=84;
     /**
@@ -9174,7 +9900,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:radioButtonStyle
+     * @attr name com.arch.demo:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=85;
     /**
@@ -9187,7 +9913,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:ratingBarStyle
+     * @attr name com.arch.demo:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=86;
     /**
@@ -9200,7 +9926,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:ratingBarStyleIndicator
+     * @attr name com.arch.demo:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=87;
     /**
@@ -9213,7 +9939,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:ratingBarStyleSmall
+     * @attr name com.arch.demo:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=88;
     /**
@@ -9226,7 +9952,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:searchViewStyle
+     * @attr name com.arch.demo:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=89;
     /**
@@ -9239,7 +9965,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:seekBarStyle
+     * @attr name com.arch.demo:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=90;
     /**
@@ -9254,7 +9980,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:selectableItemBackground
+     * @attr name com.arch.demo:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=91;
     /**
@@ -9267,7 +9993,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:selectableItemBackgroundBorderless
+     * @attr name com.arch.demo:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=92;
     /**
@@ -9280,7 +10006,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:spinnerDropDownItemStyle
+     * @attr name com.arch.demo:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=93;
     /**
@@ -9293,7 +10019,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:spinnerStyle
+     * @attr name com.arch.demo:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=94;
     /**
@@ -9306,7 +10032,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:switchStyle
+     * @attr name com.arch.demo:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=95;
     /**
@@ -9319,7 +10045,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceLargePopupMenu
+     * @attr name com.arch.demo:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=96;
     /**
@@ -9332,7 +10058,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceListItem
+     * @attr name com.arch.demo:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=97;
     /**
@@ -9345,7 +10071,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceListItemSecondary
+     * @attr name com.arch.demo:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=98;
     /**
@@ -9358,7 +10084,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceListItemSmall
+     * @attr name com.arch.demo:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=99;
     /**
@@ -9371,7 +10097,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearancePopupMenuHeader
+     * @attr name com.arch.demo:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=100;
     /**
@@ -9384,7 +10110,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceSearchResultSubtitle
+     * @attr name com.arch.demo:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=101;
     /**
@@ -9397,7 +10123,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceSearchResultTitle
+     * @attr name com.arch.demo:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=102;
     /**
@@ -9410,7 +10136,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceSmallPopupMenu
+     * @attr name com.arch.demo:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=103;
     /**
@@ -9426,7 +10152,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textColorAlertDialogListItem
+     * @attr name com.arch.demo:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=104;
     /**
@@ -9442,7 +10168,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textColorSearchUrl
+     * @attr name com.arch.demo:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=105;
     /**
@@ -9455,7 +10181,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:toolbarNavigationButtonStyle
+     * @attr name com.arch.demo:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=106;
     /**
@@ -9468,7 +10194,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:toolbarStyle
+     * @attr name com.arch.demo:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=107;
     /**
@@ -9484,7 +10210,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tooltipForegroundColor
+     * @attr name com.arch.demo:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=108;
     /**
@@ -9497,17 +10223,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tooltipFrameBackground
+     * @attr name com.arch.demo:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=109;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:viewInflaterClass
+     * @attr name com.arch.demo:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=110;
     /**
@@ -9519,7 +10245,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:windowActionBar
+     * @attr name com.arch.demo:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=111;
     /**
@@ -9532,7 +10258,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:windowActionBarOverlay
+     * @attr name com.arch.demo:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=112;
     /**
@@ -9544,7 +10270,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:windowActionModeOverlay
+     * @attr name com.arch.demo:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=113;
     /**
@@ -9564,7 +10290,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.duan.newsmvvm:windowFixedHeightMajor
+     * @attr name com.arch.demo:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=114;
     /**
@@ -9584,7 +10310,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.duan.newsmvvm:windowFixedHeightMinor
+     * @attr name com.arch.demo:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=115;
     /**
@@ -9604,7 +10330,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.duan.newsmvvm:windowFixedWidthMajor
+     * @attr name com.arch.demo:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=116;
     /**
@@ -9624,7 +10350,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.duan.newsmvvm:windowFixedWidthMinor
+     * @attr name com.arch.demo:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=117;
     /**
@@ -9645,7 +10371,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.duan.newsmvvm:windowMinWidthMajor
+     * @attr name com.arch.demo:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=118;
     /**
@@ -9666,7 +10392,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.duan.newsmvvm:windowMinWidthMinor
+     * @attr name com.arch.demo:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=119;
     /**
@@ -9677,9 +10403,117 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:windowNoTitle
+     * @attr name com.arch.demo:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=120;
+    /**
+     * Attributes that can be used with a BallPulseFooter.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #BallPulseFooter_srlAnimatingColor com.arch.demo:srlAnimatingColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BallPulseFooter_srlClassicsSpinnerStyle com.arch.demo:srlClassicsSpinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BallPulseFooter_srlNormalColor com.arch.demo:srlNormalColor}</code></td><td></td></tr>
+     * </table>
+     * @see #BallPulseFooter_srlAnimatingColor
+     * @see #BallPulseFooter_srlClassicsSpinnerStyle
+     * @see #BallPulseFooter_srlNormalColor
+     */
+    public static final int[] BallPulseFooter={
+      0x7f0301ce, 0x7f0301cf, 0x7f0301fd
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlAnimatingColor}
+     * attribute's value can be found in the {@link #BallPulseFooter} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:srlAnimatingColor
+     */
+    public static final int BallPulseFooter_srlAnimatingColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlClassicsSpinnerStyle}
+     * attribute's value can be found in the {@link #BallPulseFooter} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>FixedBehind</td><td>2</td><td>拉伸形变</td></tr>
+     * <tr><td>Scale</td><td>1</td><td>平行移动</td></tr>
+     * <tr><td>Translate</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.arch.demo:srlClassicsSpinnerStyle
+     */
+    public static final int BallPulseFooter_srlClassicsSpinnerStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlNormalColor}
+     * attribute's value can be found in the {@link #BallPulseFooter} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:srlNormalColor
+     */
+    public static final int BallPulseFooter_srlNormalColor=2;
+    /**
+     * Attributes that can be used with a BezierRadarHeader.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #BezierRadarHeader_srlAccentColor com.arch.demo:srlAccentColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BezierRadarHeader_srlEnableHorizontalDrag com.arch.demo:srlEnableHorizontalDrag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BezierRadarHeader_srlPrimaryColor com.arch.demo:srlPrimaryColor}</code></td><td></td></tr>
+     * </table>
+     * @see #BezierRadarHeader_srlAccentColor
+     * @see #BezierRadarHeader_srlEnableHorizontalDrag
+     * @see #BezierRadarHeader_srlPrimaryColor
+     */
+    public static final int[] BezierRadarHeader={
+      0x7f0301cd, 0x7f0301df, 0x7f0301fe
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlAccentColor}
+     * attribute's value can be found in the {@link #BezierRadarHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:srlAccentColor
+     */
+    public static final int BezierRadarHeader_srlAccentColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableHorizontalDrag}
+     * attribute's value can be found in the {@link #BezierRadarHeader} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableHorizontalDrag
+     */
+    public static final int BezierRadarHeader_srlEnableHorizontalDrag=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlPrimaryColor}
+     * attribute's value can be found in the {@link #BezierRadarHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:srlPrimaryColor
+     */
+    public static final int BezierRadarHeader_srlPrimaryColor=2;
     /**
      * Attributes that can be used with a BottomAppBar.
      * <p>Includes the following attributes:</p>
@@ -9687,12 +10521,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.duan.newsmvvm:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode com.duan.newsmvvm:fabAlignmentMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin com.duan.newsmvvm:fabCradleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius com.duan.newsmvvm:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset com.duan.newsmvvm:fabCradleVerticalOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_hideOnScroll com.duan.newsmvvm:hideOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.arch.demo:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode com.arch.demo:fabAlignmentMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin com.arch.demo:fabCradleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius com.arch.demo:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset com.arch.demo:fabCradleVerticalOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_hideOnScroll com.arch.demo:hideOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #BottomAppBar_backgroundTint
      * @see #BottomAppBar_fabAlignmentMode
@@ -9702,8 +10536,8 @@ public final class R {
      * @see #BottomAppBar_hideOnScroll
      */
     public static final int[] BottomAppBar={
-      0x7f030034, 0x7f0300ca, 0x7f0300cb, 0x7f0300cc, 
-      0x7f0300cd, 0x7f0300ec
+      0x7f030034, 0x7f0300cd, 0x7f0300ce, 0x7f0300cf, 
+      0x7f0300d0, 0x7f0300ff
     };
     /**
      * <p>
@@ -9714,11 +10548,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:backgroundTint
+     * @attr name com.arch.demo:backgroundTint
      */
     public static final int BottomAppBar_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fabAlignmentMode}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fabAlignmentMode}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9731,11 +10565,11 @@ public final class R {
      * <tr><td>end</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:fabAlignmentMode
+     * @attr name com.arch.demo:fabAlignmentMode
      */
     public static final int BottomAppBar_fabAlignmentMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fabCradleMargin}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fabCradleMargin}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9744,11 +10578,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:fabCradleMargin
+     * @attr name com.arch.demo:fabCradleMargin
      */
     public static final int BottomAppBar_fabCradleMargin=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fabCradleRoundedCornerRadius}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fabCradleRoundedCornerRadius}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9757,11 +10591,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:fabCradleRoundedCornerRadius
+     * @attr name com.arch.demo:fabCradleRoundedCornerRadius
      */
     public static final int BottomAppBar_fabCradleRoundedCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fabCradleVerticalOffset}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fabCradleVerticalOffset}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9770,17 +10604,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:fabCradleVerticalOffset
+     * @attr name com.arch.demo:fabCradleVerticalOffset
      */
     public static final int BottomAppBar_fabCradleVerticalOffset=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#hideOnScroll}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#hideOnScroll}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:hideOnScroll
+     * @attr name com.arch.demo:hideOnScroll
      */
     public static final int BottomAppBar_hideOnScroll=5;
     /**
@@ -9790,16 +10624,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.duan.newsmvvm:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.duan.newsmvvm:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled com.duan.newsmvvm:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconSize com.duan.newsmvvm:itemIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.duan.newsmvvm:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive com.duan.newsmvvm:itemTextAppearanceActive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive com.duan.newsmvvm:itemTextAppearanceInactive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.duan.newsmvvm:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode com.duan.newsmvvm:labelVisibilityMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.duan.newsmvvm:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation com.arch.demo:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.arch.demo:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled com.arch.demo:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconSize com.arch.demo:itemIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.arch.demo:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive com.arch.demo:itemTextAppearanceActive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive com.arch.demo:itemTextAppearanceInactive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.arch.demo:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode com.arch.demo:labelVisibilityMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu com.arch.demo:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -9813,9 +10647,9 @@ public final class R {
      * @see #BottomNavigationView_menu
      */
     public static final int[] BottomNavigationView={
-      0x7f0300bb, 0x7f030101, 0x7f030103, 0x7f030105, 
-      0x7f030106, 0x7f03010a, 0x7f03010b, 0x7f03010c, 
-      0x7f03010e, 0x7f030164
+      0x7f0300be, 0x7f030114, 0x7f030116, 0x7f030118, 
+      0x7f030119, 0x7f03011d, 0x7f03011e, 0x7f03011f, 
+      0x7f030121, 0x7f030185
     };
     /**
      * <p>
@@ -9828,11 +10662,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:elevation
+     * @attr name com.arch.demo:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9840,21 +10674,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:itemBackground
+     * @attr name com.arch.demo:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemHorizontalTranslationEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemHorizontalTranslationEnabled}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:itemHorizontalTranslationEnabled
+     * @attr name com.arch.demo:itemHorizontalTranslationEnabled
      */
     public static final int BottomNavigationView_itemHorizontalTranslationEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemIconSize}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemIconSize}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -9863,22 +10697,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:itemIconSize
+     * @attr name com.arch.demo:itemIconSize
      */
     public static final int BottomNavigationView_itemIconSize=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:itemIconTint
+     * @attr name com.arch.demo:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemTextAppearanceActive}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemTextAppearanceActive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9886,11 +10720,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:itemTextAppearanceActive
+     * @attr name com.arch.demo:itemTextAppearanceActive
      */
     public static final int BottomNavigationView_itemTextAppearanceActive=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemTextAppearanceInactive}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemTextAppearanceInactive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9898,22 +10732,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:itemTextAppearanceInactive
+     * @attr name com.arch.demo:itemTextAppearanceInactive
      */
     public static final int BottomNavigationView_itemTextAppearanceInactive=6;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:itemTextColor
+     * @attr name com.arch.demo:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#labelVisibilityMode}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#labelVisibilityMode}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -9928,11 +10762,11 @@ public final class R {
      * <tr><td>unlabeled</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:labelVisibilityMode
+     * @attr name com.arch.demo:labelVisibilityMode
      */
     public static final int BottomNavigationView_labelVisibilityMode=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9940,7 +10774,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:menu
+     * @attr name com.arch.demo:menu
      */
     public static final int BottomNavigationView_menu=9;
     /**
@@ -9950,10 +10784,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents com.duan.newsmvvm:behavior_fitToContents}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.duan.newsmvvm:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.duan.newsmvvm:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.duan.newsmvvm:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents com.arch.demo:behavior_fitToContents}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.arch.demo:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.arch.demo:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.arch.demo:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_fitToContents
      * @see #BottomSheetBehavior_Layout_behavior_hideable
@@ -9964,27 +10798,27 @@ public final class R {
       0x7f03003a, 0x7f03003b, 0x7f03003d, 0x7f03003e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#behavior_fitToContents}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#behavior_fitToContents}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:behavior_fitToContents
+     * @attr name com.arch.demo:behavior_fitToContents
      */
     public static final int BottomSheetBehavior_Layout_behavior_fitToContents=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:behavior_hideable
+     * @attr name com.arch.demo:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10001,17 +10835,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:behavior_peekHeight
+     * @attr name com.arch.demo:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:behavior_skipCollapsed
+     * @attr name com.arch.demo:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=3;
     /**
@@ -10021,7 +10855,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.duan.newsmvvm:allowStacking}</code></td><td>Whether to automatically stack the buttons when there is not
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.arch.demo:allowStacking}</code></td><td>Whether to automatically stack the buttons when there is not
      * enough space to lay them out side-by-side.</td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
@@ -10038,7 +10872,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:allowStacking
+     * @attr name com.arch.demo:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -10050,17 +10884,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor com.duan.newsmvvm:cardBackgroundColor}</code></td><td>Background color for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius com.duan.newsmvvm:cardCornerRadius}</code></td><td>Corner radius for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation com.duan.newsmvvm:cardElevation}</code></td><td>Elevation for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation com.duan.newsmvvm:cardMaxElevation}</code></td><td>Maximum Elevation for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.duan.newsmvvm:cardPreventCornerOverlap}</code></td><td>Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.</td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.duan.newsmvvm:cardUseCompatPadding}</code></td><td>Add padding in API v21+ as well to have the same measurements with previous versions.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding com.duan.newsmvvm:contentPadding}</code></td><td>Inner padding between the edges of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom com.duan.newsmvvm:contentPaddingBottom}</code></td><td>Inner padding between the bottom edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft com.duan.newsmvvm:contentPaddingLeft}</code></td><td>Inner padding between the left edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight com.duan.newsmvvm:contentPaddingRight}</code></td><td>Inner padding between the right edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop com.duan.newsmvvm:contentPaddingTop}</code></td><td>Inner padding between the top edge of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor com.arch.demo:cardBackgroundColor}</code></td><td>Background color for CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius com.arch.demo:cardCornerRadius}</code></td><td>Corner radius for CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation com.arch.demo:cardElevation}</code></td><td>Elevation for CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation com.arch.demo:cardMaxElevation}</code></td><td>Maximum Elevation for CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.arch.demo:cardPreventCornerOverlap}</code></td><td>Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.</td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.arch.demo:cardUseCompatPadding}</code></td><td>Add padding in API v21+ as well to have the same measurements with previous versions.</td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding com.arch.demo:contentPadding}</code></td><td>Inner padding between the edges of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom com.arch.demo:contentPaddingBottom}</code></td><td>Inner padding between the bottom edge of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft com.arch.demo:contentPaddingLeft}</code></td><td>Inner padding between the left edge of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight com.arch.demo:contentPaddingRight}</code></td><td>Inner padding between the right edge of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop com.arch.demo:contentPaddingTop}</code></td><td>Inner padding between the top edge of the Card and children of the CardView.</td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -10119,7 +10953,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:cardBackgroundColor
+     * @attr name com.arch.demo:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
@@ -10133,7 +10967,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:cardCornerRadius
+     * @attr name com.arch.demo:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
@@ -10147,7 +10981,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:cardElevation
+     * @attr name com.arch.demo:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
@@ -10161,7 +10995,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:cardMaxElevation
+     * @attr name com.arch.demo:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
@@ -10172,7 +11006,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:cardPreventCornerOverlap
+     * @attr name com.arch.demo:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
@@ -10183,7 +11017,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:cardUseCompatPadding
+     * @attr name com.arch.demo:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
@@ -10197,7 +11031,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentPadding
+     * @attr name com.arch.demo:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
@@ -10211,7 +11045,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentPaddingBottom
+     * @attr name com.arch.demo:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
@@ -10225,7 +11059,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentPaddingLeft
+     * @attr name com.arch.demo:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
@@ -10239,7 +11073,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentPaddingRight
+     * @attr name com.arch.demo:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
@@ -10253,7 +11087,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentPaddingTop
+     * @attr name com.arch.demo:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -10268,35 +11102,35 @@ public final class R {
      * <tr><td><code>{@link #Chip_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_android_text android:text}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_android_checkable android:checkable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIcon com.duan.newsmvvm:checkedIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIconEnabled com.duan.newsmvvm:checkedIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIconVisible com.duan.newsmvvm:checkedIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipBackgroundColor com.duan.newsmvvm:chipBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipCornerRadius com.duan.newsmvvm:chipCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipEndPadding com.duan.newsmvvm:chipEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIcon com.duan.newsmvvm:chipIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconEnabled com.duan.newsmvvm:chipIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconSize com.duan.newsmvvm:chipIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconTint com.duan.newsmvvm:chipIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconVisible com.duan.newsmvvm:chipIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipMinHeight com.duan.newsmvvm:chipMinHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStartPadding com.duan.newsmvvm:chipStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStrokeColor com.duan.newsmvvm:chipStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStrokeWidth com.duan.newsmvvm:chipStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIcon com.duan.newsmvvm:closeIcon}</code></td><td>Close button icon</td></tr>
-     * <tr><td><code>{@link #Chip_closeIconEnabled com.duan.newsmvvm:closeIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconEndPadding com.duan.newsmvvm:closeIconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconSize com.duan.newsmvvm:closeIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconStartPadding com.duan.newsmvvm:closeIconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconTint com.duan.newsmvvm:closeIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconVisible com.duan.newsmvvm:closeIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_hideMotionSpec com.duan.newsmvvm:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_iconEndPadding com.duan.newsmvvm:iconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_iconStartPadding com.duan.newsmvvm:iconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_rippleColor com.duan.newsmvvm:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_showMotionSpec com.duan.newsmvvm:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_textEndPadding com.duan.newsmvvm:textEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_textStartPadding com.duan.newsmvvm:textStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIcon com.arch.demo:checkedIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIconEnabled com.arch.demo:checkedIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIconVisible com.arch.demo:checkedIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipBackgroundColor com.arch.demo:chipBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipCornerRadius com.arch.demo:chipCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipEndPadding com.arch.demo:chipEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIcon com.arch.demo:chipIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconEnabled com.arch.demo:chipIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconSize com.arch.demo:chipIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconTint com.arch.demo:chipIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconVisible com.arch.demo:chipIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipMinHeight com.arch.demo:chipMinHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStartPadding com.arch.demo:chipStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStrokeColor com.arch.demo:chipStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStrokeWidth com.arch.demo:chipStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIcon com.arch.demo:closeIcon}</code></td><td>Close button icon</td></tr>
+     * <tr><td><code>{@link #Chip_closeIconEnabled com.arch.demo:closeIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconEndPadding com.arch.demo:closeIconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconSize com.arch.demo:closeIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconStartPadding com.arch.demo:closeIconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconTint com.arch.demo:closeIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconVisible com.arch.demo:closeIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_hideMotionSpec com.arch.demo:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_iconEndPadding com.arch.demo:iconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_iconStartPadding com.arch.demo:iconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_rippleColor com.arch.demo:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_showMotionSpec com.arch.demo:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_textEndPadding com.arch.demo:textEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_textStartPadding com.arch.demo:textStartPadding}</code></td><td></td></tr>
      * </table>
      * @see #Chip_android_textAppearance
      * @see #Chip_android_ellipsize
@@ -10340,9 +11174,9 @@ public final class R {
       0x7f03006d, 0x7f03006e, 0x7f03006f, 0x7f030070, 
       0x7f030071, 0x7f030076, 0x7f030077, 0x7f030078, 
       0x7f03007a, 0x7f03007b, 0x7f03007c, 0x7f03007d, 
-      0x7f03007e, 0x7f03007f, 0x7f030080, 0x7f0300ea, 
-      0x7f0300f4, 0x7f0300f8, 0x7f030186, 0x7f030192, 
-      0x7f0301e7, 0x7f0301e9
+      0x7f03007e, 0x7f03007f, 0x7f030080, 0x7f0300fd, 
+      0x7f030107, 0x7f03010b, 0x7f0301af, 0x7f0301bf, 
+      0x7f03024b, 0x7f03024d
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -10410,7 +11244,7 @@ public final class R {
      */
     public static final int Chip_android_checkable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#checkedIcon}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#checkedIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10418,42 +11252,42 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:checkedIcon
+     * @attr name com.arch.demo:checkedIcon
      */
     public static final int Chip_checkedIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#checkedIconEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#checkedIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:checkedIconEnabled
+     * @attr name com.arch.demo:checkedIconEnabled
      */
     public static final int Chip_checkedIconEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#checkedIconVisible}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#checkedIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:checkedIconVisible
+     * @attr name com.arch.demo:checkedIconVisible
      */
     public static final int Chip_checkedIconVisible=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipBackgroundColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:chipBackgroundColor
+     * @attr name com.arch.demo:chipBackgroundColor
      */
     public static final int Chip_chipBackgroundColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipCornerRadius}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipCornerRadius}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10462,11 +11296,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:chipCornerRadius
+     * @attr name com.arch.demo:chipCornerRadius
      */
     public static final int Chip_chipCornerRadius=9;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipEndPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10475,11 +11309,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:chipEndPadding
+     * @attr name com.arch.demo:chipEndPadding
      */
     public static final int Chip_chipEndPadding=10;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipIcon}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10487,21 +11321,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:chipIcon
+     * @attr name com.arch.demo:chipIcon
      */
     public static final int Chip_chipIcon=11;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipIconEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:chipIconEnabled
+     * @attr name com.arch.demo:chipIconEnabled
      */
     public static final int Chip_chipIconEnabled=12;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipIconSize}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipIconSize}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10510,32 +11344,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:chipIconSize
+     * @attr name com.arch.demo:chipIconSize
      */
     public static final int Chip_chipIconSize=13;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipIconTint}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipIconTint}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:chipIconTint
+     * @attr name com.arch.demo:chipIconTint
      */
     public static final int Chip_chipIconTint=14;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipIconVisible}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:chipIconVisible
+     * @attr name com.arch.demo:chipIconVisible
      */
     public static final int Chip_chipIconVisible=15;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipMinHeight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipMinHeight}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10544,11 +11378,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:chipMinHeight
+     * @attr name com.arch.demo:chipMinHeight
      */
     public static final int Chip_chipMinHeight=16;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipStartPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10557,22 +11391,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:chipStartPadding
+     * @attr name com.arch.demo:chipStartPadding
      */
     public static final int Chip_chipStartPadding=17;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipStrokeColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipStrokeColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:chipStrokeColor
+     * @attr name com.arch.demo:chipStrokeColor
      */
     public static final int Chip_chipStrokeColor=18;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipStrokeWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipStrokeWidth}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10581,7 +11415,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:chipStrokeWidth
+     * @attr name com.arch.demo:chipStrokeWidth
      */
     public static final int Chip_chipStrokeWidth=19;
     /**
@@ -10594,21 +11428,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:closeIcon
+     * @attr name com.arch.demo:closeIcon
      */
     public static final int Chip_closeIcon=20;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#closeIconEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#closeIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:closeIconEnabled
+     * @attr name com.arch.demo:closeIconEnabled
      */
     public static final int Chip_closeIconEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#closeIconEndPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#closeIconEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10617,11 +11451,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:closeIconEndPadding
+     * @attr name com.arch.demo:closeIconEndPadding
      */
     public static final int Chip_closeIconEndPadding=22;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#closeIconSize}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#closeIconSize}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10630,11 +11464,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:closeIconSize
+     * @attr name com.arch.demo:closeIconSize
      */
     public static final int Chip_closeIconSize=23;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#closeIconStartPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#closeIconStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10643,32 +11477,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:closeIconStartPadding
+     * @attr name com.arch.demo:closeIconStartPadding
      */
     public static final int Chip_closeIconStartPadding=24;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#closeIconTint}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#closeIconTint}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:closeIconTint
+     * @attr name com.arch.demo:closeIconTint
      */
     public static final int Chip_closeIconTint=25;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#closeIconVisible}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#closeIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:closeIconVisible
+     * @attr name com.arch.demo:closeIconVisible
      */
     public static final int Chip_closeIconVisible=26;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10676,11 +11510,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:hideMotionSpec
+     * @attr name com.arch.demo:hideMotionSpec
      */
     public static final int Chip_hideMotionSpec=27;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#iconEndPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#iconEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10689,11 +11523,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:iconEndPadding
+     * @attr name com.arch.demo:iconEndPadding
      */
     public static final int Chip_iconEndPadding=28;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#iconStartPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#iconStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10702,22 +11536,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:iconStartPadding
+     * @attr name com.arch.demo:iconStartPadding
      */
     public static final int Chip_iconStartPadding=29;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#rippleColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:rippleColor
+     * @attr name com.arch.demo:rippleColor
      */
     public static final int Chip_rippleColor=30;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10725,11 +11559,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:showMotionSpec
+     * @attr name com.arch.demo:showMotionSpec
      */
     public static final int Chip_showMotionSpec=31;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textEndPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10738,11 +11572,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:textEndPadding
+     * @attr name com.arch.demo:textEndPadding
      */
     public static final int Chip_textEndPadding=32;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textStartPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10751,7 +11585,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:textStartPadding
+     * @attr name com.arch.demo:textStartPadding
      */
     public static final int Chip_textStartPadding=33;
     /**
@@ -10761,12 +11595,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ChipGroup_checkedChip com.duan.newsmvvm:checkedChip}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacing com.duan.newsmvvm:chipSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal com.duan.newsmvvm:chipSpacingHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical com.duan.newsmvvm:chipSpacingVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleLine com.duan.newsmvvm:singleLine}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleSelection com.duan.newsmvvm:singleSelection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_checkedChip com.arch.demo:checkedChip}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacing com.arch.demo:chipSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal com.arch.demo:chipSpacingHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical com.arch.demo:chipSpacingVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleLine com.arch.demo:singleLine}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleSelection com.arch.demo:singleSelection}</code></td><td></td></tr>
      * </table>
      * @see #ChipGroup_checkedChip
      * @see #ChipGroup_chipSpacing
@@ -10777,10 +11611,10 @@ public final class R {
      */
     public static final int[] ChipGroup={
       0x7f030063, 0x7f030072, 0x7f030073, 0x7f030074, 
-      0x7f030196, 0x7f030197
+      0x7f0301c3, 0x7f0301c4
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#checkedChip}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#checkedChip}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10788,11 +11622,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:checkedChip
+     * @attr name com.arch.demo:checkedChip
      */
     public static final int ChipGroup_checkedChip=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipSpacing}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipSpacing}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10801,11 +11635,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:chipSpacing
+     * @attr name com.arch.demo:chipSpacing
      */
     public static final int ChipGroup_chipSpacing=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipSpacingHorizontal}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipSpacingHorizontal}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10814,11 +11648,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:chipSpacingHorizontal
+     * @attr name com.arch.demo:chipSpacingHorizontal
      */
     public static final int ChipGroup_chipSpacingHorizontal=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipSpacingVertical}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipSpacingVertical}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10827,29 +11661,420 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:chipSpacingVertical
+     * @attr name com.arch.demo:chipSpacingVertical
      */
     public static final int ChipGroup_chipSpacingVertical=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#singleLine}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#singleLine}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:singleLine
+     * @attr name com.arch.demo:singleLine
      */
     public static final int ChipGroup_singleLine=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#singleSelection}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#singleSelection}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:singleSelection
+     * @attr name com.arch.demo:singleSelection
      */
     public static final int ChipGroup_singleSelection=5;
+    /**
+     * Attributes that can be used with a ClassicsFooter.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlAccentColor com.arch.demo:srlAccentColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlClassicsSpinnerStyle com.arch.demo:srlClassicsSpinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlDrawableArrow com.arch.demo:srlDrawableArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlDrawableArrowSize com.arch.demo:srlDrawableArrowSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlDrawableMarginRight com.arch.demo:srlDrawableMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlDrawableProgress com.arch.demo:srlDrawableProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlDrawableProgressSize com.arch.demo:srlDrawableProgressSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlDrawableSize com.arch.demo:srlDrawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlFinishDuration com.arch.demo:srlFinishDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlPrimaryColor com.arch.demo:srlPrimaryColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsFooter_srlTextSizeTitle com.arch.demo:srlTextSizeTitle}</code></td><td></td></tr>
+     * </table>
+     * @see #ClassicsFooter_srlAccentColor
+     * @see #ClassicsFooter_srlClassicsSpinnerStyle
+     * @see #ClassicsFooter_srlDrawableArrow
+     * @see #ClassicsFooter_srlDrawableArrowSize
+     * @see #ClassicsFooter_srlDrawableMarginRight
+     * @see #ClassicsFooter_srlDrawableProgress
+     * @see #ClassicsFooter_srlDrawableProgressSize
+     * @see #ClassicsFooter_srlDrawableSize
+     * @see #ClassicsFooter_srlFinishDuration
+     * @see #ClassicsFooter_srlPrimaryColor
+     * @see #ClassicsFooter_srlTextSizeTitle
+     */
+    public static final int[] ClassicsFooter={
+      0x7f0301cd, 0x7f0301cf, 0x7f0301d3, 0x7f0301d4, 
+      0x7f0301d5, 0x7f0301d6, 0x7f0301d7, 0x7f0301d8, 
+      0x7f0301ed, 0x7f0301fe, 0x7f030202
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlAccentColor}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:srlAccentColor
+     */
+    public static final int ClassicsFooter_srlAccentColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlClassicsSpinnerStyle}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>FixedBehind</td><td>2</td><td>拉伸形变</td></tr>
+     * <tr><td>Scale</td><td>1</td><td>平行移动</td></tr>
+     * <tr><td>Translate</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.arch.demo:srlClassicsSpinnerStyle
+     */
+    public static final int ClassicsFooter_srlClassicsSpinnerStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableArrow}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:srlDrawableArrow
+     */
+    public static final int ClassicsFooter_srlDrawableArrow=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableArrowSize}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlDrawableArrowSize
+     */
+    public static final int ClassicsFooter_srlDrawableArrowSize=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableMarginRight}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlDrawableMarginRight
+     */
+    public static final int ClassicsFooter_srlDrawableMarginRight=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableProgress}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:srlDrawableProgress
+     */
+    public static final int ClassicsFooter_srlDrawableProgress=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableProgressSize}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlDrawableProgressSize
+     */
+    public static final int ClassicsFooter_srlDrawableProgressSize=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableSize}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlDrawableSize
+     */
+    public static final int ClassicsFooter_srlDrawableSize=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFinishDuration}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.arch.demo:srlFinishDuration
+     */
+    public static final int ClassicsFooter_srlFinishDuration=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlPrimaryColor}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:srlPrimaryColor
+     */
+    public static final int ClassicsFooter_srlPrimaryColor=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlTextSizeTitle}
+     * attribute's value can be found in the {@link #ClassicsFooter} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlTextSizeTitle
+     */
+    public static final int ClassicsFooter_srlTextSizeTitle=10;
+    /**
+     * Attributes that can be used with a ClassicsHeader.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlAccentColor com.arch.demo:srlAccentColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlClassicsSpinnerStyle com.arch.demo:srlClassicsSpinnerStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlDrawableArrow com.arch.demo:srlDrawableArrow}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlDrawableArrowSize com.arch.demo:srlDrawableArrowSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlDrawableMarginRight com.arch.demo:srlDrawableMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlDrawableProgress com.arch.demo:srlDrawableProgress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlDrawableProgressSize com.arch.demo:srlDrawableProgressSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlDrawableSize com.arch.demo:srlDrawableSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlEnableLastTime com.arch.demo:srlEnableLastTime}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlFinishDuration com.arch.demo:srlFinishDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlPrimaryColor com.arch.demo:srlPrimaryColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlTextSizeTime com.arch.demo:srlTextSizeTime}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlTextSizeTitle com.arch.demo:srlTextSizeTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ClassicsHeader_srlTextTimeMarginTop com.arch.demo:srlTextTimeMarginTop}</code></td><td></td></tr>
+     * </table>
+     * @see #ClassicsHeader_srlAccentColor
+     * @see #ClassicsHeader_srlClassicsSpinnerStyle
+     * @see #ClassicsHeader_srlDrawableArrow
+     * @see #ClassicsHeader_srlDrawableArrowSize
+     * @see #ClassicsHeader_srlDrawableMarginRight
+     * @see #ClassicsHeader_srlDrawableProgress
+     * @see #ClassicsHeader_srlDrawableProgressSize
+     * @see #ClassicsHeader_srlDrawableSize
+     * @see #ClassicsHeader_srlEnableLastTime
+     * @see #ClassicsHeader_srlFinishDuration
+     * @see #ClassicsHeader_srlPrimaryColor
+     * @see #ClassicsHeader_srlTextSizeTime
+     * @see #ClassicsHeader_srlTextSizeTitle
+     * @see #ClassicsHeader_srlTextTimeMarginTop
+     */
+    public static final int[] ClassicsHeader={
+      0x7f0301cd, 0x7f0301cf, 0x7f0301d3, 0x7f0301d4, 
+      0x7f0301d5, 0x7f0301d6, 0x7f0301d7, 0x7f0301d8, 
+      0x7f0301e0, 0x7f0301ed, 0x7f0301fe, 0x7f030201, 
+      0x7f030202, 0x7f030203
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlAccentColor}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:srlAccentColor
+     */
+    public static final int ClassicsHeader_srlAccentColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlClassicsSpinnerStyle}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>FixedBehind</td><td>2</td><td>拉伸形变</td></tr>
+     * <tr><td>Scale</td><td>1</td><td>平行移动</td></tr>
+     * <tr><td>Translate</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.arch.demo:srlClassicsSpinnerStyle
+     */
+    public static final int ClassicsHeader_srlClassicsSpinnerStyle=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableArrow}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:srlDrawableArrow
+     */
+    public static final int ClassicsHeader_srlDrawableArrow=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableArrowSize}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlDrawableArrowSize
+     */
+    public static final int ClassicsHeader_srlDrawableArrowSize=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableMarginRight}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlDrawableMarginRight
+     */
+    public static final int ClassicsHeader_srlDrawableMarginRight=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableProgress}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:srlDrawableProgress
+     */
+    public static final int ClassicsHeader_srlDrawableProgress=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableProgressSize}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlDrawableProgressSize
+     */
+    public static final int ClassicsHeader_srlDrawableProgressSize=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDrawableSize}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlDrawableSize
+     */
+    public static final int ClassicsHeader_srlDrawableSize=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableLastTime}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableLastTime
+     */
+    public static final int ClassicsHeader_srlEnableLastTime=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFinishDuration}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.arch.demo:srlFinishDuration
+     */
+    public static final int ClassicsHeader_srlFinishDuration=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlPrimaryColor}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:srlPrimaryColor
+     */
+    public static final int ClassicsHeader_srlPrimaryColor=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlTextSizeTime}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlTextSizeTime
+     */
+    public static final int ClassicsHeader_srlTextSizeTime=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlTextSizeTitle}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlTextSizeTitle
+     */
+    public static final int ClassicsHeader_srlTextSizeTitle=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlTextTimeMarginTop}
+     * attribute's value can be found in the {@link #ClassicsHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlTextTimeMarginTop
+     */
+    public static final int ClassicsHeader_srlTextTimeMarginTop=13;
     /**
      * Attributes that can be used with a CollapsingToolbarLayout.
      * <p>Includes the following attributes:</p>
@@ -10857,22 +12082,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.duan.newsmvvm:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.duan.newsmvvm:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.duan.newsmvvm:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.duan.newsmvvm:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.duan.newsmvvm:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.duan.newsmvvm:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.duan.newsmvvm:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.duan.newsmvvm:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.duan.newsmvvm:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.duan.newsmvvm:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.duan.newsmvvm:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.duan.newsmvvm:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.duan.newsmvvm:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.duan.newsmvvm:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.duan.newsmvvm:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.duan.newsmvvm:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.arch.demo:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.arch.demo:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.arch.demo:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.arch.demo:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.arch.demo:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.arch.demo:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.arch.demo:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.arch.demo:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.arch.demo:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.arch.demo:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.arch.demo:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.arch.demo:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.arch.demo:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.arch.demo:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.arch.demo:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.arch.demo:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -10892,13 +12117,13 @@ public final class R {
      * @see #CollapsingToolbarLayout_toolbarId
      */
     public static final int[] CollapsingToolbarLayout={
-      0x7f030084, 0x7f030085, 0x7f0300a2, 0x7f0300c3, 
-      0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 
-      0x7f0300c8, 0x7f0300c9, 0x7f030187, 0x7f030189, 
-      0x7f0301a7, 0x7f0301f4, 0x7f0301f5, 0x7f0301ff
+      0x7f030084, 0x7f030085, 0x7f0300a2, 0x7f0300c6, 
+      0x7f0300c7, 0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 
+      0x7f0300cb, 0x7f0300cc, 0x7f0301b0, 0x7f0301b2, 
+      0x7f03020b, 0x7f030259, 0x7f03025a, 0x7f030264
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10919,11 +12144,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:collapsedTitleGravity
+     * @attr name com.arch.demo:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10931,22 +12156,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:collapsedTitleTextAppearance
+     * @attr name com.arch.demo:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:contentScrim
+     * @attr name com.arch.demo:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -10967,11 +12192,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:expandedTitleGravity
+     * @attr name com.arch.demo:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10980,11 +12205,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:expandedTitleMargin
+     * @attr name com.arch.demo:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -10993,11 +12218,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:expandedTitleMarginBottom
+     * @attr name com.arch.demo:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11006,11 +12231,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:expandedTitleMarginEnd
+     * @attr name com.arch.demo:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11019,11 +12244,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:expandedTitleMarginStart
+     * @attr name com.arch.demo:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11032,11 +12257,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:expandedTitleMarginTop
+     * @attr name com.arch.demo:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11044,20 +12269,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:expandedTitleTextAppearance
+     * @attr name com.arch.demo:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:scrimAnimationDuration
+     * @attr name com.arch.demo:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11066,42 +12291,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:scrimVisibleHeightTrigger
+     * @attr name com.arch.demo:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:statusBarScrim
+     * @attr name com.arch.demo:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:title
+     * @attr name com.arch.demo:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:titleEnabled
+     * @attr name com.arch.demo:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11109,7 +12334,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:toolbarId
+     * @attr name com.arch.demo:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -11119,17 +12344,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.duan.newsmvvm:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.duan.newsmvvm:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.arch.demo:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.arch.demo:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
      */
     public static final int[] CollapsingToolbarLayout_Layout={
-      0x7f030115, 0x7f030116
+      0x7f030128, 0x7f030129
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11143,16 +12368,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_collapseMode
+     * @attr name com.arch.demo:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_collapseParallaxMultiplier
+     * @attr name com.arch.demo:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -11164,7 +12389,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.duan.newsmvvm:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.arch.demo:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -11201,7 +12426,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:alpha
+     * @attr name com.arch.demo:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -11212,8 +12437,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.duan.newsmvvm:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.duan.newsmvvm:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.arch.demo:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.arch.demo:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -11243,7 +12468,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:buttonTint
+     * @attr name com.arch.demo:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
@@ -11270,7 +12495,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:buttonTintMode
+     * @attr name com.arch.demo:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -11285,61 +12510,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.duan.newsmvvm:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.duan.newsmvvm:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.duan.newsmvvm:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.duan.newsmvvm:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.duan.newsmvvm:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.duan.newsmvvm:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.duan.newsmvvm:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.duan.newsmvvm:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.duan.newsmvvm:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.duan.newsmvvm:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.duan.newsmvvm:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.duan.newsmvvm:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.duan.newsmvvm:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.duan.newsmvvm:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.duan.newsmvvm:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.duan.newsmvvm:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.duan.newsmvvm:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.duan.newsmvvm:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.duan.newsmvvm:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.duan.newsmvvm:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.duan.newsmvvm:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.duan.newsmvvm:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.duan.newsmvvm:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.duan.newsmvvm:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.duan.newsmvvm:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.duan.newsmvvm:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.duan.newsmvvm:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.duan.newsmvvm:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.duan.newsmvvm:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.duan.newsmvvm:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.duan.newsmvvm:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.duan.newsmvvm:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.duan.newsmvvm:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.duan.newsmvvm:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.duan.newsmvvm:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.duan.newsmvvm:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.duan.newsmvvm:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.duan.newsmvvm:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.duan.newsmvvm:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.duan.newsmvvm:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.duan.newsmvvm:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.duan.newsmvvm:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.duan.newsmvvm:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.duan.newsmvvm:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.duan.newsmvvm:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.duan.newsmvvm:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.duan.newsmvvm:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.duan.newsmvvm:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.duan.newsmvvm:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.duan.newsmvvm:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.duan.newsmvvm:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.duan.newsmvvm:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.duan.newsmvvm:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.duan.newsmvvm:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.duan.newsmvvm:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.arch.demo:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.arch.demo:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.arch.demo:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.arch.demo:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.arch.demo:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.arch.demo:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.arch.demo:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.arch.demo:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.arch.demo:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.arch.demo:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.arch.demo:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.arch.demo:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.arch.demo:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.arch.demo:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.arch.demo:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.arch.demo:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.arch.demo:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.arch.demo:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.arch.demo:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.arch.demo:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.arch.demo:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.arch.demo:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.arch.demo:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.arch.demo:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.arch.demo:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.arch.demo:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.arch.demo:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.arch.demo:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.arch.demo:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.arch.demo:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.arch.demo:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.arch.demo:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.arch.demo:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.arch.demo:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.arch.demo:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.arch.demo:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.arch.demo:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.arch.demo:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.arch.demo:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.arch.demo:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.arch.demo:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.arch.demo:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.arch.demo:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.arch.demo:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.arch.demo:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.arch.demo:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.arch.demo:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.arch.demo:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.arch.demo:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.arch.demo:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.arch.demo:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.arch.demo:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.arch.demo:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.arch.demo:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.arch.demo:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -11405,19 +12630,19 @@ public final class R {
     public static final int[] ConstraintLayout_Layout={
       0x010100c4, 0x0101011f, 0x01010120, 0x0101013f, 
       0x01010140, 0x7f030037, 0x7f030038, 0x7f030061, 
-      0x7f030093, 0x7f030094, 0x7f030117, 0x7f030118, 
-      0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c, 
-      0x7f03011d, 0x7f03011e, 0x7f03011f, 0x7f030120, 
-      0x7f030121, 0x7f030122, 0x7f030123, 0x7f030124, 
-      0x7f030125, 0x7f030126, 0x7f030127, 0x7f030128, 
-      0x7f030129, 0x7f03012a, 0x7f03012b, 0x7f03012c, 
-      0x7f03012d, 0x7f03012e, 0x7f03012f, 0x7f030130, 
-      0x7f030131, 0x7f030132, 0x7f030133, 0x7f030134, 
-      0x7f030135, 0x7f030136, 0x7f030137, 0x7f030138, 
-      0x7f030139, 0x7f03013a, 0x7f03013b, 0x7f03013c, 
-      0x7f03013d, 0x7f03013e, 0x7f03013f, 0x7f030141, 
-      0x7f030142, 0x7f030143, 0x7f030144, 0x7f030145, 
-      0x7f030146, 0x7f030147, 0x7f030148, 0x7f03014b
+      0x7f030093, 0x7f030094, 0x7f03012a, 0x7f03012b, 
+      0x7f03012c, 0x7f03012d, 0x7f03012e, 0x7f03012f, 
+      0x7f030130, 0x7f030131, 0x7f030132, 0x7f030133, 
+      0x7f030134, 0x7f030135, 0x7f030136, 0x7f030137, 
+      0x7f030138, 0x7f030139, 0x7f03013a, 0x7f03013b, 
+      0x7f03013c, 0x7f03013d, 0x7f03013e, 0x7f03013f, 
+      0x7f030140, 0x7f030141, 0x7f030142, 0x7f030143, 
+      0x7f030144, 0x7f030145, 0x7f030146, 0x7f030147, 
+      0x7f030148, 0x7f030149, 0x7f03014a, 0x7f03014b, 
+      0x7f03014c, 0x7f03014d, 0x7f03014e, 0x7f03014f, 
+      0x7f030150, 0x7f030151, 0x7f030152, 0x7f030154, 
+      0x7f030155, 0x7f030156, 0x7f030157, 0x7f030158, 
+      0x7f030159, 0x7f03015a, 0x7f03015b, 0x7f03015e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -11489,17 +12714,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:barrierAllowsGoneWidgets
+     * @attr name com.arch.demo:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11516,21 +12741,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:barrierDirection
+     * @attr name com.arch.demo:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:chainUseRtl
+     * @attr name com.arch.demo:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11538,50 +12763,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:constraintSet
+     * @attr name com.arch.demo:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:constraint_referenced_ids
+     * @attr name com.arch.demo:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constrainedHeight
+     * @attr name com.arch.demo:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constrainedWidth
+     * @attr name com.arch.demo:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintBaseline_creator
+     * @attr name com.arch.demo:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11597,20 +12822,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintBaseline_toBaselineOf
+     * @attr name com.arch.demo:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintBottom_creator
+     * @attr name com.arch.demo:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11626,11 +12851,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintBottom_toBottomOf
+     * @attr name com.arch.demo:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11646,11 +12871,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintBottom_toTopOf
+     * @attr name com.arch.demo:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11658,20 +12883,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintCircle
+     * @attr name com.arch.demo:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintCircleAngle
+     * @attr name com.arch.demo:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11680,21 +12905,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_constraintCircleRadius
+     * @attr name com.arch.demo:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:layout_constraintDimensionRatio
+     * @attr name com.arch.demo:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11710,11 +12935,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintEnd_toEndOf
+     * @attr name com.arch.demo:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11730,11 +12955,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintEnd_toStartOf
+     * @attr name com.arch.demo:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11743,11 +12968,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_constraintGuide_begin
+     * @attr name com.arch.demo:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11756,20 +12981,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_constraintGuide_end
+     * @attr name com.arch.demo:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintGuide_percent
+     * @attr name com.arch.demo:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11783,11 +13008,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHeight_default
+     * @attr name com.arch.demo:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11804,11 +13029,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHeight_max
+     * @attr name com.arch.demo:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11825,29 +13050,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHeight_min
+     * @attr name com.arch.demo:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHeight_percent
+     * @attr name com.arch.demo:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHorizontal_bias
+     * @attr name com.arch.demo:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11861,29 +13086,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHorizontal_chainStyle
+     * @attr name com.arch.demo:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHorizontal_weight
+     * @attr name com.arch.demo:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintLeft_creator
+     * @attr name com.arch.demo:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11899,11 +13124,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintLeft_toLeftOf
+     * @attr name com.arch.demo:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11919,20 +13144,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintLeft_toRightOf
+     * @attr name com.arch.demo:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintRight_creator
+     * @attr name com.arch.demo:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11948,11 +13173,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintRight_toLeftOf
+     * @attr name com.arch.demo:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11968,11 +13193,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintRight_toRightOf
+     * @attr name com.arch.demo:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11988,11 +13213,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintStart_toEndOf
+     * @attr name com.arch.demo:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12008,20 +13233,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintStart_toStartOf
+     * @attr name com.arch.demo:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintTop_creator
+     * @attr name com.arch.demo:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12037,11 +13262,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintTop_toBottomOf
+     * @attr name com.arch.demo:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12057,20 +13282,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintTop_toTopOf
+     * @attr name com.arch.demo:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintVertical_bias
+     * @attr name com.arch.demo:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12084,20 +13309,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintVertical_chainStyle
+     * @attr name com.arch.demo:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintVertical_weight
+     * @attr name com.arch.demo:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12111,11 +13336,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintWidth_default
+     * @attr name com.arch.demo:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12132,11 +13357,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintWidth_max
+     * @attr name com.arch.demo:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12153,20 +13378,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintWidth_min
+     * @attr name com.arch.demo:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintWidth_percent
+     * @attr name com.arch.demo:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12175,11 +13400,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_editor_absoluteX
+     * @attr name com.arch.demo:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12188,11 +13413,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_editor_absoluteY
+     * @attr name com.arch.demo:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12201,11 +13426,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginBottom
+     * @attr name com.arch.demo:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12214,11 +13439,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginEnd
+     * @attr name com.arch.demo:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12227,11 +13452,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginLeft
+     * @attr name com.arch.demo:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12240,11 +13465,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginRight
+     * @attr name com.arch.demo:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12253,11 +13478,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginStart
+     * @attr name com.arch.demo:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12266,11 +13491,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginTop
+     * @attr name com.arch.demo:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12288,7 +13513,7 @@ public final class R {
      * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_optimizationLevel
+     * @attr name com.arch.demo:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -12298,17 +13523,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.duan.newsmvvm:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.duan.newsmvvm:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.arch.demo:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.arch.demo:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
      */
     public static final int[] ConstraintLayout_placeholder={
-      0x7f030095, 0x7f0300bc
+      0x7f030095, 0x7f0300bf
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#content}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12316,11 +13541,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:content
+     * @attr name com.arch.demo:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12333,7 +13558,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:emptyVisibility
+     * @attr name com.arch.demo:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -12370,59 +13595,59 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.duan.newsmvvm:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.duan.newsmvvm:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.duan.newsmvvm:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.duan.newsmvvm:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.duan.newsmvvm:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.duan.newsmvvm:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.duan.newsmvvm:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.duan.newsmvvm:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.duan.newsmvvm:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.duan.newsmvvm:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.duan.newsmvvm:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.duan.newsmvvm:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.duan.newsmvvm:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.duan.newsmvvm:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.duan.newsmvvm:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.duan.newsmvvm:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.duan.newsmvvm:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.duan.newsmvvm:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.duan.newsmvvm:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.duan.newsmvvm:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.duan.newsmvvm:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.duan.newsmvvm:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.duan.newsmvvm:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.duan.newsmvvm:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.duan.newsmvvm:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.duan.newsmvvm:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.duan.newsmvvm:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.duan.newsmvvm:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.duan.newsmvvm:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.duan.newsmvvm:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.duan.newsmvvm:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.duan.newsmvvm:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.duan.newsmvvm:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.duan.newsmvvm:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.duan.newsmvvm:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.duan.newsmvvm:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.duan.newsmvvm:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.duan.newsmvvm:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.duan.newsmvvm:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.duan.newsmvvm:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.duan.newsmvvm:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.duan.newsmvvm:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.duan.newsmvvm:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.duan.newsmvvm:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.duan.newsmvvm:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.duan.newsmvvm:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.duan.newsmvvm:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.duan.newsmvvm:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.duan.newsmvvm:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.duan.newsmvvm:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.duan.newsmvvm:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.duan.newsmvvm:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.duan.newsmvvm:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.arch.demo:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.arch.demo:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.arch.demo:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.arch.demo:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.arch.demo:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.arch.demo:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.arch.demo:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.arch.demo:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.arch.demo:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.arch.demo:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.arch.demo:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.arch.demo:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.arch.demo:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.arch.demo:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.arch.demo:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.arch.demo:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.arch.demo:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.arch.demo:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.arch.demo:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.arch.demo:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.arch.demo:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.arch.demo:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.arch.demo:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.arch.demo:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.arch.demo:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.arch.demo:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.arch.demo:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.arch.demo:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.arch.demo:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.arch.demo:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.arch.demo:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.arch.demo:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.arch.demo:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.arch.demo:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.arch.demo:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.arch.demo:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.arch.demo:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.arch.demo:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.arch.demo:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.arch.demo:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.arch.demo:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.arch.demo:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.arch.demo:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.arch.demo:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.arch.demo:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.arch.demo:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.arch.demo:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.arch.demo:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.arch.demo:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.arch.demo:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.arch.demo:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.arch.demo:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.arch.demo:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -12513,19 +13738,19 @@ public final class R {
       0x01010322, 0x01010323, 0x01010324, 0x01010325, 
       0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
       0x010103b6, 0x010103fa, 0x01010440, 0x7f030037, 
-      0x7f030038, 0x7f030061, 0x7f030094, 0x7f030117, 
-      0x7f030118, 0x7f030119, 0x7f03011a, 0x7f03011b, 
-      0x7f03011c, 0x7f03011d, 0x7f03011e, 0x7f03011f, 
-      0x7f030120, 0x7f030121, 0x7f030122, 0x7f030123, 
-      0x7f030124, 0x7f030125, 0x7f030126, 0x7f030127, 
-      0x7f030128, 0x7f030129, 0x7f03012a, 0x7f03012b, 
-      0x7f03012c, 0x7f03012d, 0x7f03012e, 0x7f03012f, 
-      0x7f030130, 0x7f030131, 0x7f030132, 0x7f030133, 
-      0x7f030134, 0x7f030135, 0x7f030136, 0x7f030137, 
-      0x7f030138, 0x7f030139, 0x7f03013a, 0x7f03013b, 
-      0x7f03013c, 0x7f03013d, 0x7f03013e, 0x7f03013f, 
-      0x7f030141, 0x7f030142, 0x7f030143, 0x7f030144, 
-      0x7f030145, 0x7f030146, 0x7f030147, 0x7f030148
+      0x7f030038, 0x7f030061, 0x7f030094, 0x7f03012a, 
+      0x7f03012b, 0x7f03012c, 0x7f03012d, 0x7f03012e, 
+      0x7f03012f, 0x7f030130, 0x7f030131, 0x7f030132, 
+      0x7f030133, 0x7f030134, 0x7f030135, 0x7f030136, 
+      0x7f030137, 0x7f030138, 0x7f030139, 0x7f03013a, 
+      0x7f03013b, 0x7f03013c, 0x7f03013d, 0x7f03013e, 
+      0x7f03013f, 0x7f030140, 0x7f030141, 0x7f030142, 
+      0x7f030143, 0x7f030144, 0x7f030145, 0x7f030146, 
+      0x7f030147, 0x7f030148, 0x7f030149, 0x7f03014a, 
+      0x7f03014b, 0x7f03014c, 0x7f03014d, 0x7f03014e, 
+      0x7f03014f, 0x7f030150, 0x7f030151, 0x7f030152, 
+      0x7f030154, 0x7f030155, 0x7f030156, 0x7f030157, 
+      0x7f030158, 0x7f030159, 0x7f03015a, 0x7f03015b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -12883,17 +14108,17 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=26;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:barrierAllowsGoneWidgets
+     * @attr name com.arch.demo:barrierAllowsGoneWidgets
      */
     public static final int ConstraintSet_barrierAllowsGoneWidgets=27;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -12910,60 +14135,60 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:barrierDirection
+     * @attr name com.arch.demo:barrierDirection
      */
     public static final int ConstraintSet_barrierDirection=28;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:chainUseRtl
+     * @attr name com.arch.demo:chainUseRtl
      */
     public static final int ConstraintSet_chainUseRtl=29;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:constraint_referenced_ids
+     * @attr name com.arch.demo:constraint_referenced_ids
      */
     public static final int ConstraintSet_constraint_referenced_ids=30;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constrainedHeight
+     * @attr name com.arch.demo:layout_constrainedHeight
      */
     public static final int ConstraintSet_layout_constrainedHeight=31;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constrainedWidth
+     * @attr name com.arch.demo:layout_constrainedWidth
      */
     public static final int ConstraintSet_layout_constrainedWidth=32;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintBaseline_creator
+     * @attr name com.arch.demo:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12979,20 +14204,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintBaseline_toBaselineOf
+     * @attr name com.arch.demo:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintBottom_creator
+     * @attr name com.arch.demo:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=35;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13008,11 +14233,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintBottom_toBottomOf
+     * @attr name com.arch.demo:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=36;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13028,11 +14253,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintBottom_toTopOf
+     * @attr name com.arch.demo:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13040,20 +14265,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintCircle
+     * @attr name com.arch.demo:layout_constraintCircle
      */
     public static final int ConstraintSet_layout_constraintCircle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintCircleAngle
+     * @attr name com.arch.demo:layout_constraintCircleAngle
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13062,21 +14287,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_constraintCircleRadius
+     * @attr name com.arch.demo:layout_constraintCircleRadius
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=40;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:layout_constraintDimensionRatio
+     * @attr name com.arch.demo:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=41;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13092,11 +14317,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintEnd_toEndOf
+     * @attr name com.arch.demo:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13112,11 +14337,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintEnd_toStartOf
+     * @attr name com.arch.demo:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13125,11 +14350,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_constraintGuide_begin
+     * @attr name com.arch.demo:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=44;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13138,20 +14363,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_constraintGuide_end
+     * @attr name com.arch.demo:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=45;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintGuide_percent
+     * @attr name com.arch.demo:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=46;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13165,11 +14390,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHeight_default
+     * @attr name com.arch.demo:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13186,11 +14411,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHeight_max
+     * @attr name com.arch.demo:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13207,29 +14432,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHeight_min
+     * @attr name com.arch.demo:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHeight_percent
+     * @attr name com.arch.demo:layout_constraintHeight_percent
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHorizontal_bias
+     * @attr name com.arch.demo:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=51;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13243,29 +14468,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHorizontal_chainStyle
+     * @attr name com.arch.demo:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=52;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintHorizontal_weight
+     * @attr name com.arch.demo:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=53;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintLeft_creator
+     * @attr name com.arch.demo:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13281,11 +14506,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintLeft_toLeftOf
+     * @attr name com.arch.demo:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13301,20 +14526,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintLeft_toRightOf
+     * @attr name com.arch.demo:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintRight_creator
+     * @attr name com.arch.demo:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=57;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13330,11 +14555,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintRight_toLeftOf
+     * @attr name com.arch.demo:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=58;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13350,11 +14575,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintRight_toRightOf
+     * @attr name com.arch.demo:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=59;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13370,11 +14595,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintStart_toEndOf
+     * @attr name com.arch.demo:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=60;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13390,20 +14615,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintStart_toStartOf
+     * @attr name com.arch.demo:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=61;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintTop_creator
+     * @attr name com.arch.demo:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=62;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13419,11 +14644,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintTop_toBottomOf
+     * @attr name com.arch.demo:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=63;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13439,20 +14664,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintTop_toTopOf
+     * @attr name com.arch.demo:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=64;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintVertical_bias
+     * @attr name com.arch.demo:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=65;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13466,20 +14691,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintVertical_chainStyle
+     * @attr name com.arch.demo:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintVertical_weight
+     * @attr name com.arch.demo:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=67;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13493,11 +14718,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintWidth_default
+     * @attr name com.arch.demo:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=68;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13514,11 +14739,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintWidth_max
+     * @attr name com.arch.demo:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=69;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13535,20 +14760,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_constraintWidth_min
+     * @attr name com.arch.demo:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=70;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_constraintWidth_percent
+     * @attr name com.arch.demo:layout_constraintWidth_percent
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=71;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13557,11 +14782,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_editor_absoluteX
+     * @attr name com.arch.demo:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=72;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13570,11 +14795,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_editor_absoluteY
+     * @attr name com.arch.demo:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=73;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13583,11 +14808,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginBottom
+     * @attr name com.arch.demo:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=74;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13596,11 +14821,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginEnd
+     * @attr name com.arch.demo:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=75;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13609,11 +14834,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginLeft
+     * @attr name com.arch.demo:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13622,11 +14847,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginRight
+     * @attr name com.arch.demo:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13635,11 +14860,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginStart
+     * @attr name com.arch.demo:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=78;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13648,7 +14873,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:layout_goneMarginTop
+     * @attr name com.arch.demo:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=79;
     /**
@@ -13658,15 +14883,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.duan.newsmvvm:keylines}</code></td><td>A reference to an array of integers representing the
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.arch.demo:keylines}</code></td><td>A reference to an array of integers representing the
      * locations of horizontal keylines in dp from the starting edge.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.duan.newsmvvm:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.arch.demo:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
      */
     public static final int[] CoordinatorLayout={
-      0x7f03010d, 0x7f0301a6
+      0x7f030120, 0x7f03020a
     };
     /**
      * <p>
@@ -13682,7 +14907,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:keylines
+     * @attr name com.arch.demo:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
@@ -13698,7 +14923,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:statusBarBackground
+     * @attr name com.arch.demo:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -13709,15 +14934,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.duan.newsmvvm:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.duan.newsmvvm:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.arch.demo:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.arch.demo:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
      * within its parent's bounds.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.duan.newsmvvm:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.arch.demo:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
      * for this child view.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.duan.newsmvvm:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.duan.newsmvvm:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.arch.demo:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.arch.demo:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
      * dodge it.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.duan.newsmvvm:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.arch.demo:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -13728,8 +14953,8 @@ public final class R {
      * @see #CoordinatorLayout_Layout_layout_keyline
      */
     public static final int[] CoordinatorLayout_Layout={
-      0x010100b3, 0x7f030112, 0x7f030113, 0x7f030114, 
-      0x7f030140, 0x7f030149, 0x7f03014a
+      0x010100b3, 0x7f030125, 0x7f030126, 0x7f030127, 
+      0x7f030153, 0x7f03015c, 0x7f03015d
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
@@ -13770,7 +14995,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:layout_anchor
+     * @attr name com.arch.demo:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
@@ -13807,7 +15032,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_anchorGravity
+     * @attr name com.arch.demo:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
@@ -13819,7 +15044,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:layout_behavior
+     * @attr name com.arch.demo:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
@@ -13843,7 +15068,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_dodgeInsetEdges
+     * @attr name com.arch.demo:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
@@ -13867,7 +15092,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:layout_insetEdge
+     * @attr name com.arch.demo:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
@@ -13879,7 +15104,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:layout_keyline
+     * @attr name com.arch.demo:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -13889,8 +15114,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.duan.newsmvvm:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.duan.newsmvvm:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.arch.demo:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.arch.demo:bottomSheetStyle}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
@@ -13899,7 +15124,7 @@ public final class R {
       0x7f030043, 0x7f030044
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13907,11 +15132,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:bottomSheetDialogTheme
+     * @attr name com.arch.demo:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13919,7 +15144,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:bottomSheetStyle
+     * @attr name com.arch.demo:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
@@ -13929,14 +15154,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.duan.newsmvvm:arrowHeadLength}</code></td><td>The length of the arrow head when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.duan.newsmvvm:arrowShaftLength}</code></td><td>The length of the shaft when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.duan.newsmvvm:barLength}</code></td><td>The length of the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.duan.newsmvvm:color}</code></td><td>The drawing color for the bars</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.duan.newsmvvm:drawableSize}</code></td><td>The total size of the drawable</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.duan.newsmvvm:gapBetweenBars}</code></td><td>The max gap between the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.duan.newsmvvm:spinBars}</code></td><td>Whether bars should rotate or not during transition</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.duan.newsmvvm:thickness}</code></td><td>The thickness (stroke size) for the bar paint</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.arch.demo:arrowHeadLength}</code></td><td>The length of the arrow head when formed to make an arrow</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.arch.demo:arrowShaftLength}</code></td><td>The length of the shaft when formed to make an arrow</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.arch.demo:barLength}</code></td><td>The length of the bars when they are parallel to each other</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.arch.demo:color}</code></td><td>The drawing color for the bars</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.arch.demo:drawableSize}</code></td><td>The total size of the drawable</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.arch.demo:gapBetweenBars}</code></td><td>The max gap between the bars when they are parallel to each other</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.arch.demo:spinBars}</code></td><td>Whether bars should rotate or not during transition</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.arch.demo:thickness}</code></td><td>The thickness (stroke size) for the bar paint</td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -13949,7 +15174,7 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
       0x7f030029, 0x7f03002a, 0x7f030036, 0x7f030086, 
-      0x7f0300b4, 0x7f0300e3, 0x7f03019b, 0x7f0301eb
+      0x7f0300b7, 0x7f0300f6, 0x7f0301c8, 0x7f030250
     };
     /**
      * <p>
@@ -13962,7 +15187,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:arrowHeadLength
+     * @attr name com.arch.demo:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
@@ -13976,7 +15201,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:arrowShaftLength
+     * @attr name com.arch.demo:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
@@ -13990,7 +15215,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:barLength
+     * @attr name com.arch.demo:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
@@ -14002,7 +15227,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:color
+     * @attr name com.arch.demo:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
@@ -14016,7 +15241,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:drawableSize
+     * @attr name com.arch.demo:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
@@ -14030,7 +15255,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:gapBetweenBars
+     * @attr name com.arch.demo:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
@@ -14041,7 +15266,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:spinBars
+     * @attr name com.arch.demo:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
@@ -14055,9 +15280,63 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:thickness
+     * @attr name com.arch.demo:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
+    /**
+     * Attributes that can be used with a DropBoxHeader.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #DropBoxHeader_dhDrawable1 com.arch.demo:dhDrawable1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DropBoxHeader_dhDrawable2 com.arch.demo:dhDrawable2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DropBoxHeader_dhDrawable3 com.arch.demo:dhDrawable3}</code></td><td></td></tr>
+     * </table>
+     * @see #DropBoxHeader_dhDrawable1
+     * @see #DropBoxHeader_dhDrawable2
+     * @see #DropBoxHeader_dhDrawable3
+     */
+    public static final int[] DropBoxHeader={
+      0x7f0300ac, 0x7f0300ad, 0x7f0300ae
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#dhDrawable1}
+     * attribute's value can be found in the {@link #DropBoxHeader} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:dhDrawable1
+     */
+    public static final int DropBoxHeader_dhDrawable1=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#dhDrawable2}
+     * attribute's value can be found in the {@link #DropBoxHeader} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:dhDrawable2
+     */
+    public static final int DropBoxHeader_dhDrawable2=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#dhDrawable3}
+     * attribute's value can be found in the {@link #DropBoxHeader} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:dhDrawable3
+     */
+    public static final int DropBoxHeader_dhDrawable3=2;
     /**
      * Attributes that can be used with a FloatingActionButton.
      * <p>Includes the following attributes:</p>
@@ -14065,19 +15344,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.duan.newsmvvm:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.duan.newsmvvm:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.duan.newsmvvm:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.duan.newsmvvm:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.duan.newsmvvm:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.duan.newsmvvm:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec com.duan.newsmvvm:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ com.duan.newsmvvm:hoveredFocusedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_maxImageSize com.duan.newsmvvm:maxImageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.duan.newsmvvm:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.duan.newsmvvm:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec com.duan.newsmvvm:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.duan.newsmvvm:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.arch.demo:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.arch.demo:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.arch.demo:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.arch.demo:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.arch.demo:fabCustomSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize com.arch.demo:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec com.arch.demo:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ com.arch.demo:hoveredFocusedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_maxImageSize com.arch.demo:maxImageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.arch.demo:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.arch.demo:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec com.arch.demo:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.arch.demo:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -14094,10 +15373,10 @@ public final class R {
      * @see #FloatingActionButton_useCompatPadding
      */
     public static final int[] FloatingActionButton={
-      0x7f030034, 0x7f030035, 0x7f03003f, 0x7f0300bb, 
-      0x7f0300ce, 0x7f0300cf, 0x7f0300ea, 0x7f0300f2, 
-      0x7f030162, 0x7f03017c, 0x7f030186, 0x7f030192, 
-      0x7f030209
+      0x7f030034, 0x7f030035, 0x7f03003f, 0x7f0300be, 
+      0x7f0300d1, 0x7f0300d2, 0x7f0300fd, 0x7f030105, 
+      0x7f030183, 0x7f0301a5, 0x7f0301af, 0x7f0301bf, 
+      0x7f03026e
     };
     /**
      * <p>
@@ -14108,7 +15387,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:backgroundTint
+     * @attr name com.arch.demo:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
@@ -14135,11 +15414,11 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:backgroundTintMode
+     * @attr name com.arch.demo:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14148,7 +15427,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:borderWidth
+     * @attr name com.arch.demo:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
@@ -14162,11 +15441,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:elevation
+     * @attr name com.arch.demo:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fabCustomSize}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fabCustomSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14175,11 +15454,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:fabCustomSize
+     * @attr name com.arch.demo:fabCustomSize
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14193,11 +15472,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:fabSize
+     * @attr name com.arch.demo:fabSize
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14205,11 +15484,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:hideMotionSpec
+     * @attr name com.arch.demo:hideMotionSpec
      */
     public static final int FloatingActionButton_hideMotionSpec=6;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#hoveredFocusedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#hoveredFocusedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14218,11 +15497,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:hoveredFocusedTranslationZ
+     * @attr name com.arch.demo:hoveredFocusedTranslationZ
      */
     public static final int FloatingActionButton_hoveredFocusedTranslationZ=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#maxImageSize}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#maxImageSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14231,11 +15510,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:maxImageSize
+     * @attr name com.arch.demo:maxImageSize
      */
     public static final int FloatingActionButton_maxImageSize=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14244,22 +15523,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:pressedTranslationZ
+     * @attr name com.arch.demo:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=9;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:rippleColor
+     * @attr name com.arch.demo:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=10;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14267,17 +15546,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:showMotionSpec
+     * @attr name com.arch.demo:showMotionSpec
      */
     public static final int FloatingActionButton_showMotionSpec=11;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:useCompatPadding
+     * @attr name com.arch.demo:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=12;
     /**
@@ -14287,7 +15566,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.duan.newsmvvm:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.arch.demo:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -14295,13 +15574,13 @@ public final class R {
       0x7f030039
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:behavior_autoHide
+     * @attr name com.arch.demo:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -14311,17 +15590,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FlowLayout_itemSpacing com.duan.newsmvvm:itemSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlowLayout_lineSpacing com.duan.newsmvvm:lineSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlowLayout_itemSpacing com.arch.demo:itemSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlowLayout_lineSpacing com.arch.demo:lineSpacing}</code></td><td></td></tr>
      * </table>
      * @see #FlowLayout_itemSpacing
      * @see #FlowLayout_lineSpacing
      */
     public static final int[] FlowLayout={
-      0x7f030108, 0x7f030150
+      0x7f03011b, 0x7f030165
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemSpacing}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemSpacing}
      * attribute's value can be found in the {@link #FlowLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14330,11 +15609,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:itemSpacing
+     * @attr name com.arch.demo:itemSpacing
      */
     public static final int FlowLayout_itemSpacing=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#lineSpacing}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lineSpacing}
      * attribute's value can be found in the {@link #FlowLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14343,7 +15622,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:lineSpacing
+     * @attr name com.arch.demo:lineSpacing
      */
     public static final int FlowLayout_lineSpacing=1;
     /**
@@ -14353,12 +15632,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.duan.newsmvvm:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.duan.newsmvvm:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.duan.newsmvvm:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.duan.newsmvvm:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.duan.newsmvvm:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.duan.newsmvvm:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.arch.demo:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.arch.demo:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.arch.demo:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.arch.demo:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.arch.demo:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.arch.demo:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -14368,8 +15647,8 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-      0x7f0300d9, 0x7f0300da, 0x7f0300db, 0x7f0300dc, 
-      0x7f0300dd, 0x7f0300de
+      0x7f0300ec, 0x7f0300ed, 0x7f0300ee, 0x7f0300ef, 
+      0x7f0300f0, 0x7f0300f1
     };
     /**
      * <p>
@@ -14379,7 +15658,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:fontProviderAuthority
+     * @attr name com.arch.demo:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
@@ -14396,7 +15675,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:fontProviderCerts
+     * @attr name com.arch.demo:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
@@ -14428,7 +15707,7 @@ public final class R {
      * default typeface will be used instead.</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:fontProviderFetchStrategy
+     * @attr name com.arch.demo:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
@@ -14447,7 +15726,7 @@ public final class R {
      * timeout and wait until a reply is received from the font provider.</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:fontProviderFetchTimeout
+     * @attr name com.arch.demo:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
@@ -14459,7 +15738,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:fontProviderPackage
+     * @attr name com.arch.demo:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
@@ -14471,7 +15750,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:fontProviderQuery
+     * @attr name com.arch.demo:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -14486,11 +15765,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.duan.newsmvvm:font}</code></td><td>The reference to the font file to be used.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.duan.newsmvvm:fontStyle}</code></td><td>The style of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.duan.newsmvvm:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.duan.newsmvvm:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.duan.newsmvvm:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.arch.demo:font}</code></td><td>The reference to the font file to be used.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.arch.demo:fontStyle}</code></td><td>The style of the given font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.arch.demo:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.arch.demo:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.arch.demo:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -14505,8 +15784,8 @@ public final class R {
      */
     public static final int[] FontFamilyFont={
       0x01010532, 0x01010533, 0x0101053f, 0x0101056f, 
-      0x01010570, 0x7f0300d7, 0x7f0300df, 0x7f0300e0, 
-      0x7f0300e1, 0x7f030208
+      0x01010570, 0x7f0300ea, 0x7f0300f2, 0x7f0300f3, 
+      0x7f0300f4, 0x7f03026d
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -14577,7 +15856,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:font
+     * @attr name com.arch.demo:font
      */
     public static final int FontFamilyFont_font=5;
     /**
@@ -14597,7 +15876,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:fontStyle
+     * @attr name com.arch.demo:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
@@ -14611,7 +15890,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:fontVariationSettings
+     * @attr name com.arch.demo:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
@@ -14625,7 +15904,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:fontWeight
+     * @attr name com.arch.demo:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
@@ -14636,7 +15915,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:ttcIndex
+     * @attr name com.arch.demo:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -14648,14 +15927,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.duan.newsmvvm:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.arch.demo:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
      * @see #ForegroundLinearLayout_foregroundInsidePadding
      */
     public static final int[] ForegroundLinearLayout={
-      0x01010109, 0x01010200, 0x7f0300e2
+      0x01010109, 0x01010200, 0x7f0300f5
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#foreground}
@@ -14700,15 +15979,246 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:foregroundInsidePadding
+     * @attr name com.arch.demo:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
+    /**
+     * Attributes that can be used with a FunGameHitBlockHeader.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #FunGameHitBlockHeader_fghBallSpeed com.arch.demo:fghBallSpeed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameHitBlockHeader_fghBlockHorizontalNum com.arch.demo:fghBlockHorizontalNum}</code></td><td></td></tr>
+     * </table>
+     * @see #FunGameHitBlockHeader_fghBallSpeed
+     * @see #FunGameHitBlockHeader_fghBlockHorizontalNum
+     */
+    public static final int[] FunGameHitBlockHeader={
+      0x7f0300d9, 0x7f0300da
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghBallSpeed}
+     * attribute's value can be found in the {@link #FunGameHitBlockHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:fghBallSpeed
+     */
+    public static final int FunGameHitBlockHeader_fghBallSpeed=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghBlockHorizontalNum}
+     * attribute's value can be found in the {@link #FunGameHitBlockHeader} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.arch.demo:fghBlockHorizontalNum
+     */
+    public static final int FunGameHitBlockHeader_fghBlockHorizontalNum=1;
+    /**
+     * Attributes that can be used with a FunGameView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #FunGameView_fghBackColor com.arch.demo:fghBackColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghLeftColor com.arch.demo:fghLeftColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghMaskTextBottom com.arch.demo:fghMaskTextBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghMaskTextSizeBottom com.arch.demo:fghMaskTextSizeBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghMaskTextSizeTop com.arch.demo:fghMaskTextSizeTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghMaskTextTop com.arch.demo:fghMaskTextTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghMaskTextTopPull com.arch.demo:fghMaskTextTopPull}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghMaskTextTopRelease com.arch.demo:fghMaskTextTopRelease}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghMiddleColor com.arch.demo:fghMiddleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghRightColor com.arch.demo:fghRightColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghTextGameOver com.arch.demo:fghTextGameOver}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghTextLoading com.arch.demo:fghTextLoading}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghTextLoadingFailed com.arch.demo:fghTextLoadingFailed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FunGameView_fghTextLoadingFinished com.arch.demo:fghTextLoadingFinished}</code></td><td></td></tr>
+     * </table>
+     * @see #FunGameView_fghBackColor
+     * @see #FunGameView_fghLeftColor
+     * @see #FunGameView_fghMaskTextBottom
+     * @see #FunGameView_fghMaskTextSizeBottom
+     * @see #FunGameView_fghMaskTextSizeTop
+     * @see #FunGameView_fghMaskTextTop
+     * @see #FunGameView_fghMaskTextTopPull
+     * @see #FunGameView_fghMaskTextTopRelease
+     * @see #FunGameView_fghMiddleColor
+     * @see #FunGameView_fghRightColor
+     * @see #FunGameView_fghTextGameOver
+     * @see #FunGameView_fghTextLoading
+     * @see #FunGameView_fghTextLoadingFailed
+     * @see #FunGameView_fghTextLoadingFinished
+     */
+    public static final int[] FunGameView={
+      0x7f0300d8, 0x7f0300db, 0x7f0300dc, 0x7f0300dd, 
+      0x7f0300de, 0x7f0300df, 0x7f0300e0, 0x7f0300e1, 
+      0x7f0300e2, 0x7f0300e3, 0x7f0300e4, 0x7f0300e5, 
+      0x7f0300e6, 0x7f0300e7
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghBackColor}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:fghBackColor
+     */
+    public static final int FunGameView_fghBackColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghLeftColor}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:fghLeftColor
+     */
+    public static final int FunGameView_fghLeftColor=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghMaskTextBottom}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:fghMaskTextBottom
+     */
+    public static final int FunGameView_fghMaskTextBottom=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghMaskTextSizeBottom}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:fghMaskTextSizeBottom
+     */
+    public static final int FunGameView_fghMaskTextSizeBottom=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghMaskTextSizeTop}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:fghMaskTextSizeTop
+     */
+    public static final int FunGameView_fghMaskTextSizeTop=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghMaskTextTop}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:fghMaskTextTop
+     */
+    public static final int FunGameView_fghMaskTextTop=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghMaskTextTopPull}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:fghMaskTextTopPull
+     */
+    public static final int FunGameView_fghMaskTextTopPull=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghMaskTextTopRelease}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:fghMaskTextTopRelease
+     */
+    public static final int FunGameView_fghMaskTextTopRelease=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghMiddleColor}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:fghMiddleColor
+     */
+    public static final int FunGameView_fghMiddleColor=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghRightColor}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:fghRightColor
+     */
+    public static final int FunGameView_fghRightColor=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghTextGameOver}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:fghTextGameOver
+     */
+    public static final int FunGameView_fghTextGameOver=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghTextLoading}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:fghTextLoading
+     */
+    public static final int FunGameView_fghTextLoading=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghTextLoadingFailed}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:fghTextLoadingFailed
+     */
+    public static final int FunGameView_fghTextLoadingFailed=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fghTextLoadingFinished}
+     * attribute's value can be found in the {@link #FunGameView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:fghTextLoadingFinished
+     */
+    public static final int FunGameView_fghTextLoadingFinished=13;
     /**
      * Attributes that can be used with a GradientColor.
      * <p>Includes the following attributes:</p>
@@ -14995,11 +16505,11 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.duan.newsmvvm:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.duan.newsmvvm:dividerPadding}</code></td><td>Size of padding on either end of a divider.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.duan.newsmvvm:measureWithLargestChild}</code></td><td>When set to true, all children with a weight will be considered having
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.arch.demo:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.arch.demo:dividerPadding}</code></td><td>Size of padding on either end of a divider.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.arch.demo:measureWithLargestChild}</code></td><td>When set to true, all children with a weight will be considered having
      * the minimum size of the largest child.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.duan.newsmvvm:showDividers}</code></td><td>Setting for which dividers to show.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.arch.demo:showDividers}</code></td><td>Setting for which dividers to show.</td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -15013,8 +16523,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
       0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-      0x01010128, 0x7f0300b0, 0x7f0300b2, 0x7f030163, 
-      0x7f030191
+      0x01010128, 0x7f0300b3, 0x7f0300b5, 0x7f030184, 
+      0x7f0301be
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -15114,7 +16624,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:divider
+     * @attr name com.arch.demo:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
@@ -15128,7 +16638,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:dividerPadding
+     * @attr name com.arch.demo:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
@@ -15141,7 +16651,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:measureWithLargestChild
+     * @attr name com.arch.demo:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
@@ -15161,7 +16671,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:showDividers
+     * @attr name com.arch.demo:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -15313,6 +16823,171 @@ public final class R {
      */
     public static final int ListPopupWindow_android_dropDownVerticalOffset=1;
     /**
+     * Attributes that can be used with a LottieAnimationView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_autoPlay com.arch.demo:lottie_autoPlay}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_colorFilter com.arch.demo:lottie_colorFilter}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove com.arch.demo:lottie_enableMergePathsForKitKatAndAbove}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_fileName com.arch.demo:lottie_fileName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_imageAssetsFolder com.arch.demo:lottie_imageAssetsFolder}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_loop com.arch.demo:lottie_loop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_progress com.arch.demo:lottie_progress}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_rawRes com.arch.demo:lottie_rawRes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_repeatCount com.arch.demo:lottie_repeatCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_repeatMode com.arch.demo:lottie_repeatMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_scale com.arch.demo:lottie_scale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LottieAnimationView_lottie_url com.arch.demo:lottie_url}</code></td><td></td></tr>
+     * </table>
+     * @see #LottieAnimationView_lottie_autoPlay
+     * @see #LottieAnimationView_lottie_colorFilter
+     * @see #LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove
+     * @see #LottieAnimationView_lottie_fileName
+     * @see #LottieAnimationView_lottie_imageAssetsFolder
+     * @see #LottieAnimationView_lottie_loop
+     * @see #LottieAnimationView_lottie_progress
+     * @see #LottieAnimationView_lottie_rawRes
+     * @see #LottieAnimationView_lottie_repeatCount
+     * @see #LottieAnimationView_lottie_repeatMode
+     * @see #LottieAnimationView_lottie_scale
+     * @see #LottieAnimationView_lottie_url
+     */
+    public static final int[] LottieAnimationView={
+      0x7f030173, 0x7f030174, 0x7f030175, 0x7f030176, 
+      0x7f030177, 0x7f030178, 0x7f030179, 0x7f03017a, 
+      0x7f03017b, 0x7f03017c, 0x7f03017d, 0x7f03017e
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_autoPlay}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:lottie_autoPlay
+     */
+    public static final int LottieAnimationView_lottie_autoPlay=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_colorFilter}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:lottie_colorFilter
+     */
+    public static final int LottieAnimationView_lottie_colorFilter=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_enableMergePathsForKitKatAndAbove}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:lottie_enableMergePathsForKitKatAndAbove
+     */
+    public static final int LottieAnimationView_lottie_enableMergePathsForKitKatAndAbove=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_fileName}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:lottie_fileName
+     */
+    public static final int LottieAnimationView_lottie_fileName=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_imageAssetsFolder}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:lottie_imageAssetsFolder
+     */
+    public static final int LottieAnimationView_lottie_imageAssetsFolder=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_loop}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:lottie_loop
+     */
+    public static final int LottieAnimationView_lottie_loop=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_progress}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.arch.demo:lottie_progress
+     */
+    public static final int LottieAnimationView_lottie_progress=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_rawRes}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:lottie_rawRes
+     */
+    public static final int LottieAnimationView_lottie_rawRes=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_repeatCount}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.arch.demo:lottie_repeatCount
+     */
+    public static final int LottieAnimationView_lottie_repeatCount=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_repeatMode}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>restart</td><td>1</td><td></td></tr>
+     * <tr><td>reverse</td><td>2</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.arch.demo:lottie_repeatMode
+     */
+    public static final int LottieAnimationView_lottie_repeatMode=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_scale}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.arch.demo:lottie_scale
+     */
+    public static final int LottieAnimationView_lottie_scale=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#lottie_url}
+     * attribute's value can be found in the {@link #LottieAnimationView} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:lottie_url
+     */
+    public static final int LottieAnimationView_lottie_url=11;
+    /**
      * Attributes that can be used with a MaterialButton.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -15323,18 +16998,18 @@ public final class R {
      * <tr><td><code>{@link #MaterialButton_android_insetRight android:insetRight}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetTop android:insetTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetBottom android:insetBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTint com.duan.newsmvvm:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.duan.newsmvvm:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_cornerRadius com.duan.newsmvvm:cornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_icon com.duan.newsmvvm:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconGravity com.duan.newsmvvm:iconGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconPadding com.duan.newsmvvm:iconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconSize com.duan.newsmvvm:iconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTint com.duan.newsmvvm:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTintMode com.duan.newsmvvm:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_rippleColor com.duan.newsmvvm:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeColor com.duan.newsmvvm:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeWidth com.duan.newsmvvm:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTint com.arch.demo:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.arch.demo:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_cornerRadius com.arch.demo:cornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_icon com.arch.demo:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconGravity com.arch.demo:iconGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconPadding com.arch.demo:iconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconSize com.arch.demo:iconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTint com.arch.demo:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTintMode com.arch.demo:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_rippleColor com.arch.demo:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeColor com.arch.demo:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeWidth com.arch.demo:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialButton_android_insetLeft
      * @see #MaterialButton_android_insetRight
@@ -15355,9 +17030,9 @@ public final class R {
      */
     public static final int[] MaterialButton={
       0x010101b7, 0x010101b8, 0x010101b9, 0x010101ba, 
-      0x7f030034, 0x7f030035, 0x7f0300a5, 0x7f0300f3, 
-      0x7f0300f5, 0x7f0300f6, 0x7f0300f7, 0x7f0300f9, 
-      0x7f0300fa, 0x7f030186, 0x7f0301a8, 0x7f0301a9
+      0x7f030034, 0x7f030035, 0x7f0300a5, 0x7f030106, 
+      0x7f030108, 0x7f030109, 0x7f03010a, 0x7f03010c, 
+      0x7f03010d, 0x7f0301af, 0x7f03020c, 0x7f03020d
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#insetLeft}
@@ -15436,7 +17111,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:backgroundTint
+     * @attr name com.arch.demo:backgroundTint
      */
     public static final int MaterialButton_backgroundTint=4;
     /**
@@ -15463,11 +17138,11 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:backgroundTintMode
+     * @attr name com.arch.demo:backgroundTintMode
      */
     public static final int MaterialButton_backgroundTintMode=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#cornerRadius}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#cornerRadius}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15476,11 +17151,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:cornerRadius
+     * @attr name com.arch.demo:cornerRadius
      */
     public static final int MaterialButton_cornerRadius=6;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#icon}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15488,11 +17163,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:icon
+     * @attr name com.arch.demo:icon
      */
     public static final int MaterialButton_icon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#iconGravity}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#iconGravity}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -15505,11 +17180,11 @@ public final class R {
      * <tr><td>textStart</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:iconGravity
+     * @attr name com.arch.demo:iconGravity
      */
     public static final int MaterialButton_iconGravity=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#iconPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#iconPadding}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15518,11 +17193,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:iconPadding
+     * @attr name com.arch.demo:iconPadding
      */
     public static final int MaterialButton_iconPadding=9;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#iconSize}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#iconSize}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15531,7 +17206,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:iconSize
+     * @attr name com.arch.demo:iconSize
      */
     public static final int MaterialButton_iconSize=10;
     /**
@@ -15543,7 +17218,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:iconTint
+     * @attr name com.arch.demo:iconTint
      */
     public static final int MaterialButton_iconTint=11;
     /**
@@ -15570,33 +17245,33 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:iconTintMode
+     * @attr name com.arch.demo:iconTintMode
      */
     public static final int MaterialButton_iconTintMode=12;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#rippleColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:rippleColor
+     * @attr name com.arch.demo:rippleColor
      */
     public static final int MaterialButton_rippleColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:strokeColor
+     * @attr name com.arch.demo:strokeColor
      */
     public static final int MaterialButton_strokeColor=14;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15605,7 +17280,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:strokeWidth
+     * @attr name com.arch.demo:strokeWidth
      */
     public static final int MaterialButton_strokeWidth=15;
     /**
@@ -15615,28 +17290,28 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeColor com.duan.newsmvvm:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeWidth com.duan.newsmvvm:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeColor com.arch.demo:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeWidth com.arch.demo:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialCardView_strokeColor
      * @see #MaterialCardView_strokeWidth
      */
     public static final int[] MaterialCardView={
-      0x7f0301a8, 0x7f0301a9
+      0x7f03020c, 0x7f03020d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:strokeColor
+     * @attr name com.arch.demo:strokeColor
      */
     public static final int MaterialCardView_strokeColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15645,7 +17320,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:strokeWidth
+     * @attr name com.arch.demo:strokeWidth
      */
     public static final int MaterialCardView_strokeWidth=1;
     /**
@@ -15655,38 +17330,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme com.duan.newsmvvm:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle com.duan.newsmvvm:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle com.duan.newsmvvm:chipGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle com.duan.newsmvvm:chipStandaloneStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle com.duan.newsmvvm:chipStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent com.duan.newsmvvm:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating com.duan.newsmvvm:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary com.duan.newsmvvm:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark com.duan.newsmvvm:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary com.duan.newsmvvm:colorSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle com.duan.newsmvvm:editTextStyle}</code></td><td>Default EditText style.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle com.duan.newsmvvm:floatingActionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle com.duan.newsmvvm:materialButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle com.duan.newsmvvm:materialCardViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle com.duan.newsmvvm:navigationViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground com.duan.newsmvvm:scrimBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle com.duan.newsmvvm:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle com.duan.newsmvvm:tabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 com.duan.newsmvvm:textAppearanceBody1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 com.duan.newsmvvm:textAppearanceBody2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton com.duan.newsmvvm:textAppearanceButton}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption com.duan.newsmvvm:textAppearanceCaption}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 com.duan.newsmvvm:textAppearanceHeadline1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 com.duan.newsmvvm:textAppearanceHeadline2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 com.duan.newsmvvm:textAppearanceHeadline3}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 com.duan.newsmvvm:textAppearanceHeadline4}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 com.duan.newsmvvm:textAppearanceHeadline5}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 com.duan.newsmvvm:textAppearanceHeadline6}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline com.duan.newsmvvm:textAppearanceOverline}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 com.duan.newsmvvm:textAppearanceSubtitle1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 com.duan.newsmvvm:textAppearanceSubtitle2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle com.duan.newsmvvm:textInputStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme com.arch.demo:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle com.arch.demo:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle com.arch.demo:chipGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle com.arch.demo:chipStandaloneStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle com.arch.demo:chipStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent com.arch.demo:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating com.arch.demo:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary com.arch.demo:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark com.arch.demo:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary com.arch.demo:colorSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle com.arch.demo:editTextStyle}</code></td><td>Default EditText style.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle com.arch.demo:floatingActionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle com.arch.demo:materialButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle com.arch.demo:materialCardViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle com.arch.demo:navigationViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground com.arch.demo:scrimBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle com.arch.demo:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle com.arch.demo:tabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 com.arch.demo:textAppearanceBody1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 com.arch.demo:textAppearanceBody2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton com.arch.demo:textAppearanceButton}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption com.arch.demo:textAppearanceCaption}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 com.arch.demo:textAppearanceHeadline1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 com.arch.demo:textAppearanceHeadline2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 com.arch.demo:textAppearanceHeadline3}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 com.arch.demo:textAppearanceHeadline4}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 com.arch.demo:textAppearanceHeadline5}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 com.arch.demo:textAppearanceHeadline6}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline com.arch.demo:textAppearanceOverline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 com.arch.demo:textAppearanceSubtitle1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 com.arch.demo:textAppearanceSubtitle2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle com.arch.demo:textInputStyle}</code></td><td></td></tr>
      * </table>
      * @see #MaterialComponentsTheme_bottomSheetDialogTheme
      * @see #MaterialComponentsTheme_bottomSheetStyle
@@ -15724,15 +17399,15 @@ public final class R {
     public static final int[] MaterialComponentsTheme={
       0x7f030043, 0x7f030044, 0x7f03006b, 0x7f030075, 
       0x7f030079, 0x7f030087, 0x7f030088, 0x7f03008e, 
-      0x7f03008f, 0x7f030090, 0x7f0300ba, 0x7f0300d6, 
-      0x7f03015e, 0x7f03015f, 0x7f030169, 0x7f030188, 
-      0x7f030198, 0x7f0301cb, 0x7f0301d0, 0x7f0301d1, 
-      0x7f0301d2, 0x7f0301d3, 0x7f0301d4, 0x7f0301d5, 
-      0x7f0301d6, 0x7f0301d7, 0x7f0301d8, 0x7f0301d9, 
-      0x7f0301de, 0x7f0301e3, 0x7f0301e4, 0x7f0301e8
+      0x7f03008f, 0x7f030090, 0x7f0300bd, 0x7f0300e9, 
+      0x7f03017f, 0x7f030180, 0x7f030190, 0x7f0301b1, 
+      0x7f0301c5, 0x7f03022f, 0x7f030234, 0x7f030235, 
+      0x7f030236, 0x7f030237, 0x7f030238, 0x7f030239, 
+      0x7f03023a, 0x7f03023b, 0x7f03023c, 0x7f03023d, 
+      0x7f030242, 0x7f030247, 0x7f030248, 0x7f03024c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15740,11 +17415,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:bottomSheetDialogTheme
+     * @attr name com.arch.demo:bottomSheetDialogTheme
      */
     public static final int MaterialComponentsTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15752,11 +17427,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:bottomSheetStyle
+     * @attr name com.arch.demo:bottomSheetStyle
      */
     public static final int MaterialComponentsTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipGroupStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipGroupStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15764,11 +17439,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:chipGroupStyle
+     * @attr name com.arch.demo:chipGroupStyle
      */
     public static final int MaterialComponentsTheme_chipGroupStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipStandaloneStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipStandaloneStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15776,11 +17451,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:chipStandaloneStyle
+     * @attr name com.arch.demo:chipStandaloneStyle
      */
     public static final int MaterialComponentsTheme_chipStandaloneStyle=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#chipStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#chipStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15788,7 +17463,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:chipStyle
+     * @attr name com.arch.demo:chipStyle
      */
     public static final int MaterialComponentsTheme_chipStyle=4;
     /**
@@ -15801,7 +17476,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorAccent
+     * @attr name com.arch.demo:colorAccent
      */
     public static final int MaterialComponentsTheme_colorAccent=5;
     /**
@@ -15813,7 +17488,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorBackgroundFloating
+     * @attr name com.arch.demo:colorBackgroundFloating
      */
     public static final int MaterialComponentsTheme_colorBackgroundFloating=6;
     /**
@@ -15826,7 +17501,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorPrimary
+     * @attr name com.arch.demo:colorPrimary
      */
     public static final int MaterialComponentsTheme_colorPrimary=7;
     /**
@@ -15839,18 +17514,18 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorPrimaryDark
+     * @attr name com.arch.demo:colorPrimaryDark
      */
     public static final int MaterialComponentsTheme_colorPrimaryDark=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#colorSecondary}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#colorSecondary}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:colorSecondary
+     * @attr name com.arch.demo:colorSecondary
      */
     public static final int MaterialComponentsTheme_colorSecondary=9;
     /**
@@ -15863,11 +17538,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:editTextStyle
+     * @attr name com.arch.demo:editTextStyle
      */
     public static final int MaterialComponentsTheme_editTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#floatingActionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#floatingActionButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15893,11 +17568,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.duan.newsmvvm:floatingActionButtonStyle
+     * @attr name com.arch.demo:floatingActionButtonStyle
      */
     public static final int MaterialComponentsTheme_floatingActionButtonStyle=11;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#materialButtonStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#materialButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15905,11 +17580,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:materialButtonStyle
+     * @attr name com.arch.demo:materialButtonStyle
      */
     public static final int MaterialComponentsTheme_materialButtonStyle=12;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#materialCardViewStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#materialCardViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15917,11 +17592,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:materialCardViewStyle
+     * @attr name com.arch.demo:materialCardViewStyle
      */
     public static final int MaterialComponentsTheme_materialCardViewStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#navigationViewStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#navigationViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15929,11 +17604,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:navigationViewStyle
+     * @attr name com.arch.demo:navigationViewStyle
      */
     public static final int MaterialComponentsTheme_navigationViewStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#scrimBackground}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#scrimBackground}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15944,11 +17619,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:scrimBackground
+     * @attr name com.arch.demo:scrimBackground
      */
     public static final int MaterialComponentsTheme_scrimBackground=15;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15956,11 +17631,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:snackbarButtonStyle
+     * @attr name com.arch.demo:snackbarButtonStyle
      */
     public static final int MaterialComponentsTheme_snackbarButtonStyle=16;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15968,11 +17643,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tabStyle
+     * @attr name com.arch.demo:tabStyle
      */
     public static final int MaterialComponentsTheme_tabStyle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceBody1}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceBody1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15980,11 +17655,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceBody1
+     * @attr name com.arch.demo:textAppearanceBody1
      */
     public static final int MaterialComponentsTheme_textAppearanceBody1=18;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceBody2}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceBody2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15992,11 +17667,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceBody2
+     * @attr name com.arch.demo:textAppearanceBody2
      */
     public static final int MaterialComponentsTheme_textAppearanceBody2=19;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceButton}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceButton}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16004,11 +17679,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceButton
+     * @attr name com.arch.demo:textAppearanceButton
      */
     public static final int MaterialComponentsTheme_textAppearanceButton=20;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceCaption}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceCaption}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16016,11 +17691,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceCaption
+     * @attr name com.arch.demo:textAppearanceCaption
      */
     public static final int MaterialComponentsTheme_textAppearanceCaption=21;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceHeadline1}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceHeadline1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16028,11 +17703,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceHeadline1
+     * @attr name com.arch.demo:textAppearanceHeadline1
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline1=22;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceHeadline2}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceHeadline2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16040,11 +17715,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceHeadline2
+     * @attr name com.arch.demo:textAppearanceHeadline2
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline2=23;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceHeadline3}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceHeadline3}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16052,11 +17727,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceHeadline3
+     * @attr name com.arch.demo:textAppearanceHeadline3
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline3=24;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceHeadline4}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceHeadline4}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16064,11 +17739,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceHeadline4
+     * @attr name com.arch.demo:textAppearanceHeadline4
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline4=25;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceHeadline5}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceHeadline5}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16076,11 +17751,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceHeadline5
+     * @attr name com.arch.demo:textAppearanceHeadline5
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline5=26;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceHeadline6}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceHeadline6}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16088,11 +17763,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceHeadline6
+     * @attr name com.arch.demo:textAppearanceHeadline6
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline6=27;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceOverline}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceOverline}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16100,11 +17775,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceOverline
+     * @attr name com.arch.demo:textAppearanceOverline
      */
     public static final int MaterialComponentsTheme_textAppearanceOverline=28;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceSubtitle1}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceSubtitle1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16112,11 +17787,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceSubtitle1
+     * @attr name com.arch.demo:textAppearanceSubtitle1
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle1=29;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textAppearanceSubtitle2}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textAppearanceSubtitle2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16124,11 +17799,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textAppearanceSubtitle2
+     * @attr name com.arch.demo:textAppearanceSubtitle2
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle2=30;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#textInputStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#textInputStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16136,9 +17811,74 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:textInputStyle
+     * @attr name com.arch.demo:textInputStyle
      */
     public static final int MaterialComponentsTheme_textInputStyle=31;
+    /**
+     * Attributes that can be used with a MaterialHeader.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #MaterialHeader_mhPrimaryColor com.arch.demo:mhPrimaryColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialHeader_mhShadowColor com.arch.demo:mhShadowColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialHeader_mhShadowRadius com.arch.demo:mhShadowRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialHeader_mhShowBezierWave com.arch.demo:mhShowBezierWave}</code></td><td></td></tr>
+     * </table>
+     * @see #MaterialHeader_mhPrimaryColor
+     * @see #MaterialHeader_mhShadowColor
+     * @see #MaterialHeader_mhShadowRadius
+     * @see #MaterialHeader_mhShowBezierWave
+     */
+    public static final int[] MaterialHeader={
+      0x7f030186, 0x7f030187, 0x7f030188, 0x7f030189
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#mhPrimaryColor}
+     * attribute's value can be found in the {@link #MaterialHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:mhPrimaryColor
+     */
+    public static final int MaterialHeader_mhPrimaryColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#mhShadowColor}
+     * attribute's value can be found in the {@link #MaterialHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:mhShadowColor
+     */
+    public static final int MaterialHeader_mhShadowColor=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#mhShadowRadius}
+     * attribute's value can be found in the {@link #MaterialHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:mhShadowRadius
+     */
+    public static final int MaterialHeader_mhShadowRadius=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#mhShowBezierWave}
+     * attribute's value can be found in the {@link #MaterialHeader} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:mhShowBezierWave
+     */
+    public static final int MaterialHeader_mhShowBezierWave=3;
     /**
      * Attributes that can be used with a MenuGroup.
      * <p>Includes the following attributes:</p>
@@ -16270,18 +18010,18 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.duan.newsmvvm:actionLayout}</code></td><td>An optional layout to be used as an action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.duan.newsmvvm:actionProviderClass}</code></td><td>The name of an optional ActionProvider class to instantiate an action view
+     * <tr><td><code>{@link #MenuItem_actionLayout com.arch.demo:actionLayout}</code></td><td>An optional layout to be used as an action view.</td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.arch.demo:actionProviderClass}</code></td><td>The name of an optional ActionProvider class to instantiate an action view
      * and perform operations such as default action for that menu item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.duan.newsmvvm:actionViewClass}</code></td><td>The name of an optional View class to instantiate and use as an
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.arch.demo:actionViewClass}</code></td><td>The name of an optional View class to instantiate and use as an
      * action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.duan.newsmvvm:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.duan.newsmvvm:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.duan.newsmvvm:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.duan.newsmvvm:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.duan.newsmvvm:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.duan.newsmvvm:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.duan.newsmvvm:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.arch.demo:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.arch.demo:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.arch.demo:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.arch.demo:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.arch.demo:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.arch.demo:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.arch.demo:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -16312,8 +18052,8 @@ public final class R {
       0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
       0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
       0x0101026f, 0x7f03000d, 0x7f03001f, 0x7f030020, 
-      0x7f030028, 0x7f030096, 0x7f0300f9, 0x7f0300fa, 
-      0x7f03016a, 0x7f030190, 0x7f030204
+      0x7f030028, 0x7f030096, 0x7f03010c, 0x7f03010d, 
+      0x7f030191, 0x7f0301bd, 0x7f030269
     };
     /**
      * <p>
@@ -16490,7 +18230,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:actionLayout
+     * @attr name com.arch.demo:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
@@ -16504,7 +18244,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:actionProviderClass
+     * @attr name com.arch.demo:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
@@ -16517,7 +18257,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:actionViewClass
+     * @attr name com.arch.demo:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
@@ -16540,7 +18280,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:alphabeticModifiers
+     * @attr name com.arch.demo:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
@@ -16551,7 +18291,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:contentDescription
+     * @attr name com.arch.demo:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
@@ -16563,7 +18303,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:iconTint
+     * @attr name com.arch.demo:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
@@ -16590,7 +18330,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:iconTintMode
+     * @attr name com.arch.demo:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
@@ -16613,7 +18353,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:numericModifiers
+     * @attr name com.arch.demo:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
@@ -16643,7 +18383,7 @@ public final class R {
      * label with it even if it has an icon representation.</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:showAsAction
+     * @attr name com.arch.demo:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
@@ -16654,7 +18394,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:tooltipText
+     * @attr name com.arch.demo:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -16671,8 +18411,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.duan.newsmvvm:preserveIconSpacing}</code></td><td>Whether space should be reserved in layout when an icon is missing.</td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.duan.newsmvvm:subMenuArrow}</code></td><td>Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.arch.demo:preserveIconSpacing}</code></td><td>Whether space should be reserved in layout when an icon is missing.</td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.arch.demo:subMenuArrow}</code></td><td>Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -16686,8 +18426,8 @@ public final class R {
      */
     public static final int[] MenuView={
       0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-      0x0101012f, 0x01010130, 0x01010131, 0x7f03017b, 
-      0x7f0301aa
+      0x0101012f, 0x01010130, 0x01010131, 0x7f0301a4, 
+      0x7f03020e
     };
     /**
      * <p>
@@ -16791,7 +18531,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:preserveIconSpacing
+     * @attr name com.arch.demo:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
@@ -16804,9 +18544,49 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:subMenuArrow
+     * @attr name com.arch.demo:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
+    /**
+     * Attributes that can be used with a MountainSceneView.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #MountainSceneView_msvPrimaryColor com.arch.demo:msvPrimaryColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MountainSceneView_msvViewportHeight com.arch.demo:msvViewportHeight}</code></td><td></td></tr>
+     * </table>
+     * @see #MountainSceneView_msvPrimaryColor
+     * @see #MountainSceneView_msvViewportHeight
+     */
+    public static final int[] MountainSceneView={
+      0x7f03018a, 0x7f03018b
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#msvPrimaryColor}
+     * attribute's value can be found in the {@link #MountainSceneView} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:msvPrimaryColor
+     */
+    public static final int MountainSceneView_msvPrimaryColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#msvViewportHeight}
+     * attribute's value can be found in the {@link #MountainSceneView} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:msvViewportHeight
+     */
+    public static final int MountainSceneView_msvViewportHeight=1;
     /**
      * Attributes that can be used with a NavigationView.
      * <p>Includes the following attributes:</p>
@@ -16817,15 +18597,15 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.duan.newsmvvm:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.duan.newsmvvm:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.duan.newsmvvm:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding com.duan.newsmvvm:itemHorizontalPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconPadding com.duan.newsmvvm:itemIconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.duan.newsmvvm:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.duan.newsmvvm:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.duan.newsmvvm:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.duan.newsmvvm:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.arch.demo:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout com.arch.demo:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground com.arch.demo:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding com.arch.demo:itemHorizontalPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconPadding com.arch.demo:itemIconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint com.arch.demo:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.arch.demo:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor com.arch.demo:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu com.arch.demo:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -16841,9 +18621,9 @@ public final class R {
      * @see #NavigationView_menu
      */
     public static final int[] NavigationView={
-      0x010100d4, 0x010100dd, 0x0101011f, 0x7f0300bb, 
-      0x7f0300e5, 0x7f030101, 0x7f030102, 0x7f030104, 
-      0x7f030106, 0x7f030109, 0x7f03010c, 0x7f030164
+      0x010100d4, 0x010100dd, 0x0101011f, 0x7f0300be, 
+      0x7f0300f8, 0x7f030114, 0x7f030115, 0x7f030117, 
+      0x7f030119, 0x7f03011c, 0x7f03011f, 0x7f030185
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#background}
@@ -16894,11 +18674,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:elevation
+     * @attr name com.arch.demo:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16906,11 +18686,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:headerLayout
+     * @attr name com.arch.demo:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16918,11 +18698,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:itemBackground
+     * @attr name com.arch.demo:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemHorizontalPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemHorizontalPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16931,11 +18711,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:itemHorizontalPadding
+     * @attr name com.arch.demo:itemHorizontalPadding
      */
     public static final int NavigationView_itemHorizontalPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemIconPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemIconPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16944,22 +18724,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:itemIconPadding
+     * @attr name com.arch.demo:itemIconPadding
      */
     public static final int NavigationView_itemIconPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:itemIconTint
+     * @attr name com.arch.demo:itemIconTint
      */
     public static final int NavigationView_itemIconTint=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16967,22 +18747,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:itemTextAppearance
+     * @attr name com.arch.demo:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:itemTextColor
+     * @attr name com.arch.demo:itemTextColor
      */
     public static final int NavigationView_itemTextColor=10;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16990,9 +18770,47 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:menu
+     * @attr name com.arch.demo:menu
      */
     public static final int NavigationView_menu=11;
+    /**
+     * Attributes that can be used with a PhoenixHeader.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #PhoenixHeader_phAccentColor com.arch.demo:phAccentColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PhoenixHeader_phPrimaryColor com.arch.demo:phPrimaryColor}</code></td><td></td></tr>
+     * </table>
+     * @see #PhoenixHeader_phAccentColor
+     * @see #PhoenixHeader_phPrimaryColor
+     */
+    public static final int[] PhoenixHeader={
+      0x7f03019f, 0x7f0301a0
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#phAccentColor}
+     * attribute's value can be found in the {@link #PhoenixHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:phAccentColor
+     */
+    public static final int PhoenixHeader_phAccentColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#phPrimaryColor}
+     * attribute's value can be found in the {@link #PhoenixHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:phPrimaryColor
+     */
+    public static final int PhoenixHeader_phPrimaryColor=1;
     /**
      * Attributes that can be used with a PopupWindow.
      * <p>Includes the following attributes:</p>
@@ -17002,14 +18820,14 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.duan.newsmvvm:overlapAnchor}</code></td><td>Whether the popup window should overlap its anchor view.</td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.arch.demo:overlapAnchor}</code></td><td>Whether the popup window should overlap its anchor view.</td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-      0x01010176, 0x010102c9, 0x7f03016b
+      0x01010176, 0x010102c9, 0x7f030192
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -17046,7 +18864,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:overlapAnchor
+     * @attr name com.arch.demo:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -17056,12 +18874,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.duan.newsmvvm:state_above_anchor}</code></td><td>State identifier indicating the popup will be above the anchor.</td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.arch.demo:state_above_anchor}</code></td><td>State identifier indicating the popup will be above the anchor.</td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-      0x7f0301a1
+      0x7f030205
     };
     /**
      * <p>
@@ -17071,7 +18889,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:state_above_anchor
+     * @attr name com.arch.demo:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -17081,14 +18899,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.duan.newsmvvm:paddingBottomNoButtons}</code></td><td>Bottom padding to use when no buttons are present.</td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.duan.newsmvvm:paddingTopNoTitle}</code></td><td>Top padding to use when no title is present.</td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.arch.demo:paddingBottomNoButtons}</code></td><td>Bottom padding to use when no buttons are present.</td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.arch.demo:paddingTopNoTitle}</code></td><td>Top padding to use when no title is present.</td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-      0x7f03016c, 0x7f03016f
+      0x7f030193, 0x7f030196
     };
     /**
      * <p>
@@ -17101,7 +18919,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:paddingBottomNoButtons
+     * @attr name com.arch.demo:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
@@ -17115,7 +18933,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:paddingTopNoTitle
+     * @attr name com.arch.demo:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -17127,15 +18945,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.duan.newsmvvm:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.duan.newsmvvm:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.duan.newsmvvm:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.duan.newsmvvm:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.duan.newsmvvm:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.duan.newsmvvm:layoutManager}</code></td><td>Class name of the Layout Manager to be used.</td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.duan.newsmvvm:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.duan.newsmvvm:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.duan.newsmvvm:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.arch.demo:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.arch.demo:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.arch.demo:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.arch.demo:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.arch.demo:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.arch.demo:layoutManager}</code></td><td>Class name of the Layout Manager to be used.</td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.arch.demo:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.arch.demo:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.arch.demo:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -17150,9 +18968,9 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-      0x010100c4, 0x010100f1, 0x7f0300d0, 0x7f0300d1, 
-      0x7f0300d2, 0x7f0300d3, 0x7f0300d4, 0x7f030111, 
-      0x7f030185, 0x7f03019a, 0x7f0301a0
+      0x010100c4, 0x010100f1, 0x7f0300d3, 0x7f0300d4, 
+      0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 0x7f030124, 
+      0x7f0301ae, 0x7f0301c7, 0x7f030204
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -17190,17 +19008,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:fastScrollEnabled
+     * @attr name com.arch.demo:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17208,11 +19026,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:fastScrollHorizontalThumbDrawable
+     * @attr name com.arch.demo:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17220,11 +19038,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:fastScrollHorizontalTrackDrawable
+     * @attr name com.arch.demo:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17232,11 +19050,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:fastScrollVerticalThumbDrawable
+     * @attr name com.arch.demo:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17244,7 +19062,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:fastScrollVerticalTrackDrawable
+     * @attr name com.arch.demo:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
@@ -17263,36 +19081,36 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:layoutManager
+     * @attr name com.arch.demo:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:reverseLayout
+     * @attr name com.arch.demo:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:spanCount
+     * @attr name com.arch.demo:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:stackFromEnd
+     * @attr name com.arch.demo:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -17302,15 +19120,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.duan.newsmvvm:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.arch.demo:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
     public static final int[] ScrimInsetsFrameLayout={
-      0x7f0300ff
+      0x7f030112
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17321,7 +19139,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:insetForeground
+     * @attr name com.arch.demo:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -17331,7 +19149,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.duan.newsmvvm:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.arch.demo:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -17339,7 +19157,7 @@ public final class R {
       0x7f03003c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17348,7 +19166,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:behavior_overlapTop
+     * @attr name com.arch.demo:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -17362,20 +19180,20 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.duan.newsmvvm:closeIcon}</code></td><td>Close button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.duan.newsmvvm:commitIcon}</code></td><td>Commit icon shown in the query suggestion row</td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.duan.newsmvvm:defaultQueryHint}</code></td><td>Default query hint used when {@code queryHint} is undefined and
+     * <tr><td><code>{@link #SearchView_closeIcon com.arch.demo:closeIcon}</code></td><td>Close button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.arch.demo:commitIcon}</code></td><td>Commit icon shown in the query suggestion row</td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.arch.demo:defaultQueryHint}</code></td><td>Default query hint used when {@code queryHint} is undefined and
      * the search view's {@code SearchableInfo} does not provide a hint.</td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.duan.newsmvvm:goIcon}</code></td><td>Go button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.duan.newsmvvm:iconifiedByDefault}</code></td><td>The default state of the SearchView.</td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.duan.newsmvvm:layout}</code></td><td>The layout to use for the search view.</td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.duan.newsmvvm:queryBackground}</code></td><td>Background for the section containing the search query</td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.duan.newsmvvm:queryHint}</code></td><td>An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.duan.newsmvvm:searchHintIcon}</code></td><td>Search icon displayed as a text field hint</td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.duan.newsmvvm:searchIcon}</code></td><td>Search icon</td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.duan.newsmvvm:submitBackground}</code></td><td>Background for the section containing the action (e.g.</td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.duan.newsmvvm:suggestionRowLayout}</code></td><td>Layout for query suggestion rows</td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.duan.newsmvvm:voiceIcon}</code></td><td>Voice button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.arch.demo:goIcon}</code></td><td>Go button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.arch.demo:iconifiedByDefault}</code></td><td>The default state of the SearchView.</td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.arch.demo:layout}</code></td><td>The layout to use for the search view.</td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.arch.demo:queryBackground}</code></td><td>Background for the section containing the search query</td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.arch.demo:queryHint}</code></td><td>An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.arch.demo:searchHintIcon}</code></td><td>Search icon displayed as a text field hint</td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.arch.demo:searchIcon}</code></td><td>Search icon</td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.arch.demo:submitBackground}</code></td><td>Background for the section containing the action (e.g.</td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.arch.demo:suggestionRowLayout}</code></td><td>Layout for query suggestion rows</td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.arch.demo:voiceIcon}</code></td><td>Voice button icon</td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -17397,10 +19215,10 @@ public final class R {
      */
     public static final int[] SearchView={
       0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-      0x7f03007a, 0x7f030092, 0x7f0300ab, 0x7f0300e4, 
-      0x7f0300fb, 0x7f030110, 0x7f03017f, 0x7f030180, 
-      0x7f03018a, 0x7f03018b, 0x7f0301ab, 0x7f0301b0, 
-      0x7f03020b
+      0x7f03007a, 0x7f030092, 0x7f0300ab, 0x7f0300f7, 
+      0x7f03010e, 0x7f030123, 0x7f0301a8, 0x7f0301a9, 
+      0x7f0301b3, 0x7f0301b4, 0x7f03020f, 0x7f030214, 
+      0x7f030270
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -17525,7 +19343,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:closeIcon
+     * @attr name com.arch.demo:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
@@ -17538,7 +19356,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:commitIcon
+     * @attr name com.arch.demo:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
@@ -17550,7 +19368,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:defaultQueryHint
+     * @attr name com.arch.demo:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
@@ -17563,7 +19381,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:goIcon
+     * @attr name com.arch.demo:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
@@ -17575,7 +19393,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:iconifiedByDefault
+     * @attr name com.arch.demo:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
@@ -17588,7 +19406,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:layout
+     * @attr name com.arch.demo:layout
      */
     public static final int SearchView_layout=9;
     /**
@@ -17601,7 +19419,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:queryBackground
+     * @attr name com.arch.demo:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
@@ -17612,7 +19430,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:queryHint
+     * @attr name com.arch.demo:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
@@ -17625,7 +19443,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:searchHintIcon
+     * @attr name com.arch.demo:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
@@ -17638,7 +19456,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:searchIcon
+     * @attr name com.arch.demo:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
@@ -17651,7 +19469,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:submitBackground
+     * @attr name com.arch.demo:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
@@ -17664,7 +19482,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:suggestionRowLayout
+     * @attr name com.arch.demo:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
@@ -17677,9 +19495,500 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:voiceIcon
+     * @attr name com.arch.demo:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
+    /**
+     * Attributes that can be used with a SmartRefreshLayout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlAccentColor com.arch.demo:srlAccentColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlDisableContentWhenLoading com.arch.demo:srlDisableContentWhenLoading}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlDisableContentWhenRefresh com.arch.demo:srlDisableContentWhenRefresh}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlDragRate com.arch.demo:srlDragRate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableAutoLoadMore com.arch.demo:srlEnableAutoLoadMore}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableClipFooterWhenFixedBehind com.arch.demo:srlEnableClipFooterWhenFixedBehind}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableClipHeaderWhenFixedBehind com.arch.demo:srlEnableClipHeaderWhenFixedBehind}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableFooterFollowWhenLoadFinished com.arch.demo:srlEnableFooterFollowWhenLoadFinished}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableFooterTranslationContent com.arch.demo:srlEnableFooterTranslationContent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableHeaderTranslationContent com.arch.demo:srlEnableHeaderTranslationContent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableLoadMore com.arch.demo:srlEnableLoadMore}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableLoadMoreWhenContentNotFull com.arch.demo:srlEnableLoadMoreWhenContentNotFull}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableNestedScrolling com.arch.demo:srlEnableNestedScrolling}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableOverScrollBounce com.arch.demo:srlEnableOverScrollBounce}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableOverScrollDrag com.arch.demo:srlEnableOverScrollDrag}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnablePreviewInEditMode com.arch.demo:srlEnablePreviewInEditMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnablePureScrollMode com.arch.demo:srlEnablePureScrollMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableRefresh com.arch.demo:srlEnableRefresh}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableScrollContentWhenLoaded com.arch.demo:srlEnableScrollContentWhenLoaded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlEnableScrollContentWhenRefreshed com.arch.demo:srlEnableScrollContentWhenRefreshed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlFixedFooterViewId com.arch.demo:srlFixedFooterViewId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlFixedHeaderViewId com.arch.demo:srlFixedHeaderViewId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlFooterHeight com.arch.demo:srlFooterHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlFooterInsetStart com.arch.demo:srlFooterInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlFooterMaxDragRate com.arch.demo:srlFooterMaxDragRate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlFooterTranslationViewId com.arch.demo:srlFooterTranslationViewId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlFooterTriggerRate com.arch.demo:srlFooterTriggerRate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlHeaderHeight com.arch.demo:srlHeaderHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlHeaderInsetStart com.arch.demo:srlHeaderInsetStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlHeaderMaxDragRate com.arch.demo:srlHeaderMaxDragRate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlHeaderTranslationViewId com.arch.demo:srlHeaderTranslationViewId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlHeaderTriggerRate com.arch.demo:srlHeaderTriggerRate}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlPrimaryColor com.arch.demo:srlPrimaryColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_srlReboundDuration com.arch.demo:srlReboundDuration}</code></td><td></td></tr>
+     * </table>
+     * @see #SmartRefreshLayout_srlAccentColor
+     * @see #SmartRefreshLayout_srlDisableContentWhenLoading
+     * @see #SmartRefreshLayout_srlDisableContentWhenRefresh
+     * @see #SmartRefreshLayout_srlDragRate
+     * @see #SmartRefreshLayout_srlEnableAutoLoadMore
+     * @see #SmartRefreshLayout_srlEnableClipFooterWhenFixedBehind
+     * @see #SmartRefreshLayout_srlEnableClipHeaderWhenFixedBehind
+     * @see #SmartRefreshLayout_srlEnableFooterFollowWhenLoadFinished
+     * @see #SmartRefreshLayout_srlEnableFooterTranslationContent
+     * @see #SmartRefreshLayout_srlEnableHeaderTranslationContent
+     * @see #SmartRefreshLayout_srlEnableLoadMore
+     * @see #SmartRefreshLayout_srlEnableLoadMoreWhenContentNotFull
+     * @see #SmartRefreshLayout_srlEnableNestedScrolling
+     * @see #SmartRefreshLayout_srlEnableOverScrollBounce
+     * @see #SmartRefreshLayout_srlEnableOverScrollDrag
+     * @see #SmartRefreshLayout_srlEnablePreviewInEditMode
+     * @see #SmartRefreshLayout_srlEnablePureScrollMode
+     * @see #SmartRefreshLayout_srlEnableRefresh
+     * @see #SmartRefreshLayout_srlEnableScrollContentWhenLoaded
+     * @see #SmartRefreshLayout_srlEnableScrollContentWhenRefreshed
+     * @see #SmartRefreshLayout_srlFixedFooterViewId
+     * @see #SmartRefreshLayout_srlFixedHeaderViewId
+     * @see #SmartRefreshLayout_srlFooterHeight
+     * @see #SmartRefreshLayout_srlFooterInsetStart
+     * @see #SmartRefreshLayout_srlFooterMaxDragRate
+     * @see #SmartRefreshLayout_srlFooterTranslationViewId
+     * @see #SmartRefreshLayout_srlFooterTriggerRate
+     * @see #SmartRefreshLayout_srlHeaderHeight
+     * @see #SmartRefreshLayout_srlHeaderInsetStart
+     * @see #SmartRefreshLayout_srlHeaderMaxDragRate
+     * @see #SmartRefreshLayout_srlHeaderTranslationViewId
+     * @see #SmartRefreshLayout_srlHeaderTriggerRate
+     * @see #SmartRefreshLayout_srlPrimaryColor
+     * @see #SmartRefreshLayout_srlReboundDuration
+     */
+    public static final int[] SmartRefreshLayout={
+      0x7f0301cd, 0x7f0301d0, 0x7f0301d1, 0x7f0301d2, 
+      0x7f0301d9, 0x7f0301da, 0x7f0301db, 0x7f0301dc, 
+      0x7f0301dd, 0x7f0301de, 0x7f0301e1, 0x7f0301e2, 
+      0x7f0301e3, 0x7f0301e4, 0x7f0301e5, 0x7f0301e6, 
+      0x7f0301e8, 0x7f0301e9, 0x7f0301ea, 0x7f0301eb, 
+      0x7f0301ee, 0x7f0301ef, 0x7f0301f2, 0x7f0301f3, 
+      0x7f0301f4, 0x7f0301f5, 0x7f0301f6, 0x7f0301f7, 
+      0x7f0301f8, 0x7f0301f9, 0x7f0301fa, 0x7f0301fb, 
+      0x7f0301fe, 0x7f0301ff
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlAccentColor}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:srlAccentColor
+     */
+    public static final int SmartRefreshLayout_srlAccentColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDisableContentWhenLoading}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlDisableContentWhenLoading
+     */
+    public static final int SmartRefreshLayout_srlDisableContentWhenLoading=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDisableContentWhenRefresh}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlDisableContentWhenRefresh
+     */
+    public static final int SmartRefreshLayout_srlDisableContentWhenRefresh=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlDragRate}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.arch.demo:srlDragRate
+     */
+    public static final int SmartRefreshLayout_srlDragRate=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableAutoLoadMore}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableAutoLoadMore
+     */
+    public static final int SmartRefreshLayout_srlEnableAutoLoadMore=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableClipFooterWhenFixedBehind}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableClipFooterWhenFixedBehind
+     */
+    public static final int SmartRefreshLayout_srlEnableClipFooterWhenFixedBehind=5;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableClipHeaderWhenFixedBehind}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableClipHeaderWhenFixedBehind
+     */
+    public static final int SmartRefreshLayout_srlEnableClipHeaderWhenFixedBehind=6;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableFooterFollowWhenLoadFinished}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableFooterFollowWhenLoadFinished
+     */
+    public static final int SmartRefreshLayout_srlEnableFooterFollowWhenLoadFinished=7;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableFooterTranslationContent}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableFooterTranslationContent
+     */
+    public static final int SmartRefreshLayout_srlEnableFooterTranslationContent=8;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableHeaderTranslationContent}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableHeaderTranslationContent
+     */
+    public static final int SmartRefreshLayout_srlEnableHeaderTranslationContent=9;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableLoadMore}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableLoadMore
+     */
+    public static final int SmartRefreshLayout_srlEnableLoadMore=10;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableLoadMoreWhenContentNotFull}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableLoadMoreWhenContentNotFull
+     */
+    public static final int SmartRefreshLayout_srlEnableLoadMoreWhenContentNotFull=11;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableNestedScrolling}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableNestedScrolling
+     */
+    public static final int SmartRefreshLayout_srlEnableNestedScrolling=12;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableOverScrollBounce}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableOverScrollBounce
+     */
+    public static final int SmartRefreshLayout_srlEnableOverScrollBounce=13;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableOverScrollDrag}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableOverScrollDrag
+     */
+    public static final int SmartRefreshLayout_srlEnableOverScrollDrag=14;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnablePreviewInEditMode}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnablePreviewInEditMode
+     */
+    public static final int SmartRefreshLayout_srlEnablePreviewInEditMode=15;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnablePureScrollMode}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnablePureScrollMode
+     */
+    public static final int SmartRefreshLayout_srlEnablePureScrollMode=16;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableRefresh}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableRefresh
+     */
+    public static final int SmartRefreshLayout_srlEnableRefresh=17;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableScrollContentWhenLoaded}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableScrollContentWhenLoaded
+     */
+    public static final int SmartRefreshLayout_srlEnableScrollContentWhenLoaded=18;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableScrollContentWhenRefreshed}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableScrollContentWhenRefreshed
+     */
+    public static final int SmartRefreshLayout_srlEnableScrollContentWhenRefreshed=19;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFixedFooterViewId}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:srlFixedFooterViewId
+     */
+    public static final int SmartRefreshLayout_srlFixedFooterViewId=20;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFixedHeaderViewId}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:srlFixedHeaderViewId
+     */
+    public static final int SmartRefreshLayout_srlFixedHeaderViewId=21;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFooterHeight}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlFooterHeight
+     */
+    public static final int SmartRefreshLayout_srlFooterHeight=22;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFooterInsetStart}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlFooterInsetStart
+     */
+    public static final int SmartRefreshLayout_srlFooterInsetStart=23;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFooterMaxDragRate}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.arch.demo:srlFooterMaxDragRate
+     */
+    public static final int SmartRefreshLayout_srlFooterMaxDragRate=24;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFooterTranslationViewId}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:srlFooterTranslationViewId
+     */
+    public static final int SmartRefreshLayout_srlFooterTranslationViewId=25;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFooterTriggerRate}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.arch.demo:srlFooterTriggerRate
+     */
+    public static final int SmartRefreshLayout_srlFooterTriggerRate=26;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlHeaderHeight}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlHeaderHeight
+     */
+    public static final int SmartRefreshLayout_srlHeaderHeight=27;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlHeaderInsetStart}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:srlHeaderInsetStart
+     */
+    public static final int SmartRefreshLayout_srlHeaderInsetStart=28;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlHeaderMaxDragRate}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.arch.demo:srlHeaderMaxDragRate
+     */
+    public static final int SmartRefreshLayout_srlHeaderMaxDragRate=29;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlHeaderTranslationViewId}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a reference to another resource, in the form
+     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
+     * attribute in the form
+     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
+     *
+     * @attr name com.arch.demo:srlHeaderTranslationViewId
+     */
+    public static final int SmartRefreshLayout_srlHeaderTranslationViewId=30;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlHeaderTriggerRate}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.arch.demo:srlHeaderTriggerRate
+     */
+    public static final int SmartRefreshLayout_srlHeaderTriggerRate=31;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlPrimaryColor}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:srlPrimaryColor
+     */
+    public static final int SmartRefreshLayout_srlPrimaryColor=32;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlReboundDuration}
+     * attribute's value can be found in the {@link #SmartRefreshLayout} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.arch.demo:srlReboundDuration
+     */
+    public static final int SmartRefreshLayout_srlReboundDuration=33;
+    /**
+     * Attributes that can be used with a SmartRefreshLayout_Layout.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_Layout_layout_srlBackgroundColor com.arch.demo:layout_srlBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SmartRefreshLayout_Layout_layout_srlSpinnerStyle com.arch.demo:layout_srlSpinnerStyle}</code></td><td></td></tr>
+     * </table>
+     * @see #SmartRefreshLayout_Layout_layout_srlBackgroundColor
+     * @see #SmartRefreshLayout_Layout_layout_srlSpinnerStyle
+     */
+    public static final int[] SmartRefreshLayout_Layout={
+      0x7f030161, 0x7f030162
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_srlBackgroundColor}
+     * attribute's value can be found in the {@link #SmartRefreshLayout_Layout} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:layout_srlBackgroundColor
+     */
+    public static final int SmartRefreshLayout_Layout_layout_srlBackgroundColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#layout_srlSpinnerStyle}
+     * attribute's value can be found in the {@link #SmartRefreshLayout_Layout} array.
+     *
+     * <p>Must be one of the following constant values.</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+     * <tr><td>FixedBehind</td><td>2</td><td>拉伸形变</td></tr>
+     * <tr><td>FixedFront</td><td>3</td><td>固定在背后</td></tr>
+     * <tr><td>MatchLayout</td><td>4</td><td>固定在前面</td></tr>
+     * <tr><td>Scale</td><td>1</td><td>平行移动</td></tr>
+     * <tr><td>Translate</td><td>0</td><td></td></tr>
+     * </table>
+     *
+     * @attr name com.arch.demo:layout_srlSpinnerStyle
+     */
+    public static final int SmartRefreshLayout_Layout_layout_srlSpinnerStyle=1;
     /**
      * Attributes that can be used with a Snackbar.
      * <p>Includes the following attributes:</p>
@@ -17687,17 +19996,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle com.duan.newsmvvm:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarStyle com.duan.newsmvvm:snackbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle com.arch.demo:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarStyle com.arch.demo:snackbarStyle}</code></td><td></td></tr>
      * </table>
      * @see #Snackbar_snackbarButtonStyle
      * @see #Snackbar_snackbarStyle
      */
     public static final int[] Snackbar={
-      0x7f030198, 0x7f030199
+      0x7f0301c5, 0x7f0301c6
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17705,11 +20014,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:snackbarButtonStyle
+     * @attr name com.arch.demo:snackbarButtonStyle
      */
     public static final int Snackbar_snackbarButtonStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#snackbarStyle}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#snackbarStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17717,7 +20026,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:snackbarStyle
+     * @attr name com.arch.demo:snackbarStyle
      */
     public static final int Snackbar_snackbarStyle=1;
     /**
@@ -17728,15 +20037,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.duan.newsmvvm:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.duan.newsmvvm:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.arch.demo:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.arch.demo:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
      * @see #SnackbarLayout_maxActionInlineWidth
      */
     public static final int[] SnackbarLayout={
-      0x0101011f, 0x7f0300bb, 0x7f030160
+      0x0101011f, 0x7f0300be, 0x7f030181
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#maxWidth}
@@ -17762,11 +20071,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:elevation
+     * @attr name com.arch.demo:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17775,7 +20084,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:maxActionInlineWidth
+     * @attr name com.arch.demo:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -17789,7 +20098,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.duan.newsmvvm:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #Spinner_popupTheme com.arch.demo:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
      * </table>
      * @see #Spinner_android_entries
@@ -17800,7 +20109,7 @@ public final class R {
      */
     public static final int[] Spinner={
       0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-      0x7f030179
+      0x7f0301a2
     };
     /**
      * <p>
@@ -17878,7 +20187,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:popupTheme
+     * @attr name com.arch.demo:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -18009,6 +20318,72 @@ public final class R {
      */
     public static final int StateListDrawableItem_android_drawable=0;
     /**
+     * Attributes that can be used with a StoreHouseHeader.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #StoreHouseHeader_shhDropHeight com.arch.demo:shhDropHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StoreHouseHeader_shhEnableFadeAnimation com.arch.demo:shhEnableFadeAnimation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StoreHouseHeader_shhLineWidth com.arch.demo:shhLineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #StoreHouseHeader_shhText com.arch.demo:shhText}</code></td><td></td></tr>
+     * </table>
+     * @see #StoreHouseHeader_shhDropHeight
+     * @see #StoreHouseHeader_shhEnableFadeAnimation
+     * @see #StoreHouseHeader_shhLineWidth
+     * @see #StoreHouseHeader_shhText
+     */
+    public static final int[] StoreHouseHeader={
+      0x7f0301b9, 0x7f0301ba, 0x7f0301bb, 0x7f0301bc
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#shhDropHeight}
+     * attribute's value can be found in the {@link #StoreHouseHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:shhDropHeight
+     */
+    public static final int StoreHouseHeader_shhDropHeight=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#shhEnableFadeAnimation}
+     * attribute's value can be found in the {@link #StoreHouseHeader} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:shhEnableFadeAnimation
+     */
+    public static final int StoreHouseHeader_shhEnableFadeAnimation=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#shhLineWidth}
+     * attribute's value can be found in the {@link #StoreHouseHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:shhLineWidth
+     */
+    public static final int StoreHouseHeader_shhLineWidth=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#shhText}
+     * attribute's value can be found in the {@link #StoreHouseHeader} array.
+     *
+     * <p>May be a string value, using '\\;' to escape characters such as
+     * '\\n' or '\\uxxxx' for a unicode character;
+     *
+     * @attr name com.arch.demo:shhText
+     */
+    public static final int StoreHouseHeader_shhText=3;
+    /**
      * Attributes that can be used with a SwitchCompat.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -18018,17 +20393,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.duan.newsmvvm:showText}</code></td><td>Whether to draw on/off text.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.duan.newsmvvm:splitTrack}</code></td><td>Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.duan.newsmvvm:switchMinWidth}</code></td><td>Minimum width for the switch component</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.duan.newsmvvm:switchPadding}</code></td><td>Minimum space between the switch and caption text</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.duan.newsmvvm:switchTextAppearance}</code></td><td>TextAppearance style for text displayed on the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.duan.newsmvvm:thumbTextPadding}</code></td><td>Amount of padding on either side of text within the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.duan.newsmvvm:thumbTint}</code></td><td>Tint to apply to the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.duan.newsmvvm:thumbTintMode}</code></td><td>Blending mode used to apply the thumb tint.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.duan.newsmvvm:track}</code></td><td>Drawable to use as the "track" that the switch thumb slides within.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.duan.newsmvvm:trackTint}</code></td><td>Tint to apply to the track.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.duan.newsmvvm:trackTintMode}</code></td><td>Blending mode used to apply the track tint.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.arch.demo:showText}</code></td><td>Whether to draw on/off text.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.arch.demo:splitTrack}</code></td><td>Whether to split the track and leave a gap for the thumb drawable.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.arch.demo:switchMinWidth}</code></td><td>Minimum width for the switch component</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.arch.demo:switchPadding}</code></td><td>Minimum space between the switch and caption text</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.arch.demo:switchTextAppearance}</code></td><td>TextAppearance style for text displayed on the switch thumb.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.arch.demo:thumbTextPadding}</code></td><td>Amount of padding on either side of text within the switch thumb.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.arch.demo:thumbTint}</code></td><td>Tint to apply to the thumb drawable.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.arch.demo:thumbTintMode}</code></td><td>Blending mode used to apply the thumb tint.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.arch.demo:track}</code></td><td>Drawable to use as the "track" that the switch thumb slides within.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.arch.demo:trackTint}</code></td><td>Tint to apply to the track.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.arch.demo:trackTintMode}</code></td><td>Blending mode used to apply the track tint.</td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -18046,10 +20421,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-      0x01010124, 0x01010125, 0x01010142, 0x7f030193, 
-      0x7f03019e, 0x7f0301b1, 0x7f0301b2, 0x7f0301b4, 
-      0x7f0301ec, 0x7f0301ed, 0x7f0301ee, 0x7f030205, 
-      0x7f030206, 0x7f030207
+      0x01010124, 0x01010125, 0x01010142, 0x7f0301c0, 
+      0x7f0301cb, 0x7f030215, 0x7f030216, 0x7f030218, 
+      0x7f030251, 0x7f030252, 0x7f030253, 0x7f03026a, 
+      0x7f03026b, 0x7f03026c
     };
     /**
      * <p>
@@ -18094,7 +20469,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:showText
+     * @attr name com.arch.demo:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
@@ -18105,7 +20480,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:splitTrack
+     * @attr name com.arch.demo:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
@@ -18119,7 +20494,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:switchMinWidth
+     * @attr name com.arch.demo:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
@@ -18133,7 +20508,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:switchPadding
+     * @attr name com.arch.demo:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
@@ -18146,7 +20521,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:switchTextAppearance
+     * @attr name com.arch.demo:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
@@ -18160,7 +20535,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:thumbTextPadding
+     * @attr name com.arch.demo:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
@@ -18172,7 +20547,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:thumbTint
+     * @attr name com.arch.demo:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
@@ -18199,7 +20574,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:thumbTintMode
+     * @attr name com.arch.demo:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
@@ -18212,7 +20587,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:track
+     * @attr name com.arch.demo:track
      */
     public static final int SwitchCompat_track=11;
     /**
@@ -18224,7 +20599,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:trackTint
+     * @attr name com.arch.demo:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
@@ -18251,7 +20626,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:trackTintMode
+     * @attr name com.arch.demo:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -18313,31 +20688,31 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.duan.newsmvvm:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.duan.newsmvvm:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.duan.newsmvvm:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTint com.duan.newsmvvm:tabIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTintMode com.duan.newsmvvm:tabIconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicator com.duan.newsmvvm:tabIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration com.duan.newsmvvm:tabIndicatorAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.duan.newsmvvm:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth com.duan.newsmvvm:tabIndicatorFullWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity com.duan.newsmvvm:tabIndicatorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.duan.newsmvvm:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabInlineLabel com.duan.newsmvvm:tabInlineLabel}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.duan.newsmvvm:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.duan.newsmvvm:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.duan.newsmvvm:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.duan.newsmvvm:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.duan.newsmvvm:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.duan.newsmvvm:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.duan.newsmvvm:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.duan.newsmvvm:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabRippleColor com.duan.newsmvvm:tabRippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.duan.newsmvvm:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.duan.newsmvvm:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.duan.newsmvvm:tabTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple com.duan.newsmvvm:tabUnboundedRipple}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground com.arch.demo:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart com.arch.demo:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity com.arch.demo:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTint com.arch.demo:tabIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTintMode com.arch.demo:tabIconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicator com.arch.demo:tabIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration com.arch.demo:tabIndicatorAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.arch.demo:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth com.arch.demo:tabIndicatorFullWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity com.arch.demo:tabIndicatorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.arch.demo:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabInlineLabel com.arch.demo:tabInlineLabel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.arch.demo:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth com.arch.demo:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode com.arch.demo:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding com.arch.demo:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.arch.demo:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.arch.demo:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.arch.demo:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.arch.demo:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabRippleColor com.arch.demo:tabRippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.arch.demo:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.arch.demo:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor com.arch.demo:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple com.arch.demo:tabUnboundedRipple}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -18366,16 +20741,16 @@ public final class R {
      * @see #TabLayout_tabUnboundedRipple
      */
     public static final int[] TabLayout={
-      0x7f0301b5, 0x7f0301b6, 0x7f0301b7, 0x7f0301b8, 
-      0x7f0301b9, 0x7f0301ba, 0x7f0301bb, 0x7f0301bc, 
-      0x7f0301bd, 0x7f0301be, 0x7f0301bf, 0x7f0301c0, 
-      0x7f0301c1, 0x7f0301c2, 0x7f0301c3, 0x7f0301c4, 
-      0x7f0301c5, 0x7f0301c6, 0x7f0301c7, 0x7f0301c8, 
-      0x7f0301c9, 0x7f0301ca, 0x7f0301cc, 0x7f0301cd, 
-      0x7f0301ce
+      0x7f030219, 0x7f03021a, 0x7f03021b, 0x7f03021c, 
+      0x7f03021d, 0x7f03021e, 0x7f03021f, 0x7f030220, 
+      0x7f030221, 0x7f030222, 0x7f030223, 0x7f030224, 
+      0x7f030225, 0x7f030226, 0x7f030227, 0x7f030228, 
+      0x7f030229, 0x7f03022a, 0x7f03022b, 0x7f03022c, 
+      0x7f03022d, 0x7f03022e, 0x7f030230, 0x7f030231, 
+      0x7f030232
     };
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18383,11 +20758,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tabBackground
+     * @attr name com.arch.demo:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18396,11 +20771,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:tabContentStart
+     * @attr name com.arch.demo:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18413,22 +20788,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:tabGravity
+     * @attr name com.arch.demo:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabIconTint}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabIconTint}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tabIconTint
+     * @attr name com.arch.demo:tabIconTint
      */
     public static final int TabLayout_tabIconTint=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabIconTintMode}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabIconTintMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18445,11 +20820,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:tabIconTintMode
+     * @attr name com.arch.demo:tabIconTintMode
      */
     public static final int TabLayout_tabIconTintMode=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabIndicator}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabIndicator}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18457,41 +20832,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tabIndicator
+     * @attr name com.arch.demo:tabIndicator
      */
     public static final int TabLayout_tabIndicator=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabIndicatorAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabIndicatorAnimationDuration}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:tabIndicatorAnimationDuration
+     * @attr name com.arch.demo:tabIndicatorAnimationDuration
      */
     public static final int TabLayout_tabIndicatorAnimationDuration=6;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tabIndicatorColor
+     * @attr name com.arch.demo:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabIndicatorFullWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabIndicatorFullWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:tabIndicatorFullWidth
+     * @attr name com.arch.demo:tabIndicatorFullWidth
      */
     public static final int TabLayout_tabIndicatorFullWidth=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabIndicatorGravity}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabIndicatorGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18506,11 +20881,11 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:tabIndicatorGravity
+     * @attr name com.arch.demo:tabIndicatorGravity
      */
     public static final int TabLayout_tabIndicatorGravity=9;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18519,21 +20894,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:tabIndicatorHeight
+     * @attr name com.arch.demo:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabInlineLabel}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabInlineLabel}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:tabInlineLabel
+     * @attr name com.arch.demo:tabInlineLabel
      */
     public static final int TabLayout_tabInlineLabel=11;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18542,11 +20917,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:tabMaxWidth
+     * @attr name com.arch.demo:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=12;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18555,11 +20930,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:tabMinWidth
+     * @attr name com.arch.demo:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=13;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18572,11 +20947,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:tabMode
+     * @attr name com.arch.demo:tabMode
      */
     public static final int TabLayout_tabMode=14;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18585,11 +20960,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:tabPadding
+     * @attr name com.arch.demo:tabPadding
      */
     public static final int TabLayout_tabPadding=15;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18598,11 +20973,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:tabPaddingBottom
+     * @attr name com.arch.demo:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=16;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18611,11 +20986,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:tabPaddingEnd
+     * @attr name com.arch.demo:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=17;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18624,11 +20999,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:tabPaddingStart
+     * @attr name com.arch.demo:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=18;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18637,33 +21012,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:tabPaddingTop
+     * @attr name com.arch.demo:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=19;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabRippleColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabRippleColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tabRippleColor
+     * @attr name com.arch.demo:tabRippleColor
      */
     public static final int TabLayout_tabRippleColor=20;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tabSelectedTextColor
+     * @attr name com.arch.demo:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=21;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18671,30 +21046,55 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tabTextAppearance
+     * @attr name com.arch.demo:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:tabTextColor
+     * @attr name com.arch.demo:tabTextColor
      */
     public static final int TabLayout_tabTextColor=23;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#tabUnboundedRipple}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#tabUnboundedRipple}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:tabUnboundedRipple
+     * @attr name com.arch.demo:tabUnboundedRipple
      */
     public static final int TabLayout_tabUnboundedRipple=24;
+    /**
+     * Attributes that can be used with a TaurusHeader.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #TaurusHeader_thPrimaryColor com.arch.demo:thPrimaryColor}</code></td><td></td></tr>
+     * </table>
+     * @see #TaurusHeader_thPrimaryColor
+     */
+    public static final int[] TaurusHeader={
+      0x7f03024e
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#thPrimaryColor}
+     * attribute's value can be found in the {@link #TaurusHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:thPrimaryColor
+     */
+    public static final int TaurusHeader_thPrimaryColor=0;
     /**
      * Attributes that can be used with a TextAppearance.
      * <p>Includes the following attributes:</p>
@@ -18713,8 +21113,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.duan.newsmvvm:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.duan.newsmvvm:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.arch.demo:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.arch.demo:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -18733,8 +21133,8 @@ public final class R {
     public static final int[] TextAppearance={
       0x01010095, 0x01010096, 0x01010097, 0x01010098, 
       0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
-      0x01010163, 0x01010164, 0x010103ac, 0x7f0300d8, 
-      0x7f0301cf
+      0x01010163, 0x01010164, 0x010103ac, 0x7f0300eb, 
+      0x7f030233
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -18887,7 +21287,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:fontFamily
+     * @attr name com.arch.demo:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
@@ -18902,7 +21302,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:textAllCaps
+     * @attr name com.arch.demo:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -18914,32 +21314,32 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor com.duan.newsmvvm:boxBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode com.duan.newsmvvm:boxBackgroundMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop com.duan.newsmvvm:boxCollapsedPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd com.duan.newsmvvm:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart com.duan.newsmvvm:boxCornerRadiusBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd com.duan.newsmvvm:boxCornerRadiusTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart com.duan.newsmvvm:boxCornerRadiusTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor com.duan.newsmvvm:boxStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth com.duan.newsmvvm:boxStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.duan.newsmvvm:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.duan.newsmvvm:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.duan.newsmvvm:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.duan.newsmvvm:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.duan.newsmvvm:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.duan.newsmvvm:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperText com.duan.newsmvvm:helperText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled com.duan.newsmvvm:helperTextEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance com.duan.newsmvvm:helperTextTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.duan.newsmvvm:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.duan.newsmvvm:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.duan.newsmvvm:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.duan.newsmvvm:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.duan.newsmvvm:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.duan.newsmvvm:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.duan.newsmvvm:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.duan.newsmvvm:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor com.arch.demo:boxBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode com.arch.demo:boxBackgroundMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop com.arch.demo:boxCollapsedPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd com.arch.demo:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart com.arch.demo:boxCornerRadiusBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd com.arch.demo:boxCornerRadiusTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart com.arch.demo:boxCornerRadiusTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor com.arch.demo:boxStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth com.arch.demo:boxStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.arch.demo:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.arch.demo:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.arch.demo:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.arch.demo:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.arch.demo:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.arch.demo:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperText com.arch.demo:helperText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled com.arch.demo:helperTextEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance com.arch.demo:helperTextTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.arch.demo:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.arch.demo:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.arch.demo:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.arch.demo:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.arch.demo:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.arch.demo:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.arch.demo:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.arch.demo:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -18974,10 +21374,10 @@ public final class R {
       0x0101009a, 0x01010150, 0x7f030045, 0x7f030046, 
       0x7f030047, 0x7f030048, 0x7f030049, 0x7f03004a, 
       0x7f03004b, 0x7f03004c, 0x7f03004d, 0x7f0300a6, 
-      0x7f0300a7, 0x7f0300a8, 0x7f0300a9, 0x7f0300bf, 
-      0x7f0300c0, 0x7f0300e7, 0x7f0300e8, 0x7f0300e9, 
-      0x7f0300ed, 0x7f0300ee, 0x7f0300ef, 0x7f030173, 
-      0x7f030174, 0x7f030175, 0x7f030176, 0x7f030177
+      0x7f0300a7, 0x7f0300a8, 0x7f0300a9, 0x7f0300c2, 
+      0x7f0300c3, 0x7f0300fa, 0x7f0300fb, 0x7f0300fc, 
+      0x7f030100, 0x7f030101, 0x7f030102, 0x7f03019a, 
+      0x7f03019b, 0x7f03019c, 0x7f03019d, 0x7f03019e
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textColorHint}
@@ -19005,18 +21405,18 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#boxBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#boxBackgroundColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:boxBackgroundColor
+     * @attr name com.arch.demo:boxBackgroundColor
      */
     public static final int TextInputLayout_boxBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#boxBackgroundMode}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#boxBackgroundMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19030,11 +21430,11 @@ public final class R {
      * <tr><td>outline</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:boxBackgroundMode
+     * @attr name com.arch.demo:boxBackgroundMode
      */
     public static final int TextInputLayout_boxBackgroundMode=3;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#boxCollapsedPaddingTop}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#boxCollapsedPaddingTop}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19043,11 +21443,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:boxCollapsedPaddingTop
+     * @attr name com.arch.demo:boxCollapsedPaddingTop
      */
     public static final int TextInputLayout_boxCollapsedPaddingTop=4;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#boxCornerRadiusBottomEnd}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#boxCornerRadiusBottomEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19056,11 +21456,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:boxCornerRadiusBottomEnd
+     * @attr name com.arch.demo:boxCornerRadiusBottomEnd
      */
     public static final int TextInputLayout_boxCornerRadiusBottomEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#boxCornerRadiusBottomStart}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#boxCornerRadiusBottomStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19069,11 +21469,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:boxCornerRadiusBottomStart
+     * @attr name com.arch.demo:boxCornerRadiusBottomStart
      */
     public static final int TextInputLayout_boxCornerRadiusBottomStart=6;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#boxCornerRadiusTopEnd}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#boxCornerRadiusTopEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19082,11 +21482,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:boxCornerRadiusTopEnd
+     * @attr name com.arch.demo:boxCornerRadiusTopEnd
      */
     public static final int TextInputLayout_boxCornerRadiusTopEnd=7;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#boxCornerRadiusTopStart}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#boxCornerRadiusTopStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19095,22 +21495,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:boxCornerRadiusTopStart
+     * @attr name com.arch.demo:boxCornerRadiusTopStart
      */
     public static final int TextInputLayout_boxCornerRadiusTopStart=8;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#boxStrokeColor}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#boxStrokeColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:boxStrokeColor
+     * @attr name com.arch.demo:boxStrokeColor
      */
     public static final int TextInputLayout_boxStrokeColor=9;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#boxStrokeWidth}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#boxStrokeWidth}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19119,30 +21519,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:boxStrokeWidth
+     * @attr name com.arch.demo:boxStrokeWidth
      */
     public static final int TextInputLayout_boxStrokeWidth=10;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:counterEnabled
+     * @attr name com.arch.demo:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=11;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.duan.newsmvvm:counterMaxLength
+     * @attr name com.arch.demo:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=12;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19150,11 +21550,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:counterOverflowTextAppearance
+     * @attr name com.arch.demo:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=13;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19162,21 +21562,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:counterTextAppearance
+     * @attr name com.arch.demo:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:errorEnabled
+     * @attr name com.arch.demo:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=15;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19184,31 +21584,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:errorTextAppearance
+     * @attr name com.arch.demo:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=16;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#helperText}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#helperText}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:helperText
+     * @attr name com.arch.demo:helperText
      */
     public static final int TextInputLayout_helperText=17;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#helperTextEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#helperTextEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:helperTextEnabled
+     * @attr name com.arch.demo:helperTextEnabled
      */
     public static final int TextInputLayout_helperTextEnabled=18;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#helperTextTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#helperTextTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19216,31 +21616,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:helperTextTextAppearance
+     * @attr name com.arch.demo:helperTextTextAppearance
      */
     public static final int TextInputLayout_helperTextTextAppearance=19;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:hintAnimationEnabled
+     * @attr name com.arch.demo:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=20;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:hintEnabled
+     * @attr name com.arch.demo:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19248,21 +21648,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:hintTextAppearance
+     * @attr name com.arch.demo:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:passwordToggleContentDescription
+     * @attr name com.arch.demo:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=23;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19270,32 +21670,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:passwordToggleDrawable
+     * @attr name com.arch.demo:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=24;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:passwordToggleEnabled
+     * @attr name com.arch.demo:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=25;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:passwordToggleTint
+     * @attr name com.arch.demo:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=26;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -19311,7 +21711,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:passwordToggleTintMode
+     * @attr name com.arch.demo:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=27;
     /**
@@ -19322,15 +21722,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ThemeEnforcement_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme com.duan.newsmvvm:enforceMaterialTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance com.duan.newsmvvm:enforceTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme com.arch.demo:enforceMaterialTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance com.arch.demo:enforceTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #ThemeEnforcement_android_textAppearance
      * @see #ThemeEnforcement_enforceMaterialTheme
      * @see #ThemeEnforcement_enforceTextAppearance
      */
     public static final int[] ThemeEnforcement={
-      0x01010034, 0x7f0300bd, 0x7f0300be
+      0x01010034, 0x7f0300c0, 0x7f0300c1
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -19345,23 +21745,23 @@ public final class R {
      */
     public static final int ThemeEnforcement_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#enforceMaterialTheme}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#enforceMaterialTheme}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:enforceMaterialTheme
+     * @attr name com.arch.demo:enforceMaterialTheme
      */
     public static final int ThemeEnforcement_enforceMaterialTheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#enforceTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#enforceTextAppearance}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.duan.newsmvvm:enforceTextAppearance
+     * @attr name com.arch.demo:enforceTextAppearance
      */
     public static final int ThemeEnforcement_enforceTextAppearance=2;
     /**
@@ -19373,40 +21773,40 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.duan.newsmvvm:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.duan.newsmvvm:collapseContentDescription}</code></td><td>Text to set as the content description for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.duan.newsmvvm:collapseIcon}</code></td><td>Icon drawable to use for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.duan.newsmvvm:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.duan.newsmvvm:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.arch.demo:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.arch.demo:collapseContentDescription}</code></td><td>Text to set as the content description for the collapse button.</td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.arch.demo:collapseIcon}</code></td><td>Icon drawable to use for the collapse button.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.arch.demo:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.arch.demo:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
      * are present.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.duan.newsmvvm:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.duan.newsmvvm:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.duan.newsmvvm:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.duan.newsmvvm:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.arch.demo:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.arch.demo:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.arch.demo:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.arch.demo:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
      * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.duan.newsmvvm:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.duan.newsmvvm:logoDescription}</code></td><td>A content description string to describe the appearance of the
+     * <tr><td><code>{@link #Toolbar_logo com.arch.demo:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.arch.demo:logoDescription}</code></td><td>A content description string to describe the appearance of the
      * associated logo image.</td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.duan.newsmvvm:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.duan.newsmvvm:navigationContentDescription}</code></td><td>Text to set as the content description for the navigation button
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.arch.demo:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.arch.demo:navigationContentDescription}</code></td><td>Text to set as the content description for the navigation button
      * located at the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.duan.newsmvvm:navigationIcon}</code></td><td>Icon drawable to use for the navigation button located at
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.arch.demo:navigationIcon}</code></td><td>Icon drawable to use for the navigation button located at
      * the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.duan.newsmvvm:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #Toolbar_popupTheme com.arch.demo:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.duan.newsmvvm:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.duan.newsmvvm:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.duan.newsmvvm:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.duan.newsmvvm:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.duan.newsmvvm:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
+     * <tr><td><code>{@link #Toolbar_subtitle com.arch.demo:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.arch.demo:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.arch.demo:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.arch.demo:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.arch.demo:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
      * of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.duan.newsmvvm:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.duan.newsmvvm:titleMarginEnd}</code></td><td>Specifies extra space on the end side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.duan.newsmvvm:titleMarginStart}</code></td><td>Specifies extra space on the start side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.duan.newsmvvm:titleMarginTop}</code></td><td>Specifies extra space on the top side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.duan.newsmvvm:titleMargins}</code></td><td>{@deprecated Use titleMargin}</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.duan.newsmvvm:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.duan.newsmvvm:titleTextColor}</code></td><td>A color to apply to the title string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.arch.demo:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.arch.demo:titleMarginEnd}</code></td><td>Specifies extra space on the end side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.arch.demo:titleMarginStart}</code></td><td>Specifies extra space on the start side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.arch.demo:titleMarginTop}</code></td><td>Specifies extra space on the top side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.arch.demo:titleMargins}</code></td><td>{@deprecated Use titleMargin}</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.arch.demo:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.arch.demo:titleTextColor}</code></td><td>A color to apply to the title string.</td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -19442,12 +21842,12 @@ public final class R {
     public static final int[] Toolbar={
       0x010100af, 0x01010140, 0x7f030053, 0x7f030082, 
       0x7f030083, 0x7f030097, 0x7f030098, 0x7f030099, 
-      0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f03015c, 
-      0x7f03015d, 0x7f030161, 0x7f030166, 0x7f030167, 
-      0x7f030179, 0x7f0301ac, 0x7f0301ad, 0x7f0301ae, 
-      0x7f0301f4, 0x7f0301f6, 0x7f0301f7, 0x7f0301f8, 
-      0x7f0301f9, 0x7f0301fa, 0x7f0301fb, 0x7f0301fc, 
-      0x7f0301fd
+      0x7f03009a, 0x7f03009b, 0x7f03009c, 0x7f030171, 
+      0x7f030172, 0x7f030182, 0x7f03018d, 0x7f03018e, 
+      0x7f0301a2, 0x7f030210, 0x7f030211, 0x7f030212, 
+      0x7f030259, 0x7f03025b, 0x7f03025c, 0x7f03025d, 
+      0x7f03025e, 0x7f03025f, 0x7f030260, 0x7f030261, 
+      0x7f030262
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -19492,7 +21892,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -19505,7 +21905,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:buttonGravity
+     * @attr name com.arch.demo:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
@@ -19516,7 +21916,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:collapseContentDescription
+     * @attr name com.arch.demo:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
@@ -19529,7 +21929,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:collapseIcon
+     * @attr name com.arch.demo:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
@@ -19544,7 +21944,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetEnd
+     * @attr name com.arch.demo:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
@@ -19559,7 +21959,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetEndWithActions
+     * @attr name com.arch.demo:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
@@ -19574,7 +21974,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetLeft
+     * @attr name com.arch.demo:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
@@ -19589,7 +21989,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetRight
+     * @attr name com.arch.demo:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
@@ -19604,7 +22004,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetStart
+     * @attr name com.arch.demo:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
@@ -19619,7 +22019,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:contentInsetStartWithNavigation
+     * @attr name com.arch.demo:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
@@ -19633,7 +22033,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:logo
+     * @attr name com.arch.demo:logo
      */
     public static final int Toolbar_logo=11;
     /**
@@ -19645,11 +22045,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:logoDescription
+     * @attr name com.arch.demo:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19658,7 +22058,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:maxButtonHeight
+     * @attr name com.arch.demo:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
@@ -19670,7 +22070,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:navigationContentDescription
+     * @attr name com.arch.demo:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
@@ -19684,7 +22084,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:navigationIcon
+     * @attr name com.arch.demo:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
@@ -19698,7 +22098,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:popupTheme
+     * @attr name com.arch.demo:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
@@ -19709,11 +22109,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:subtitle
+     * @attr name com.arch.demo:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19721,7 +22121,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:subtitleTextAppearance
+     * @attr name com.arch.demo:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
@@ -19733,17 +22133,17 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:subtitleTextColor
+     * @attr name com.arch.demo:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.duan.newsmvvm:title
+     * @attr name com.arch.demo:title
      */
     public static final int Toolbar_title=20;
     /**
@@ -19758,7 +22158,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:titleMargin
+     * @attr name com.arch.demo:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
@@ -19774,7 +22174,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:titleMarginBottom
+     * @attr name com.arch.demo:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
@@ -19790,7 +22190,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:titleMarginEnd
+     * @attr name com.arch.demo:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
@@ -19806,7 +22206,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:titleMarginStart
+     * @attr name com.arch.demo:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
@@ -19822,7 +22222,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:titleMarginTop
+     * @attr name com.arch.demo:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
@@ -19836,12 +22236,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:titleMargins
+     * @attr name com.arch.demo:titleMargins
      */
     @Deprecated
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.duan.newsmvvm.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19849,7 +22249,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:titleTextAppearance
+     * @attr name com.arch.demo:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
@@ -19861,9 +22261,90 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:titleTextColor
+     * @attr name com.arch.demo:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
+    /**
+     * Attributes that can be used with a TwoLevelHeader.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #TwoLevelHeader_srlEnablePullToCloseTwoLevel com.arch.demo:srlEnablePullToCloseTwoLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TwoLevelHeader_srlEnableTwoLevel com.arch.demo:srlEnableTwoLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TwoLevelHeader_srlFloorDuration com.arch.demo:srlFloorDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TwoLevelHeader_srlFloorRage com.arch.demo:srlFloorRage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TwoLevelHeader_srlMaxRage com.arch.demo:srlMaxRage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TwoLevelHeader_srlRefreshRage com.arch.demo:srlRefreshRage}</code></td><td></td></tr>
+     * </table>
+     * @see #TwoLevelHeader_srlEnablePullToCloseTwoLevel
+     * @see #TwoLevelHeader_srlEnableTwoLevel
+     * @see #TwoLevelHeader_srlFloorDuration
+     * @see #TwoLevelHeader_srlFloorRage
+     * @see #TwoLevelHeader_srlMaxRage
+     * @see #TwoLevelHeader_srlRefreshRage
+     */
+    public static final int[] TwoLevelHeader={
+      0x7f0301e7, 0x7f0301ec, 0x7f0301f0, 0x7f0301f1, 
+      0x7f0301fc, 0x7f030200
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnablePullToCloseTwoLevel}
+     * attribute's value can be found in the {@link #TwoLevelHeader} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnablePullToCloseTwoLevel
+     */
+    public static final int TwoLevelHeader_srlEnablePullToCloseTwoLevel=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlEnableTwoLevel}
+     * attribute's value can be found in the {@link #TwoLevelHeader} array.
+     *
+     * <p>May be a boolean value, such as "<code>true</code>" or
+     * "<code>false</code>".
+     *
+     * @attr name com.arch.demo:srlEnableTwoLevel
+     */
+    public static final int TwoLevelHeader_srlEnableTwoLevel=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFloorDuration}
+     * attribute's value can be found in the {@link #TwoLevelHeader} array.
+     *
+     * <p>May be an integer value, such as "<code>100</code>".
+     *
+     * @attr name com.arch.demo:srlFloorDuration
+     */
+    public static final int TwoLevelHeader_srlFloorDuration=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlFloorRage}
+     * attribute's value can be found in the {@link #TwoLevelHeader} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.arch.demo:srlFloorRage
+     */
+    public static final int TwoLevelHeader_srlFloorRage=3;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlMaxRage}
+     * attribute's value can be found in the {@link #TwoLevelHeader} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.arch.demo:srlMaxRage
+     */
+    public static final int TwoLevelHeader_srlMaxRage=4;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#srlRefreshRage}
+     * attribute's value can be found in the {@link #TwoLevelHeader} array.
+     *
+     * <p>May be a floating point value, such as "<code>1.2</code>".
+     *
+     * @attr name com.arch.demo:srlRefreshRage
+     */
+    public static final int TwoLevelHeader_srlRefreshRage=5;
     /**
      * Attributes that can be used with a View.
      * <p>Includes the following attributes:</p>
@@ -19873,9 +22354,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.duan.newsmvvm:paddingEnd}</code></td><td>Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.duan.newsmvvm:paddingStart}</code></td><td>Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_theme com.duan.newsmvvm:theme}</code></td><td>Deprecated.</td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.arch.demo:paddingEnd}</code></td><td>Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.arch.demo:paddingStart}</code></td><td>Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
+     * <tr><td><code>{@link #View_theme com.arch.demo:theme}</code></td><td>Deprecated.</td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -19884,8 +22365,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-      0x01010000, 0x010100da, 0x7f03016d, 0x7f03016e, 
-      0x7f0301ea
+      0x01010000, 0x010100da, 0x7f030194, 0x7f030195, 
+      0x7f03024f
     };
     /**
      * <p>
@@ -19937,7 +22418,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:paddingEnd
+     * @attr name com.arch.demo:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
@@ -19951,7 +22432,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.duan.newsmvvm:paddingStart
+     * @attr name com.arch.demo:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
@@ -19964,7 +22445,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.duan.newsmvvm:theme
+     * @attr name com.arch.demo:theme
      */
     public static final int View_theme=4;
     /**
@@ -19975,8 +22456,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.duan.newsmvvm:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.duan.newsmvvm:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.arch.demo:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.arch.demo:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -20009,7 +22490,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.duan.newsmvvm:backgroundTint
+     * @attr name com.arch.demo:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
@@ -20036,7 +22517,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.duan.newsmvvm:backgroundTintMode
+     * @attr name com.arch.demo:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -20097,5 +22578,71 @@ public final class R {
      * @attr name android:inflatedId
      */
     public static final int ViewStubCompat_android_inflatedId=2;
+    /**
+     * Attributes that can be used with a WaveSwipeHeader.
+     * <p>Includes the following attributes:</p>
+     * <table>
+     * <colgroup align="left" />
+     * <colgroup align="left" />
+     * <tr><th>Attribute</th><th>Description</th></tr>
+     * <tr><td><code>{@link #WaveSwipeHeader_wshAccentColor com.arch.demo:wshAccentColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WaveSwipeHeader_wshPrimaryColor com.arch.demo:wshPrimaryColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WaveSwipeHeader_wshShadowColor com.arch.demo:wshShadowColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WaveSwipeHeader_wshShadowRadius com.arch.demo:wshShadowRadius}</code></td><td></td></tr>
+     * </table>
+     * @see #WaveSwipeHeader_wshAccentColor
+     * @see #WaveSwipeHeader_wshPrimaryColor
+     * @see #WaveSwipeHeader_wshShadowColor
+     * @see #WaveSwipeHeader_wshShadowRadius
+     */
+    public static final int[] WaveSwipeHeader={
+      0x7f03027b, 0x7f03027c, 0x7f03027d, 0x7f03027e
+    };
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#wshAccentColor}
+     * attribute's value can be found in the {@link #WaveSwipeHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:wshAccentColor
+     */
+    public static final int WaveSwipeHeader_wshAccentColor=0;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#wshPrimaryColor}
+     * attribute's value can be found in the {@link #WaveSwipeHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:wshPrimaryColor
+     */
+    public static final int WaveSwipeHeader_wshPrimaryColor=1;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#wshShadowColor}
+     * attribute's value can be found in the {@link #WaveSwipeHeader} array.
+     *
+     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
+     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
+     * "<code>#<i>aarrggbb</i></code>".
+     *
+     * @attr name com.arch.demo:wshShadowColor
+     */
+    public static final int WaveSwipeHeader_wshShadowColor=2;
+    /**
+     * <p>This symbol is the offset where the {@link com.arch.demo.R.attr#wshShadowRadius}
+     * attribute's value can be found in the {@link #WaveSwipeHeader} array.
+     *
+     * <p>May be a dimension value, which is a floating point number appended with a
+     * unit such as "<code>14.5sp</code>".
+     * Available units are: px (pixels), dp (density-independent pixels),
+     * sp (scaled pixels based on preferred font size), in (inches), and
+     * mm (millimeters).
+     *
+     * @attr name com.arch.demo:wshShadowRadius
+     */
+    public static final int WaveSwipeHeader_wshShadowRadius=3;
   }
 }

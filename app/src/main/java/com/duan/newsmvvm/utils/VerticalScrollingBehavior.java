@@ -14,9 +14,13 @@ import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.core.view.WindowInsetsCompat;
 
 /**
- * Created by Vishal Patolia on 18-Feb-18.
+ * <pre>
+ * author : Duan
+ * time : 2019/10/14
+ * desc :  VerticalScrollingBehavior
+ * version: 2.2.0
+ * </pre>
  */
-
 public abstract class VerticalScrollingBehavior<V extends View> extends CoordinatorLayout.Behavior<V> {
 
     private int mTotalDyUnconsumed = 0;

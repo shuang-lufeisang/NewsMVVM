@@ -7,6 +7,7 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.duan.newsmvvm.databinding.ActivityMainBindingImpl;
+import com.duan.newsmvvm.databinding.FragmentOthersBindingImpl;
 import java.lang.IllegalArgumentException;
 import java.lang.Integer;
 import java.lang.Object;
@@ -20,10 +21,13 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYMAIN = 1;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(1);
+  private static final int LAYOUT_FRAGMENTOTHERS = 2;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(2);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.duan.newsmvvm.R.layout.activity_main, LAYOUT_ACTIVITYMAIN);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.duan.newsmvvm.R.layout.fragment_others, LAYOUT_FRAGMENTOTHERS);
   }
 
   @Override
@@ -40,6 +44,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityMainBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_main is invalid. Received: " + tag);
+        }
+        case  LAYOUT_FRAGMENTOTHERS: {
+          if ("layout/fragment_others_0".equals(tag)) {
+            return new FragmentOthersBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for fragment_others is invalid. Received: " + tag);
         }
       }
     }
@@ -80,24 +90,30 @@ public class DataBinderMapperImpl extends DataBinderMapper {
 
   @Override
   public List<DataBinderMapper> collectDependencies() {
-    ArrayList<DataBinderMapper> result = new ArrayList<DataBinderMapper>(1);
+    ArrayList<DataBinderMapper> result = new ArrayList<DataBinderMapper>(5);
     result.add(new androidx.databinding.library.baseAdapters.DataBinderMapperImpl());
+    result.add(new com.duan.android.base.DataBinderMapperImpl());
+    result.add(new com.duan.android.common.DataBinderMapperImpl());
+    result.add(new com.duan.android.network.DataBinderMapperImpl());
+    result.add(new com.duan.android.news.DataBinderMapperImpl());
     return result;
   }
 
   private static class InnerBrLookup {
-    static final SparseArray<String> sKeys = new SparseArray<String>(2);
+    static final SparseArray<String> sKeys = new SparseArray<String>(3);
 
     static {
       sKeys.put(0, "_all");
+      sKeys.put(1, "viewModel");
     }
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(1);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(2);
 
     static {
       sKeys.put("layout/activity_main_0", com.duan.newsmvvm.R.layout.activity_main);
+      sKeys.put("layout/fragment_others_0", com.duan.newsmvvm.R.layout.fragment_others);
     }
   }
 }

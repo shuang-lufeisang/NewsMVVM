@@ -19,7 +19,12 @@ import androidx.core.view.ViewPropertyAnimatorCompat;
 import androidx.interpolator.view.animation.LinearOutSlowInInterpolator;
 
 /**
- * Created by Vishal Patolia on 18-Feb-18.
+ * <pre>
+ * author : Duan
+ * time : 2019/10/14
+ * desc :  BottomNavigationBehavior
+ * version: 2.2.0
+ * </pre>
  */
 
 public final class BottomNavigationBehavior<V extends View> extends VerticalScrollingBehavior<V> {
